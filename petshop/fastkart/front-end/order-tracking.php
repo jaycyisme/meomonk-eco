@@ -51,7 +51,7 @@
     <div class="mobile-menu d-md-none d-block mobile-cart">
         <ul>
             <li class="active">
-                <a href="index.html">
+                <a href="index.php">
                     <i class="iconly-Home icli"></i>
                     <span>Home</span>
                 </a>
@@ -65,21 +65,21 @@
             </li>
 
             <li>
-                <a href="search.html" class="search-box">
+                <a href="search.php" class="search-box">
                     <i class="iconly-Search icli"></i>
                     <span>Search</span>
                 </a>
             </li>
 
             <li>
-                <a href="wishlist.html" class="notifi-wishlist">
+                <a href="wishlist.php" class="notifi-wishlist">
                     <i class="iconly-Heart icli"></i>
                     <span>My Wish</span>
                 </a>
             </li>
 
             <li>
-                <a href="cart.html">
+                <a href="cart.php">
                     <i class="iconly-Bag-2 icli fly-cate"></i>
                     <span>Cart</span>
                 </a>
@@ -98,7 +98,7 @@
                         <nav>
                             <ol class="breadcrumb mb-0">
                                 <li class="breadcrumb-item">
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <i class="fa-solid fa-house"></i>
                                     </a>
                                 </li>
@@ -408,12 +408,12 @@
                         <ul class="deal-offer-list">
                             <li class="list-1">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/10.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -422,12 +422,12 @@
 
                             <li class="list-2">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/11.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -436,12 +436,12 @@
 
                             <li class="list-3">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/12.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -450,12 +450,12 @@
 
                             <li class="list-1">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/13.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -570,6 +570,4 @@
 
 </body>
 
-
-<!-- Mirrored from themes.pixelstrap.com/fastkart/front-end/order-tracking.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 15:08:23 GMT -->
 </html>

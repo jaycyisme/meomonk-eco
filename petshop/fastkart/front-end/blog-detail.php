@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from themes.pixelstrap.com/fastkart/front-end/blog-detail.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 15:08:17 GMT -->
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,7 +54,7 @@
     <div class="mobile-menu d-md-none d-block mobile-cart">
         <ul>
             <li class="active">
-                <a href="index.html">
+                <a href="index.php">
                     <i class="iconly-Home icli"></i>
                     <span>Home</span>
                 </a>
@@ -70,21 +68,21 @@
             </li>
 
             <li>
-                <a href="search.html" class="search-box">
+                <a href="search.php" class="search-box">
                     <i class="iconly-Search icli"></i>
                     <span>Search</span>
                 </a>
             </li>
 
             <li>
-                <a href="wishlist.html" class="notifi-wishlist">
+                <a href="wishlist.php" class="notifi-wishlist">
                     <i class="iconly-Heart icli"></i>
                     <span>My Wish</span>
                 </a>
             </li>
 
             <li>
-                <a href="cart.html">
+                <a href="cart.php">
                     <i class="iconly-Bag-2 icli fly-cate"></i>
                     <span>Cart</span>
                 </a>
@@ -103,7 +101,7 @@
                         <nav>
                             <ol class="breadcrumb mb-0">
                                 <li class="breadcrumb-item">
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <i class="fa-solid fa-house"></i>
                                     </a>
                                 </li>
@@ -143,13 +141,13 @@
                                     <div class="accordion-body pt-0">
                                         <div class="recent-post-box">
                                             <div class="recent-box">
-                                                <a href="blog-detail.html" class="recent-image">
+                                                <a href="blog-detail.php" class="recent-image">
                                                     <img src="../assets/images/inner-page/blog/1.jpg"
                                                         class="img-fluid blur-up lazyload" alt="">
                                                 </a>
 
                                                 <div class="recent-detail">
-                                                    <a href="blog-detail.html">
+                                                    <a href="blog-detail.php">
                                                         <h5 class="recent-name">Green onion knife and salad placed</h5>
                                                     </a>
                                                     <h6>25 Jan, 2022 <i data-feather="thumbs-up"></i></h6>
@@ -157,13 +155,13 @@
                                             </div>
 
                                             <div class="recent-box">
-                                                <a href="blog-detail.html" class="recent-image">
+                                                <a href="blog-detail.php" class="recent-image">
                                                     <img src="../assets/images/inner-page/blog/2.jpg"
                                                         class="img-fluid blur-up lazyload" alt="">
                                                 </a>
 
                                                 <div class="recent-detail">
-                                                    <a href="blog-detail.html">
+                                                    <a href="blog-detail.php">
                                                         <h5 class="recent-name">Health and skin for your organic</h5>
                                                     </a>
                                                     <h6>25 Jan, 2022 <i data-feather="thumbs-up"></i></h6>
@@ -171,13 +169,13 @@
                                             </div>
 
                                             <div class="recent-box">
-                                                <a href="blog-detail.html" class="recent-image">
+                                                <a href="blog-detail.php" class="recent-image">
                                                     <img src="../assets/images/inner-page/blog/3.jpg"
                                                         class="img-fluid blur-up lazyload" alt="">
                                                 </a>
 
                                                 <div class="recent-detail">
-                                                    <a href="blog-detail.html">
+                                                    <a href="blog-detail.php">
                                                         <h5 class="recent-name">Organics mix masala fresh & soft</h5>
                                                     </a>
                                                     <h6>25 Jan, 2022 <i data-feather="thumbs-up"></i></h6>
@@ -185,13 +183,13 @@
                                             </div>
 
                                             <div class="recent-box">
-                                                <a href="blog-detail.html" class="recent-image">
+                                                <a href="blog-detail.php" class="recent-image">
                                                     <img src="../assets/images/inner-page/blog/4.jpg"
                                                         class="img-fluid blur-up lazyload" alt="">
                                                 </a>
 
                                                 <div class="recent-detail">
-                                                    <a href="blog-detail.html">
+                                                    <a href="blog-detail.php">
                                                         <h5 class="recent-name">Fresh organics brand and picnic</h5>
                                                     </a>
                                                     <h6>25 Jan, 2022 <i data-feather="thumbs-up"></i></h6>
@@ -214,7 +212,7 @@
                                         <div class="category-list-box">
                                             <ul>
                                                 <li>
-                                                    <a href="blog-list.html">
+                                                    <a href="blog-list.php">
                                                         <div class="category-name">
                                                             <h5>Latest Recipes</h5>
                                                             <span>10</span>
@@ -223,7 +221,7 @@
                                                 </li>
 
                                                 <li>
-                                                    <a href="blog-list.html">
+                                                    <a href="blog-list.php">
                                                         <div class="category-name">
                                                             <h5>Diet Food</h5>
                                                             <span>6</span>
@@ -232,7 +230,7 @@
                                                 </li>
 
                                                 <li>
-                                                    <a href="blog-list.html">
+                                                    <a href="blog-list.php">
                                                         <div class="category-name">
                                                             <h5>Low calorie Items</h5>
                                                             <span>8</span>
@@ -241,7 +239,7 @@
                                                 </li>
 
                                                 <li>
-                                                    <a href="blog-list.html">
+                                                    <a href="blog-list.php">
                                                         <div class="category-name">
                                                             <h5>Cooking Method</h5>
                                                             <span>9</span>
@@ -250,7 +248,7 @@
                                                 </li>
 
                                                 <li>
-                                                    <a href="blog-list.html">
+                                                    <a href="blog-list.php">
                                                         <div class="category-name">
                                                             <h5>Dairy Free</h5>
                                                             <span>12</span>
@@ -259,7 +257,7 @@
                                                 </li>
 
                                                 <li>
-                                                    <a href="blog-list.html">
+                                                    <a href="blog-list.php">
                                                         <div class="category-name">
                                                             <h5>Vegetarian Food</h5>
                                                             <span>10</span>
@@ -332,14 +330,14 @@
                                         <ul class="product-list product-list-2 border-0 p-0">
                                             <li>
                                                 <div class="offer-product">
-                                                    <a href="shop-left-sidebar.html" class="offer-image">
+                                                    <a href="shop-left-sidebar.php" class="offer-image">
                                                         <img src="../assets/images/vegetable/product/23.png"
                                                             class="blur-up lazyload" alt="">
                                                     </a>
 
                                                     <div class="offer-detail">
                                                         <div>
-                                                            <a href="shop-left-sidebar.html">
+                                                            <a href="shop-left-sidebar.php">
                                                                 <h6 class="name">Meatigo Premium Goat Curry</h6>
                                                             </a>
                                                             <span>450 G</span>
@@ -351,14 +349,14 @@
 
                                             <li>
                                                 <div class="offer-product">
-                                                    <a href="shop-left-sidebar.html" class="offer-image">
+                                                    <a href="shop-left-sidebar.php" class="offer-image">
                                                         <img src="../assets/images/vegetable/product/24.png"
                                                             class="blur-up lazyload" alt="">
                                                     </a>
 
                                                     <div class="offer-detail">
                                                         <div>
-                                                            <a href="shop-left-sidebar.html">
+                                                            <a href="shop-left-sidebar.php">
                                                                 <h6 class="name">Dates Medjoul Premium Imported</h6>
                                                             </a>
                                                             <span>450 G</span>
@@ -370,14 +368,14 @@
 
                                             <li class="mb-0">
                                                 <div class="offer-product">
-                                                    <a href="shop-left-sidebar.html" class="offer-image">
+                                                    <a href="shop-left-sidebar.php" class="offer-image">
                                                         <img src="../assets/images/vegetable/product/26.png"
                                                             class="blur-up lazyload" alt="">
                                                     </a>
 
                                                     <div class="offer-detail">
                                                         <div>
-                                                            <a href="shop-left-sidebar.html">
+                                                            <a href="shop-left-sidebar.php">
                                                                 <h6 class="name">Apple Red Premium Imported</h6>
                                                             </a>
                                                             <span>1 KG</span>
@@ -742,12 +740,12 @@
                         <ul class="deal-offer-list">
                             <li class="list-1">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/10.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -756,12 +754,12 @@
 
                             <li class="list-2">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/11.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -770,12 +768,12 @@
 
                             <li class="list-3">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/12.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -784,12 +782,12 @@
 
                             <li class="list-1">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/13.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -896,6 +894,4 @@
     <script src="../assets/js/theme-setting.js"></script>
 </body>
 
-
-<!-- Mirrored from themes.pixelstrap.com/fastkart/front-end/blog-detail.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 15:08:19 GMT -->
 </html>

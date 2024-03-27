@@ -26,7 +26,7 @@
                                 <div>
                                     <div class="timer-notification">
                                         <h6>Something you love is now on sale!
-                                            <a href="shop-left-sidebar.html" class="text-white">Buy Now
+                                            <a href="shop-left-sidebar.php" class="text-white">Buy Now
                                                 !</a>
                                         </h6>
                                     </div>
@@ -106,7 +106,7 @@
                                     <i class="fa-solid fa-bars"></i>
                                 </span>
                             </button>
-                            <a href="index.html" class="web-logo nav-logo">
+                            <a href="index.php" class="web-logo nav-logo">
                                 <img src="../assets/images/logo/1.png" class="img-fluid blur-up lazyload" alt="">
                             </a>
 
@@ -183,13 +183,13 @@
                                                 <ul class="cart-list">
                                                     <li class="product-box-contain">
                                                         <div class="drop-cart">
-                                                            <a href="product-left-thumbnail.html" class="drop-image">
+                                                            <a href="product-left-thumbnail.php" class="drop-image">
                                                                 <img src="../assets/images/vegetable/product/1.png"
                                                                     class="blur-up lazyload" alt="">
                                                             </a>
 
                                                             <div class="drop-contain">
-                                                                <a href="product-left-thumbnail.html">
+                                                                <a href="product-left-thumbnail.php">
                                                                     <h5>Fantasy Crunchy Choco Chip Cookies</h5>
                                                                 </a>
                                                                 <h6><span>1 x</span> $80.58</h6>
@@ -202,13 +202,13 @@
 
                                                     <li class="product-box-contain">
                                                         <div class="drop-cart">
-                                                            <a href="product-left-thumbnail.html" class="drop-image">
+                                                            <a href="product-left-thumbnail.php" class="drop-image">
                                                                 <img src="../assets/images/vegetable/product/2.png"
                                                                     class="blur-up lazyload" alt="">
                                                             </a>
 
                                                             <div class="drop-contain">
-                                                                <a href="product-left-thumbnail.html">
+                                                                <a href="product-left-thumbnail.php">
                                                                     <h5>Peanut Butter Bite Premium Butter Cookies 600 g
                                                                     </h5>
                                                                 </a>
@@ -249,15 +249,15 @@
                                             <ul class="user-box-name">
                                                 <li class="product-box-contain">
                                                     <i></i>
-                                                    <a href="login.html">Log In</a>
+                                                    <a href="login.php">Log In</a>
                                                 </li>
 
                                                 <li class="product-box-contain">
-                                                    <a href="sign-up.html">Register</a>
+                                                    <a href="sign-up.php">Register</a>
                                                 </li>
 
                                                 <li class="product-box-contain">
-                                                    <a href="forgot.html">Forgot Password</a>
+                                                    <a href="forgot.php">Forgot Password</a>
                                                 </li>
                                             </ul>
                                         </div>

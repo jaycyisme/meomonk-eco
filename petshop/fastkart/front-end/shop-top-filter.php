@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from themes.pixelstrap.com/fastkart/front-end/shop-top-filter.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 15:08:07 GMT -->
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,7 +54,7 @@
     <div class="mobile-menu d-md-none d-block mobile-cart">
         <ul>
             <li class="active">
-                <a href="index.html">
+                <a href="index.php">
                     <i class="iconly-Home icli"></i>
                     <span>Home</span>
                 </a>
@@ -70,21 +68,21 @@
             </li>
 
             <li>
-                <a href="search.html" class="search-box">
+                <a href="search.php" class="search-box">
                     <i class="iconly-Search icli"></i>
                     <span>Search</span>
                 </a>
             </li>
 
             <li>
-                <a href="wishlist.html" class="notifi-wishlist">
+                <a href="wishlist.php" class="notifi-wishlist">
                     <i class="iconly-Heart icli"></i>
                     <span>My Wish</span>
                 </a>
             </li>
 
             <li>
-                <a href="cart.html">
+                <a href="cart.php">
                     <i class="iconly-Bag-2 icli fly-cate"></i>
                     <span>Cart</span>
                 </a>
@@ -103,7 +101,7 @@
                         <nav>
                             <ol class="breadcrumb mb-0">
                                 <li class="breadcrumb-item">
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <i class="fa-solid fa-house"></i>
                                     </a>
                                 </li>
@@ -629,7 +627,7 @@
                             <div class="product-box-3 h-100 wow fadeInUp">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <img src="../assets/images/cake/product/2.png"
                                                 class="img-fluid blur-up lazyload" alt="">
                                         </a>
@@ -643,13 +641,13 @@
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
+                                                <a href="compare.php">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="wishlist.php" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -659,7 +657,7 @@
                                 <div class="product-footer">
                                     <div class="product-detail">
                                         <span class="span-name">Vegetable</span>
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <h5 class="name">Fresh Bread and Pastry Flour 200 g</h5>
                                         </a>
                                         <p class="text-content mt-1 mb-2 product-content">Cheesy feet cheesy grin brie.
@@ -718,7 +716,7 @@
                             <div class="product-box-3 h-100 wow fadeInUp" data-wow-daley="0.05s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <img src="../assets/images/cake/product/3.png"
                                                 class="img-fluid blur-up lazyload" alt="">
                                         </a>
@@ -732,13 +730,13 @@
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
+                                                <a href="compare.php">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="wishlist.php" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -749,7 +747,7 @@
                                 <div class="product-footer">
                                     <div class="product-detail">
                                         <span class="span-name">Vegetable</span>
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <h5 class="name">Peanut Butter Bite Premium Butter Cookies 600 g</h5>
                                         </a>
                                         <p class="text-content mt-1 mb-2 product-content">Feta taleggio croque monsieur
@@ -808,7 +806,7 @@
                             <div class="product-box-3 h-100 wow fadeInUp" data-wow-daley="0.1s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <img src="../assets/images/cake/product/4.png"
                                                 class="img-fluid blur-up lazyload" alt="">
                                         </a>
@@ -822,13 +820,13 @@
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
+                                                <a href="compare.php">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="wishlist.php" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -839,7 +837,7 @@
                                 <div class="product-footer">
                                     <div class="product-detail">
                                         <span class="span-name">Snacks</span>
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <h5 class="name">SnackAmor Combo Pack of Jowar Stick and Jowar Chips</h5>
                                         </a>
                                         <p class="text-content mt-1 mb-2 product-content">Lancashire hard cheese
@@ -900,7 +898,7 @@
                             <div class="product-box-3 h-100 wow fadeInUp" data-wow-daley="0.15s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <img src="../assets/images/cake/product/5.png"
                                                 class="img-fluid blur-up lazyload" alt="">
                                         </a>
@@ -914,13 +912,13 @@
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
+                                                <a href="compare.php">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="wishlist.php" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -931,7 +929,7 @@
                                 <div class="product-footer">
                                     <div class="product-detail">
                                         <span class="span-name">Snacks</span>
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <h5 class="name">Yumitos Chilli Sprinkled Potato Chips 100 g</h5>
                                         </a>
                                         <p class="text-content mt-1 mb-2 product-content">Cheddar cheddar pecorino hard
@@ -990,7 +988,7 @@
                             <div class="product-box-3 h-100 wow fadeInUp" data-wow-daley="0.2s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <img src="../assets/images/cake/product/6.png"
                                                 class="img-fluid blur-up lazyload" alt="">
                                         </a>
@@ -1004,13 +1002,13 @@
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
+                                                <a href="compare.php">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="wishlist.php" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -1021,7 +1019,7 @@
                                 <div class="product-footer">
                                     <div class="product-detail">
                                         <span class="span-name">Vegetable</span>
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <h5 class="name">Fantasy Crunchy Choco Chip Cookies</h5>
                                         </a>
                                         <p class="text-content mt-1 mb-2 product-content">Bavarian bergkase smelly
@@ -1083,7 +1081,7 @@
                             <div class="product-box-3 h-100 wow fadeInUp" data-wow-daley="0.25s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <img src="../assets/images/cake/product/7.png"
                                                 class="img-fluid blur-up lazyload" alt="">
                                         </a>
@@ -1097,13 +1095,13 @@
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
+                                                <a href="compare.php">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="wishlist.php" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -1114,7 +1112,7 @@
                                 <div class="product-footer">
                                     <div class="product-detail">
                                         <span class="span-name">Vegetable</span>
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <h5 class="name">Fresh Bread and Pastry Flour 200 g</h5>
                                         </a>
                                         <p class="text-content mt-1 mb-2 product-content">Melted cheese babybel chalk
@@ -1175,7 +1173,7 @@
                             <div class="product-box-3 h-100 wow fadeInUp" data-wow-daley="0.3s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <img src="../assets/images/cake/product/2.png"
                                                 class="img-fluid blur-up lazyload" alt="">
                                         </a>
@@ -1189,13 +1187,13 @@
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
+                                                <a href="compare.php">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="wishlist.php" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -1205,7 +1203,7 @@
                                 <div class="product-footer">
                                     <div class="product-detail">
                                         <span class="span-name">Vegetable</span>
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <h5 class="name">Fresh Bread and Pastry Flour 200 g</h5>
                                         </a>
                                         <p class="text-content mt-1 mb-2 product-content">Squirty cheese cottage cheese
@@ -1264,7 +1262,7 @@
                             <div class="product-box-3 h-100 wow fadeInUp" data-wow-daley="0.35s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <img src="../assets/images/cake/product/3.png"
                                                 class="img-fluid blur-up lazyload" alt="">
                                         </a>
@@ -1278,13 +1276,13 @@
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
+                                                <a href="compare.php">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="wishlist.php" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -1295,7 +1293,7 @@
                                 <div class="product-footer">
                                     <div class="product-detail">
                                         <span class="span-name">Vegetable</span>
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <h5 class="name">Peanut Butter Bite Premium Butter Cookies 600 g</h5>
                                         </a>
                                         <p class="text-content mt-1 mb-2 product-content">Swiss ricotta cauliflower
@@ -1355,7 +1353,7 @@
                             <div class="product-box-3 h-100 wow fadeInUp" data-wow-daley="0.4s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <img src="../assets/images/cake/product/4.png"
                                                 class="img-fluid blur-up lazyload" alt="">
                                         </a>
@@ -1369,13 +1367,13 @@
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
+                                                <a href="compare.php">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="wishlist.php" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -1386,7 +1384,7 @@
                                 <div class="product-footer">
                                     <div class="product-detail">
                                         <span class="span-name">Snacks</span>
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <h5 class="name">SnackAmor Combo Pack of Jowar Stick and Jowar Chips</h5>
                                         </a>
                                         <p class="text-content mt-1 mb-2 product-content">Boursin the big cheese
@@ -1446,7 +1444,7 @@
                             <div class="product-box-3 h-100 wow fadeInUp" data-wow-daley="0.45s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <img src="../assets/images/cake/product/5.png"
                                                 class="img-fluid blur-up lazyload" alt="">
                                         </a>
@@ -1460,13 +1458,13 @@
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
+                                                <a href="compare.php">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="wishlist.php" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -1477,7 +1475,7 @@
                                 <div class="product-footer">
                                     <div class="product-detail">
                                         <span class="span-name">Snacks</span>
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <h5 class="name">Yumitos Chilli Sprinkled Potato Chips 100 g</h5>
                                         </a>
                                         <p class="text-content mt-1 mb-2 product-content">Halloumi mozzarella monterey
@@ -1537,7 +1535,7 @@
                             <div class="product-box-3 h-100 wow fadeInUp" data-wow-daley="0.5s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <img src="../assets/images/cake/product/6.png"
                                                 class="img-fluid blur-up lazyload" alt="">
                                         </a>
@@ -1551,13 +1549,13 @@
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
+                                                <a href="compare.php">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="wishlist.php" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -1568,7 +1566,7 @@
                                 <div class="product-footer">
                                     <div class="product-detail">
                                         <span class="span-name">Vegetable</span>
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <h5 class="name">Fantasy Crunchy Choco Chip Cookies</h5>
                                         </a>
                                         <p class="text-content mt-1 mb-2 product-content">Manchego cow cheddar.
@@ -1629,7 +1627,7 @@
                             <div class="product-box-3 h-100 wow fadeInUp" data-wow-daley="0.55s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <img src="../assets/images/cake/product/7.png"
                                                 class="img-fluid blur-up lazyload" alt="">
                                         </a>
@@ -1643,13 +1641,13 @@
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
+                                                <a href="compare.php">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="wishlist.php" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -1660,7 +1658,7 @@
                                 <div class="product-footer">
                                     <div class="product-detail">
                                         <span class="span-name">Vegetable</span>
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <h5 class="name">Fresh Bread and Pastry Flour 200 g</h5>
                                         </a>
                                         <p class="text-content mt-1 mb-2 product-content">Roquefort say cheese the big
@@ -1721,7 +1719,7 @@
                             <div class="product-box-3 h-100 wow fadeInUp" data-wow-daley="0.6s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <img src="../assets/images/cake/product/2.png"
                                                 class="img-fluid blur-up lazyload" alt="">
                                         </a>
@@ -1735,13 +1733,13 @@
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
+                                                <a href="compare.php">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="wishlist.php" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -1751,7 +1749,7 @@
                                 <div class="product-footer">
                                     <div class="product-detail">
                                         <span class="span-name">Vegetable</span>
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <h5 class="name">Fresh Bread and Pastry Flour 200 g</h5>
                                         </a>
                                         <p class="text-content mt-1 mb-2 product-content">Lancashire when the cheese
@@ -1810,7 +1808,7 @@
                             <div class="product-box-3 h-100 wow fadeInUp" data-wow-daley="0.65s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <img src="../assets/images/cake/product/3.png"
                                                 class="img-fluid blur-up lazyload" alt="">
                                         </a>
@@ -1824,13 +1822,13 @@
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
+                                                <a href="compare.php">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="wishlist.php" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -1841,7 +1839,7 @@
                                 <div class="product-footer">
                                     <div class="product-detail">
                                         <span class="span-name">Vegetable</span>
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <h5 class="name">Peanut Butter Bite Premium Butter Cookies 600 g</h5>
                                         </a>
                                         <p class="text-content mt-1 mb-2 product-content">Say cheese cheese and biscuits
@@ -2019,10 +2017,10 @@
                                 </div>
 
                                 <div class="modal-button">
-                                    <button onclick="location.href = 'cart.html';"
+                                    <button onclick="location.href = 'cart.php';"
                                         class="btn btn-md add-cart-button icon">Add
                                         To Cart</button>
-                                    <button onclick="location.href = 'product-left.html';"
+                                    <button onclick="location.href = 'product-left.php';"
                                         class="btn theme-bg-color view-button icon text-white fw-bold btn-md">
                                         View More Details</button>
                                 </div>
@@ -2153,12 +2151,12 @@
                         <ul class="deal-offer-list">
                             <li class="list-1">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/10.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -2167,12 +2165,12 @@
 
                             <li class="list-2">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/11.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -2181,12 +2179,12 @@
 
                             <li class="list-3">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/12.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -2195,12 +2193,12 @@
 
                             <li class="list-1">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/13.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -2328,6 +2326,4 @@
     <script src="../assets/js/theme-setting.js"></script>
 </body>
 
-
-<!-- Mirrored from themes.pixelstrap.com/fastkart/front-end/shop-top-filter.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 15:08:07 GMT -->
 </html>

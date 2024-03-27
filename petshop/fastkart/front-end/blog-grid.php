@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from themes.pixelstrap.com/fastkart/front-end/blog-grid.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 15:08:19 GMT -->
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -57,7 +55,7 @@
     <div class="mobile-menu d-md-none d-block mobile-cart">
         <ul>
             <li class="active">
-                <a href="index.html">
+                <a href="index.php">
                     <i class="iconly-Home icli"></i>
                     <span>Home</span>
                 </a>
@@ -71,21 +69,21 @@
             </li>
 
             <li>
-                <a href="search.html" class="search-box">
+                <a href="search.php" class="search-box">
                     <i class="iconly-Search icli"></i>
                     <span>Search</span>
                 </a>
             </li>
 
             <li>
-                <a href="wishlist.html" class="notifi-wishlist">
+                <a href="wishlist.php" class="notifi-wishlist">
                     <i class="iconly-Heart icli"></i>
                     <span>My Wish</span>
                 </a>
             </li>
 
             <li>
-                <a href="cart.html">
+                <a href="cart.php">
                     <i class="iconly-Bag-2 icli fly-cate"></i>
                     <span>Cart</span>
                 </a>
@@ -104,7 +102,7 @@
                         <nav>
                             <ol class="breadcrumb mb-0">
                                 <li class="breadcrumb-item">
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <i class="fa-solid fa-house"></i>
                                     </a>
                                 </li>
@@ -127,7 +125,7 @@
                         <div class="col-xxl-4 col-sm-6">
                             <div class="blog-box wow fadeInUp">
                                 <div class="blog-image">
-                                    <a href="blog-detail.html">
+                                    <a href="blog-detail.php">
                                         <img src="../assets/images/inner-page/blog/1.jpg"
                                             class="bg-img blur-up lazyload" alt="">
                                     </a>
@@ -139,10 +137,10 @@
                                         <span class="super"><i data-feather="user"></i> <span>Mark J.
                                                 Speight</span></span>
                                     </div>
-                                    <a href="blog-detail.html">
+                                    <a href="blog-detail.php">
                                         <h3>one pot creamy mediterranean chicken pasta cream.</h3>
                                     </a>
-                                    <button onclick="location.href = 'blog-detail.html';" class="blog-button">Read More
+                                    <button onclick="location.href = 'blog-detail.php';" class="blog-button">Read More
                                         <i class="fa-solid fa-right-long"></i></button>
                                 </div>
                             </div>
@@ -151,7 +149,7 @@
                         <div class="col-xxl-4 col-sm-6">
                             <div class="blog-box wow fadeInUp" data-wow-delay="0.05s">
                                 <div class="blog-image">
-                                    <a href="blog-detail.html">
+                                    <a href="blog-detail.php">
                                         <img src="../assets/images/inner-page/blog/2.jpg" class="bg-img" alt="">
                                     </a>
                                 </div>
@@ -162,10 +160,10 @@
                                         <span class="super"><i data-feather="user"></i> <span>rebeus
                                                 hagrid</span></span>
                                     </div>
-                                    <a href="blog-detail.html">
+                                    <a href="blog-detail.php">
                                         <h3>Crispy Frozen Vegetable is the on the Tempura.</h3>
                                     </a>
-                                    <button onclick="location.href = 'blog-detail.html';" class="blog-button">Read More
+                                    <button onclick="location.href = 'blog-detail.php';" class="blog-button">Read More
                                         <i class="fa-solid fa-right-long"></i></button>
                                 </div>
                             </div>
@@ -174,7 +172,7 @@
                         <div class="col-xxl-4 col-sm-6">
                             <div class="blog-box wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="blog-image">
-                                    <a href="blog-detail.html">
+                                    <a href="blog-detail.php">
                                         <img src="../assets/images/inner-page/blog/3.jpg"
                                             class="bg-img blur-up lazyload" alt="">
                                     </a>
@@ -187,10 +185,10 @@
                                         <span class="super"><i data-feather="user"></i> <span>Chris C.
                                                 Hall</span></span>
                                     </div>
-                                    <a href="blog-detail.html">
+                                    <a href="blog-detail.php">
                                         <h3>How to start regrowing green onions and other vegetables.</h3>
                                     </a>
-                                    <button onclick="location.href = 'blog-detail.html';" class="blog-button">Read More
+                                    <button onclick="location.href = 'blog-detail.php';" class="blog-button">Read More
                                         <i class="fa-solid fa-right-long"></i></button>
                                 </div>
                             </div>
@@ -199,7 +197,7 @@
                         <div class="col-xxl-4 col-sm-6">
                             <div class="blog-box wow fadeInUp" data-wow-delay="0.15s">
                                 <div class="blog-image">
-                                    <a href="blog-detail.html">
+                                    <a href="blog-detail.php">
                                         <img src="../assets/images/inner-page/blog/4.jpg"
                                             class="bg-img blur-up lazyload" alt="">
                                     </a>
@@ -211,10 +209,10 @@
                                         <span class="super"><i data-feather="user"></i> <span>James M.
                                                 Martin</span></span>
                                     </div>
-                                    <a href="blog-detail.html">
+                                    <a href="blog-detail.php">
                                         <h3>Starting a vegetable garden: the basics.</h3>
                                     </a>
-                                    <button onclick="location.href = 'blog-detail.html';" class="blog-button">Read More
+                                    <button onclick="location.href = 'blog-detail.php';" class="blog-button">Read More
                                         <i class="fa-solid fa-right-long"></i></button>
                                 </div>
                             </div>
@@ -223,7 +221,7 @@
                         <div class="col-xxl-4 col-sm-6">
                             <div class="blog-box wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="blog-image">
-                                    <a href="blog-detail.html">
+                                    <a href="blog-detail.php">
                                         <img src="../assets/images/inner-page/blog/5.jpg"
                                             class="bg-img blur-up lazyload" alt="">
                                     </a>
@@ -235,10 +233,10 @@
                                         <span class="super"><i data-feather="user"></i> <span>Cecil M.
                                                 Levis</span></span>
                                     </div>
-                                    <a href="blog-detail.html">
+                                    <a href="blog-detail.php">
                                         <h3>Adapt this simple pasta salad to whatever vegetable.</h3>
                                     </a>
-                                    <button onclick="location.href = 'blog-detail.html';" class="blog-button">Read More
+                                    <button onclick="location.href = 'blog-detail.php';" class="blog-button">Read More
                                         <i class="fa-solid fa-right-long"></i></button>
                                 </div>
                             </div>
@@ -247,7 +245,7 @@
                         <div class="col-xxl-4 col-sm-6">
                             <div class="blog-box wow fadeInUp" data-wow-delay="0.25s">
                                 <div class="blog-image">
-                                    <a href="blog-detail.html">
+                                    <a href="blog-detail.php">
                                         <img src="../assets/images/inner-page/blog/1.jpg"
                                             class="bg-img blur-up lazyload" alt="">
                                     </a>
@@ -259,10 +257,10 @@
                                         <span class="super"><i data-feather="user"></i> <span>Mary R.
                                                 Hernandez</span></span>
                                     </div>
-                                    <a href="blog-detail.html">
+                                    <a href="blog-detail.php">
                                         <h3>With chefs idle and vegetables rotting, China's virus-hit.</h3>
                                     </a>
-                                    <button onclick="location.href = 'blog-detail.html';" class="blog-button">Read More
+                                    <button onclick="location.href = 'blog-detail.php';" class="blog-button">Read More
                                         <i class="fa-solid fa-right-long"></i></button>
                                 </div>
                             </div>
@@ -271,7 +269,7 @@
                         <div class="col-xxl-4 col-sm-6">
                             <div class="blog-box wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="blog-image">
-                                    <a href="blog-detail.html">
+                                    <a href="blog-detail.php">
                                         <img src="../assets/images/inner-page/blog/2.jpg"
                                             class="bg-img blur-up lazyload" alt="">
                                     </a>
@@ -283,10 +281,10 @@
                                         <span class="super"><i data-feather="user"></i> <span>Cheryl D.
                                                 Moser</span></span>
                                     </div>
-                                    <a href="blog-detail.html">
+                                    <a href="blog-detail.php">
                                         <h3>Turn that bowl of pasta into a supercharged veggie vehicle.</h3>
                                     </a>
-                                    <button onclick="location.href = 'blog-detail.html';" class="blog-button">Read More
+                                    <button onclick="location.href = 'blog-detail.php';" class="blog-button">Read More
                                         <i class="fa-solid fa-right-long"></i></button>
                                 </div>
                             </div>
@@ -295,7 +293,7 @@
                         <div class="col-xxl-4 col-sm-6">
                             <div class="blog-box wow fadeInUp" data-wow-delay="0.35s">
                                 <div class="blog-image">
-                                    <a href="blog-detail.html">
+                                    <a href="blog-detail.php">
                                         <img src="../assets/images/inner-page/blog/3.jpg"
                                             class="bg-img blur-up lazyload" alt="">
                                     </a>
@@ -308,10 +306,10 @@
                                         <span class="super"><i data-feather="user"></i> <span>Mina M.
                                                 Short</span></span>
                                     </div>
-                                    <a href="blog-detail.html">
+                                    <a href="blog-detail.php">
                                         <h3>Health, care and skin on the for your organic.</h3>
                                     </a>
-                                    <button onclick="location.href = 'blog-detail.html';" class="blog-button">Read More
+                                    <button onclick="location.href = 'blog-detail.php';" class="blog-button">Read More
                                         <i class="fa-solid fa-right-long"></i></button>
                                 </div>
                             </div>
@@ -320,7 +318,7 @@
                         <div class="col-xxl-4 col-sm-6">
                             <div class="blog-box wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="blog-image">
-                                    <a href="blog-detail.html">
+                                    <a href="blog-detail.php">
                                         <img src="../assets/images/inner-page/blog/4.jpg"
                                             class="bg-img blur-up lazyload" alt="">
                                     </a>
@@ -332,10 +330,10 @@
                                         <span class="super"><i data-feather="user"></i> <span>Marie S.
                                                 Santiago</span></span>
                                     </div>
-                                    <a href="blog-detail.html">
+                                    <a href="blog-detail.php">
                                         <h3>Fresh organicsm, brand, fresh and picnic place awesome.</h3>
                                     </a>
-                                    <button onclick="location.href = 'blog-detail.html';" class="blog-button">Read More
+                                    <button onclick="location.href = 'blog-detail.php';" class="blog-button">Read More
                                         <i class="fa-solid fa-right-long"></i></button>
                                 </div>
                             </div>
@@ -344,7 +342,7 @@
                         <div class="col-xxl-4 col-sm-6">
                             <div class="blog-box wow fadeInUp" data-wow-delay="0.45s">
                                 <div class="blog-image">
-                                    <a href="blog-detail.html">
+                                    <a href="blog-detail.php">
                                         <img src="../assets/images/inner-page/blog/3.jpg"
                                             class="bg-img blur-up lazyload" alt="">
                                     </a>
@@ -357,10 +355,10 @@
                                         <span class="super"><i data-feather="user"></i> <span>Mark J.
                                                 Speight</span></span>
                                     </div>
-                                    <a href="blog-detail.html">
+                                    <a href="blog-detail.php">
                                         <h3>With chefs idle and vegetables rotting, China's virus-hit.</h3>
                                     </a>
-                                    <button onclick="location.href = 'blog-detail.html';" class="blog-button">Read More
+                                    <button onclick="location.href = 'blog-detail.php';" class="blog-button">Read More
                                         <i class="fa-solid fa-right-long"></i></button>
                                 </div>
                             </div>
@@ -369,7 +367,7 @@
                         <div class="col-xxl-4 col-sm-6">
                             <div class="blog-box wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="blog-image">
-                                    <a href="blog-detail.html">
+                                    <a href="blog-detail.php">
                                         <img src="../assets/images/inner-page/blog/4.jpg"
                                             class="bg-img blur-up lazyload" alt="">
                                     </a>
@@ -381,10 +379,10 @@
                                         <span class="super"><i data-feather="user"></i> <span>Chris C.
                                                 Hall</span></span>
                                     </div>
-                                    <a href="blog-detail.html">
+                                    <a href="blog-detail.php">
                                         <h3>Vegina good quality special liquide fesh vegetables.</h3>
                                     </a>
-                                    <button onclick="location.href = 'blog-detail.html';" class="blog-button">Read More
+                                    <button onclick="location.href = 'blog-detail.php';" class="blog-button">Read More
                                         <i class="fa-solid fa-right-long"></i></button>
                                 </div>
                             </div>
@@ -393,7 +391,7 @@
                         <div class="col-xxl-4 col-sm-6">
                             <div class="blog-box wow fadeInUp" data-wow-delay="0.55s">
                                 <div class="blog-image">
-                                    <a href="blog-detail.html">
+                                    <a href="blog-detail.php">
                                         <img src="../assets/images/inner-page/blog/5.jpg"
                                             class="bg-img blur-up lazyload" alt="">
                                     </a>
@@ -405,10 +403,10 @@
                                         <span class="super"><i data-feather="user"></i> <span>James M.
                                                 Martin</span></span>
                                     </div>
-                                    <a href="blog-detail.html">
+                                    <a href="blog-detail.php">
                                         <h3>How to freeze fresh vegetables while preserving their best qualities.</h3>
                                     </a>
-                                    <button onclick="location.href = 'blog-detail.html';" class="blog-button">Read More
+                                    <button onclick="location.href = 'blog-detail.php';" class="blog-button">Read More
                                         <i class="fa-solid fa-right-long"></i></button>
                                 </div>
                             </div>
@@ -461,13 +459,13 @@
                                     <div class="accordion-body pt-0">
                                         <div class="recent-post-box">
                                             <div class="recent-box">
-                                                <a href="blog-detail.html" class="recent-image">
+                                                <a href="blog-detail.php" class="recent-image">
                                                     <img src="../assets/images/inner-page/blog/1.jpg"
                                                         class="img-fluid blur-up lazyload" alt="">
                                                 </a>
 
                                                 <div class="recent-detail">
-                                                    <a href="blog-detail.html">
+                                                    <a href="blog-detail.php">
                                                         <h5 class="recent-name">Green onion knife and salad placed</h5>
                                                     </a>
                                                     <h6>25 Jan, 2022 <i data-feather="thumbs-up"></i></h6>
@@ -475,13 +473,13 @@
                                             </div>
 
                                             <div class="recent-box">
-                                                <a href="blog-detail.html" class="recent-image">
+                                                <a href="blog-detail.php" class="recent-image">
                                                     <img src="../assets/images/inner-page/blog/2.jpg"
                                                         class="img-fluid blur-up lazyload" alt="">
                                                 </a>
 
                                                 <div class="recent-detail">
-                                                    <a href="blog-detail.html">
+                                                    <a href="blog-detail.php">
                                                         <h5 class="recent-name">Health and skin for your organic</h5>
                                                     </a>
                                                     <h6>25 Jan, 2022 <i data-feather="thumbs-up"></i></h6>
@@ -489,13 +487,13 @@
                                             </div>
 
                                             <div class="recent-box">
-                                                <a href="blog-detail.html" class="recent-image">
+                                                <a href="blog-detail.php" class="recent-image">
                                                     <img src="../assets/images/inner-page/blog/3.jpg"
                                                         class="img-fluid blur-up lazyload" alt="">
                                                 </a>
 
                                                 <div class="recent-detail">
-                                                    <a href="blog-detail.html">
+                                                    <a href="blog-detail.php">
                                                         <h5 class="recent-name">Organics mix masala fresh & soft</h5>
                                                     </a>
                                                     <h6>25 Jan, 2022 <i data-feather="thumbs-up"></i></h6>
@@ -503,13 +501,13 @@
                                             </div>
 
                                             <div class="recent-box">
-                                                <a href="blog-detail.html" class="recent-image">
+                                                <a href="blog-detail.php" class="recent-image">
                                                     <img src="../assets/images/inner-page/blog/4.jpg"
                                                         class="img-fluid blur-up lazyload" alt="">
                                                 </a>
 
                                                 <div class="recent-detail">
-                                                    <a href="blog-detail.html">
+                                                    <a href="blog-detail.php">
                                                         <h5 class="recent-name">Fresh organics brand and picnic</h5>
                                                     </a>
                                                     <h6>25 Jan, 2022 <i data-feather="thumbs-up"></i></h6>
@@ -530,7 +528,7 @@
                                         <div class="category-list-box">
                                             <ul>
                                                 <li>
-                                                    <a href="blog-list.html">
+                                                    <a href="blog-list.php">
                                                         <div class="category-name">
                                                             <h5>Latest Recipes</h5>
                                                             <span>10</span>
@@ -539,7 +537,7 @@
                                                 </li>
 
                                                 <li>
-                                                    <a href="blog-list.html">
+                                                    <a href="blog-list.php">
                                                         <div class="category-name">
                                                             <h5>Diet Food</h5>
                                                             <span>6</span>
@@ -548,7 +546,7 @@
                                                 </li>
 
                                                 <li>
-                                                    <a href="blog-list.html">
+                                                    <a href="blog-list.php">
                                                         <div class="category-name">
                                                             <h5>Low calorie Items</h5>
                                                             <span>8</span>
@@ -557,7 +555,7 @@
                                                 </li>
 
                                                 <li>
-                                                    <a href="blog-list.html">
+                                                    <a href="blog-list.php">
                                                         <div class="category-name">
                                                             <h5>Cooking Method</h5>
                                                             <span>9</span>
@@ -566,7 +564,7 @@
                                                 </li>
 
                                                 <li>
-                                                    <a href="blog-list.html">
+                                                    <a href="blog-list.php">
                                                         <div class="category-name">
                                                             <h5>Dairy Free</h5>
                                                             <span>12</span>
@@ -575,7 +573,7 @@
                                                 </li>
 
                                                 <li>
-                                                    <a href="blog-list.html">
+                                                    <a href="blog-list.php">
                                                         <div class="category-name">
                                                             <h5>Vegetarian Food</h5>
                                                             <span>10</span>
@@ -646,14 +644,14 @@
                                         <ul class="product-list product-list-2 border-0 p-0">
                                             <li>
                                                 <div class="offer-product">
-                                                    <a href="shop-left-sidebar.html" class="offer-image">
+                                                    <a href="shop-left-sidebar.php" class="offer-image">
                                                         <img src="../assets/images/vegetable/product/23.png"
                                                             class="blur-up lazyload" alt="">
                                                     </a>
 
                                                     <div class="offer-detail">
                                                         <div>
-                                                            <a href="shop-left-sidebar.html">
+                                                            <a href="shop-left-sidebar.php">
                                                                 <h6 class="name">Meatigo Premium Goat Curry</h6>
                                                             </a>
                                                             <span>450 G</span>
@@ -665,14 +663,14 @@
 
                                             <li>
                                                 <div class="offer-product">
-                                                    <a href="shop-left-sidebar.html" class="offer-image">
+                                                    <a href="shop-left-sidebar.php" class="offer-image">
                                                         <img src="../assets/images/vegetable/product/24.png"
                                                             class="blur-up lazyload" alt="">
                                                     </a>
 
                                                     <div class="offer-detail">
                                                         <div>
-                                                            <a href="shop-left-sidebar.html">
+                                                            <a href="shop-left-sidebar.php">
                                                                 <h6 class="name">Dates Medjoul Premium Imported</h6>
                                                             </a>
                                                             <span>450 G</span>
@@ -684,14 +682,14 @@
 
                                             <li class="mb-0">
                                                 <div class="offer-product">
-                                                    <a href="shop-left-sidebar.html" class="offer-image">
+                                                    <a href="shop-left-sidebar.php" class="offer-image">
                                                         <img src="../assets/images/vegetable/product/26.png"
                                                             class="blur-up lazyload" alt="">
                                                     </a>
 
                                                     <div class="offer-detail">
                                                         <div>
-                                                            <a href="shop-left-sidebar.html">
+                                                            <a href="shop-left-sidebar.php">
                                                                 <h6 class="name">Apple Red Premium Imported</h6>
                                                             </a>
                                                             <span>1 KG</span>
@@ -834,12 +832,12 @@
                         <ul class="deal-offer-list">
                             <li class="list-1">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/10.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -848,12 +846,12 @@
 
                             <li class="list-2">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/11.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -862,12 +860,12 @@
 
                             <li class="list-3">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/12.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -876,12 +874,12 @@
 
                             <li class="list-1">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/13.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -988,6 +986,4 @@
     <script src="../assets/js/theme-setting.js"></script>
 </body>
 
-
-<!-- Mirrored from themes.pixelstrap.com/fastkart/front-end/blog-grid.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 15:08:19 GMT -->
 </html>

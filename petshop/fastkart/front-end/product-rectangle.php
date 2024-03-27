@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from themes.pixelstrap.com/fastkart/front-end/product-rectangle.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 15:08:11 GMT -->
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -76,7 +74,7 @@
                                 <div>
                                     <div class="timer-notification">
                                         <h6>Something you love is now on sale!
-                                            <a href="shop-left-sidebar.html" class="text-white">Buy Now
+                                            <a href="shop-left-sidebar.php" class="text-white">Buy Now
                                                 !</a>
                                         </h6>
                                     </div>
@@ -156,7 +154,7 @@
                                     <i class="fa-solid fa-bars"></i>
                                 </span>
                             </button>
-                            <a href="index.html" class="web-logo nav-logo">
+                            <a href="index.php" class="web-logo nav-logo">
                                 <img src="../assets/images/logo/1.png" class="img-fluid blur-up lazyload" alt="">
                             </a>
 
@@ -205,7 +203,7 @@
                                         </div>
                                     </li>
                                     <li class="right-side">
-                                        <a href="contact-us.html" class="delivery-login-box">
+                                        <a href="contact-us.php" class="delivery-login-box">
                                             <div class="delivery-icon">
                                                 <i data-feather="phone-call"></i>
                                             </div>
@@ -216,7 +214,7 @@
                                         </a>
                                     </li>
                                     <li class="right-side">
-                                        <a href="wishlist.html" class="btn p-0 position-relative header-wishlist">
+                                        <a href="wishlist.php" class="btn p-0 position-relative header-wishlist">
                                             <i data-feather="heart"></i>
                                         </a>
                                     </li>
@@ -233,13 +231,13 @@
                                                 <ul class="cart-list">
                                                     <li class="product-box-contain">
                                                         <div class="drop-cart">
-                                                            <a href="product-left-thumbnail.html" class="drop-image">
+                                                            <a href="product-left-thumbnail.php" class="drop-image">
                                                                 <img src="../assets/images/vegetable/product/1.png"
                                                                     class="blur-up lazyload" alt="">
                                                             </a>
 
                                                             <div class="drop-contain">
-                                                                <a href="product-left-thumbnail.html">
+                                                                <a href="product-left-thumbnail.php">
                                                                     <h5>Fantasy Crunchy Choco Chip Cookies</h5>
                                                                 </a>
                                                                 <h6><span>1 x</span> $80.58</h6>
@@ -252,13 +250,13 @@
 
                                                     <li class="product-box-contain">
                                                         <div class="drop-cart">
-                                                            <a href="product-left-thumbnail.html" class="drop-image">
+                                                            <a href="product-left-thumbnail.php" class="drop-image">
                                                                 <img src="../assets/images/vegetable/product/2.png"
                                                                     class="blur-up lazyload" alt="">
                                                             </a>
 
                                                             <div class="drop-contain">
-                                                                <a href="product-left-thumbnail.html">
+                                                                <a href="product-left-thumbnail.php">
                                                                     <h5>Peanut Butter Bite Premium Butter Cookies 600 g
                                                                     </h5>
                                                                 </a>
@@ -277,8 +275,8 @@
                                                 </div>
 
                                                 <div class="button-group">
-                                                    <a href="cart.html" class="btn btn-sm cart-button">View Cart</a>
-                                                    <a href="checkout.html" class="btn btn-sm cart-button theme-bg-color
+                                                    <a href="cart.php" class="btn btn-sm cart-button">View Cart</a>
+                                                    <a href="checkout.php" class="btn btn-sm cart-button theme-bg-color
                                                     text-white">Checkout</a>
                                                 </div>
                                             </div>
@@ -299,15 +297,15 @@
                                             <ul class="user-box-name">
                                                 <li class="product-box-contain">
                                                     <i></i>
-                                                    <a href="login.html">Log In</a>
+                                                    <a href="login.php">Log In</a>
                                                 </li>
 
                                                 <li class="product-box-contain">
-                                                    <a href="sign-up.html">Register</a>
+                                                    <a href="sign-up.php">Register</a>
                                                 </li>
 
                                                 <li class="product-box-contain">
-                                                    <a href="forgot.html">Forgot Password</a>
+                                                    <a href="forgot.php">Forgot Password</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -746,37 +744,37 @@
 
                                                 <ul class="dropdown-menu">
                                                     <li>
-                                                        <a class="dropdown-item" href="index.html">Kartshop</a>
+                                                        <a class="dropdown-item" href="index.php">Kartshop</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="index-2.html">Sweetshop</a>
+                                                        <a class="dropdown-item" href="index-2.php">Sweetshop</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="index-3.html">Organic</a>
+                                                        <a class="dropdown-item" href="index-3.php">Organic</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="index-4.html">Supershop</a>
+                                                        <a class="dropdown-item" href="index-4.php">Supershop</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="index-5.html">Classic shop</a>
+                                                        <a class="dropdown-item" href="index-5.php">Classic shop</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="index-6.html">Furniture</a>
+                                                        <a class="dropdown-item" href="index-6.php">Furniture</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="index-7.html">Search Oriented</a>
+                                                        <a class="dropdown-item" href="index-7.php">Search Oriented</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="index-8.html">Category Focus</a>
+                                                        <a class="dropdown-item" href="index-8.php">Category Focus</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="index-9.html">Fashion</a>
+                                                        <a class="dropdown-item" href="index-9.php">Fashion</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="index-10.html">Book</a>
+                                                        <a class="dropdown-item" href="index-10.php">Book</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="index-11.html">Digital</a>
+                                                        <a class="dropdown-item" href="index-11.php">Digital</a>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -787,29 +785,29 @@
 
                                                 <ul class="dropdown-menu">
                                                     <li>
-                                                        <a class="dropdown-item" href="shop-category-slider.html">Shop
+                                                        <a class="dropdown-item" href="shop-category-slider.php">Shop
                                                             Category Slider</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="shop-category.html">Shop
+                                                        <a class="dropdown-item" href="shop-category.php">Shop
                                                             Category Sidebar</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="shop-banner.html">Shop Banner</a>
+                                                        <a class="dropdown-item" href="shop-banner.php">Shop Banner</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="shop-left-sidebar.html">Shop Left
+                                                        <a class="dropdown-item" href="shop-left-sidebar.php">Shop Left
                                                             Sidebar</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="shop-list.html">Shop List</a>
+                                                        <a class="dropdown-item" href="shop-list.php">Shop List</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="shop-right-sidebar.html">Shop
+                                                        <a class="dropdown-item" href="shop-right-sidebar.php">Shop
                                                             Right Sidebar</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="shop-top-filter.html">Shop Top
+                                                        <a class="dropdown-item" href="shop-top-filter.php">Shop Top
                                                             Filter</a>
                                                     </li>
                                                 </ul>
@@ -826,32 +824,32 @@
                                                                 <h5 class="dropdown-header">
                                                                     Product Pages </h5>
                                                                 <a class="dropdown-item"
-                                                                    href="product-left-thumbnail.html">Product
+                                                                    href="product-left-thumbnail.php">Product
                                                                     Thumbnail</a>
                                                                 <a class="dropdown-item"
-                                                                    href="product-4-image.html">Product Images</a>
+                                                                    href="product-4-image.php">Product Images</a>
                                                                 <a class="dropdown-item"
-                                                                    href="product-slider.html">Product Slider</a>
+                                                                    href="product-slider.php">Product Slider</a>
                                                                 <a class="dropdown-item"
-                                                                    href="product-sticky.html">Product Sticky</a>
+                                                                    href="product-sticky.php">Product Sticky</a>
                                                                 <a class="dropdown-item"
-                                                                    href="product-accordion.html">Product Accordion</a>
+                                                                    href="product-accordion.php">Product Accordion</a>
                                                                 <a class="dropdown-item"
-                                                                    href="product-circle.html">Product Tab</a>
+                                                                    href="product-circle.php">Product Tab</a>
                                                                 <a class="dropdown-item"
-                                                                    href="product-digital.html">Product Digital</a>
+                                                                    href="product-digital.php">Product Digital</a>
 
                                                                 <h5 class="custom-mt dropdown-header">Product Features
                                                                 </h5>
                                                                 <a class="dropdown-item"
-                                                                    href="product-circle.html">Bundle (Cross Sale)</a>
+                                                                    href="product-circle.php">Bundle (Cross Sale)</a>
                                                                 <a class="dropdown-item"
-                                                                    href="product-left-thumbnail.html">Hot Stock
+                                                                    href="product-left-thumbnail.php">Hot Stock
                                                                     Progress <label class="menu-label">New</label>
                                                                 </a>
                                                                 <a class="dropdown-item"
-                                                                    href="product-sold-out.html">SOLD OUT</a>
-                                                                <a class="dropdown-item" href="product-circle.html">
+                                                                    href="product-sold-out.php">SOLD OUT</a>
+                                                                <a class="dropdown-item" href="product-circle.php">
                                                                     Sale Countdown</a>
                                                             </div>
                                                         </div>
@@ -860,31 +858,31 @@
                                                                 <h5 class="dropdown-header">
                                                                     Product Variants Style </h5>
                                                                 <a class="dropdown-item"
-                                                                    href="product-rectangle.html">Variant Rectangle</a>
+                                                                    href="product-rectangle.php">Variant Rectangle</a>
                                                                 <a class="dropdown-item"
-                                                                    href="product-circle.html">Variant Circle <label
+                                                                    href="product-circle.php">Variant Circle <label
                                                                         class="menu-label">New</label></a>
                                                                 <a class="dropdown-item"
-                                                                    href="product-color-image.html">Variant Image
+                                                                    href="product-color-image.php">Variant Image
                                                                     Swatch</a>
                                                                 <a class="dropdown-item"
-                                                                    href="product-color.html">Variant Color</a>
+                                                                    href="product-color.php">Variant Color</a>
                                                                 <a class="dropdown-item"
-                                                                    href="product-radio.html">Variant Radio Button</a>
+                                                                    href="product-radio.php">Variant Radio Button</a>
                                                                 <a class="dropdown-item"
-                                                                    href="product-dropdown.html">Variant Dropdown</a>
+                                                                    href="product-dropdown.php">Variant Dropdown</a>
                                                                 <h5 class="custom-mt dropdown-header">Product Features
                                                                 </h5>
                                                                 <a class="dropdown-item"
-                                                                    href="product-left-thumbnail.html">Sticky
+                                                                    href="product-left-thumbnail.php">Sticky
                                                                     Checkout</a>
                                                                 <a class="dropdown-item"
-                                                                    href="product-dynamic.html">Dynamic Checkout</a>
+                                                                    href="product-dynamic.php">Dynamic Checkout</a>
                                                                 <a class="dropdown-item"
-                                                                    href="product-sticky.html">Secure Checkout</a>
+                                                                    href="product-sticky.php">Secure Checkout</a>
                                                                 <a class="dropdown-item"
-                                                                    href="product-bundle.html">Active Product view</a>
-                                                                <a class="dropdown-item" href="product-bundle.html">
+                                                                    href="product-bundle.php">Active Product view</a>
+                                                                <a class="dropdown-item" href="product-bundle.php">
                                                                     Active
                                                                     Last Orders
                                                                 </a>
@@ -895,45 +893,45 @@
                                                                 <h5 class="dropdown-header">
                                                                     Product Features </h5>
                                                                 <a class="dropdown-item"
-                                                                    href="product-image.html">Product Simple</a>
-                                                                <a class="dropdown-item" href="product-rectangle.html">
+                                                                    href="product-image.php">Product Simple</a>
+                                                                <a class="dropdown-item" href="product-rectangle.php">
                                                                     Product Classified <label
                                                                         class="menu-label">New</label>
                                                                 </a>
                                                                 <a class="dropdown-item"
-                                                                    href="product-size-chart.html">Size Chart <label
+                                                                    href="product-size-chart.php">Size Chart <label
                                                                         class="menu-label">New</label></a>
                                                                 <a class="dropdown-item"
-                                                                    href="product-size-chart.html">Delivery &
+                                                                    href="product-size-chart.php">Delivery &
                                                                     Return</a>
                                                                 <a class="dropdown-item"
-                                                                    href="product-size-chart.html">Product Review</a>
-                                                                <a class="dropdown-item" href="product-expert.html">Ask
+                                                                    href="product-size-chart.php">Product Review</a>
+                                                                <a class="dropdown-item" href="product-expert.php">Ask
                                                                     an Expert</a>
                                                                 <h5 class="custom-mt dropdown-header">Product Features
                                                                 </h5>
                                                                 <a class="dropdown-item"
-                                                                    href="product-bottom-thumbnail.html">Product
+                                                                    href="product-bottom-thumbnail.php">Product
                                                                     Tags</a>
-                                                                <a class="dropdown-item" href="product-image.html">Store
+                                                                <a class="dropdown-item" href="product-image.php">Store
                                                                     Information</a>
                                                                 <a class="dropdown-item"
-                                                                    href="product-image.html">Social Share <label
+                                                                    href="product-image.php">Social Share <label
                                                                         class="menu-label warning-label">Hot</label>
                                                                 </a>
                                                                 <a class="dropdown-item"
-                                                                    href="product-left-thumbnail.html">Related Products
+                                                                    href="product-left-thumbnail.php">Related Products
                                                                     <label class="menu-label warning-label">Hot</label>
                                                                 </a>
                                                                 <a class="dropdown-item"
-                                                                    href="product-right-thumbnail.html">Wishlist &
+                                                                    href="product-right-thumbnail.php">Wishlist &
                                                                     Compare</a>
                                                             </div>
                                                         </div>
                                                         <div class="col-xl-3 d-xl-block d-none">
                                                             <div class="dropdown-column m-0">
                                                                 <div class="menu-img-banner">
-                                                                    <a class="text-title" href="product-circle.html">
+                                                                    <a class="text-title" href="product-circle.php">
                                                                         <img src="../assets/images/mega-menu.png"
                                                                             alt="banner">
                                                                     </a>
@@ -952,68 +950,68 @@
                                                     <div class="row">
                                                         <div class="dropdown-column col-xl-3">
                                                             <h5 class="dropdown-header">Daily Vegetables</h5>
-                                                            <a class="dropdown-item" href="shop-left-sidebar.html">Beans
+                                                            <a class="dropdown-item" href="shop-left-sidebar.php">Beans
                                                                 & Brinjals</a>
 
                                                             <a class="dropdown-item"
-                                                                href="shop-left-sidebar.html">Broccoli & Cauliflower</a>
+                                                                href="shop-left-sidebar.php">Broccoli & Cauliflower</a>
 
-                                                            <a href="shop-left-sidebar.html"
+                                                            <a href="shop-left-sidebar.php"
                                                                 class="dropdown-item">Chilies, Garlic</a>
 
                                                             <a class="dropdown-item"
-                                                                href="shop-left-sidebar.html">Vegetables & Salads</a>
+                                                                href="shop-left-sidebar.php">Vegetables & Salads</a>
 
                                                             <a class="dropdown-item"
-                                                                href="shop-left-sidebar.html">Gourd, Cucumber</a>
+                                                                href="shop-left-sidebar.php">Gourd, Cucumber</a>
 
-                                                            <a class="dropdown-item" href="shop-left-sidebar.html">Herbs
+                                                            <a class="dropdown-item" href="shop-left-sidebar.php">Herbs
                                                                 & Sprouts</a>
 
-                                                            <a href="demo-personal-portfolio.html"
+                                                            <a href="demo-personal-portfolio.php"
                                                                 class="dropdown-item">Lettuce & Leafy</a>
                                                         </div>
 
                                                         <div class="dropdown-column col-xl-3">
                                                             <h5 class="dropdown-header">Baby Tender</h5>
-                                                            <a class="dropdown-item" href="shop-left-sidebar.html">Beans
+                                                            <a class="dropdown-item" href="shop-left-sidebar.php">Beans
                                                                 & Brinjals</a>
 
                                                             <a class="dropdown-item"
-                                                                href="shop-left-sidebar.html">Broccoli & Cauliflower</a>
+                                                                href="shop-left-sidebar.php">Broccoli & Cauliflower</a>
 
                                                             <a class="dropdown-item"
-                                                                href="shop-left-sidebar.html">Chilies, Garlic</a>
+                                                                href="shop-left-sidebar.php">Chilies, Garlic</a>
 
                                                             <a class="dropdown-item"
-                                                                href="shop-left-sidebar.html">Vegetables & Salads</a>
+                                                                href="shop-left-sidebar.php">Vegetables & Salads</a>
 
                                                             <a class="dropdown-item"
-                                                                href="shop-left-sidebar.html">Gourd, Cucumber</a>
+                                                                href="shop-left-sidebar.php">Gourd, Cucumber</a>
 
                                                             <a class="dropdown-item"
-                                                                href="shop-left-sidebar.html">Potatoes & Tomatoes</a>
+                                                                href="shop-left-sidebar.php">Potatoes & Tomatoes</a>
 
-                                                            <a href="shop-left-sidebar.html" class="dropdown-item">Peas
+                                                            <a href="shop-left-sidebar.php" class="dropdown-item">Peas
                                                                 & Corn</a>
                                                         </div>
 
                                                         <div class="dropdown-column col-xl-3">
                                                             <h5 class="dropdown-header">Exotic Vegetables</h5>
                                                             <a class="dropdown-item"
-                                                                href="shop-left-sidebar.html">Asparagus & Artichokes</a>
+                                                                href="shop-left-sidebar.php">Asparagus & Artichokes</a>
 
                                                             <a class="dropdown-item"
-                                                                href="shop-left-sidebar.html">Avocados & Peppers</a>
+                                                                href="shop-left-sidebar.php">Avocados & Peppers</a>
 
                                                             <a class="dropdown-item"
-                                                                href="shop-left-sidebar.html">Broccoli & Zucchini</a>
+                                                                href="shop-left-sidebar.php">Broccoli & Zucchini</a>
 
                                                             <a class="dropdown-item"
-                                                                href="shop-left-sidebar.html">Celery, Fennel & Leeks</a>
+                                                                href="shop-left-sidebar.php">Celery, Fennel & Leeks</a>
 
                                                             <a class="dropdown-item"
-                                                                href="shop-left-sidebar.html">Chilies & Lime</a>
+                                                                href="shop-left-sidebar.php">Chilies & Lime</a>
                                                         </div>
 
                                                         <div class="dropdown-column dropdown-column-img col-3"></div>
@@ -1026,13 +1024,13 @@
                                                     data-bs-toggle="dropdown">Blog</a>
                                                 <ul class="dropdown-menu">
                                                     <li>
-                                                        <a class="dropdown-item" href="blog-detail.html">Blog Detail</a>
+                                                        <a class="dropdown-item" href="blog-detail.php">Blog Detail</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="blog-grid.html">Blog Grid</a>
+                                                        <a class="dropdown-item" href="blog-grid.php">Blog Grid</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="blog-list.html">Blog List</a>
+                                                        <a class="dropdown-item" href="blog-list.php">Blog List</a>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -1049,22 +1047,22 @@
                                                         <ul class="sub-menu">
                                                             <li>
                                                                 <a
-                                                                    href="https://themes.pixelstrap.com/fastkart/email-templete/abandonment-email.html">Abandonment</a>
+                                                                    href="https://themes.pixelstrap.com/fastkart/email-templete/abandonment-email.php">Abandonment</a>
                                                             </li>
                                                             <li>
-                                                                <a href="https://themes.pixelstrap.com/fastkart/email-templete/offer-template.html">Offer
+                                                                <a href="https://themes.pixelstrap.com/fastkart/email-templete/offer-template.php">Offer
                                                                     Template</a>
                                                             </li>
                                                             <li>
-                                                                <a href="https://themes.pixelstrap.com/fastkart/email-templete/order-success.html">Order
+                                                                <a href="https://themes.pixelstrap.com/fastkart/email-templete/order-success.php">Order
                                                                     Success</a>
                                                             </li>
                                                             <li>
-                                                                <a href="https://themes.pixelstrap.com/fastkart/email-templete/reset-password.html">Reset
+                                                                <a href="https://themes.pixelstrap.com/fastkart/email-templete/reset-password.php">Reset
                                                                     Password</a>
                                                             </li>
                                                             <li>
-                                                                <a href="https://themes.pixelstrap.com/fastkart/email-templete/welcome.html">Welcome
+                                                                <a href="https://themes.pixelstrap.com/fastkart/email-templete/welcome.php">Welcome
                                                                     template</a>
                                                             </li>
                                                         </ul>
@@ -1075,62 +1073,62 @@
                                                                     class="fa-solid fa-bolt-lightning"></i></span></a>
                                                         <ul class="sub-menu">
                                                             <li>
-                                                                <a href="https://themes.pixelstrap.com/fastkart/invoice/invoice-1.html">Invoice 1</a>
+                                                                <a href="https://themes.pixelstrap.com/fastkart/invoice/invoice-1.php">Invoice 1</a>
                                                             </li>
 
                                                             <li>
-                                                                <a href="https://themes.pixelstrap.com/fastkart/invoice/invoice-2.html">Invoice 2</a>
+                                                                <a href="https://themes.pixelstrap.com/fastkart/invoice/invoice-2.php">Invoice 2</a>
                                                             </li>
 
                                                             <li>
-                                                                <a href="https://themes.pixelstrap.com/fastkart/invoice/invoice-3.html">Invoice 3</a>
+                                                                <a href="https://themes.pixelstrap.com/fastkart/invoice/invoice-3.php">Invoice 3</a>
                                                             </li>
                                                         </ul>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="404.html">404</a>
+                                                        <a class="dropdown-item" href="404.php">404</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="about-us.html">About Us</a>
+                                                        <a class="dropdown-item" href="about-us.php">About Us</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="cart.html">Cart</a>
+                                                        <a class="dropdown-item" href="cart.php">Cart</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="contact-us.html">Contact</a>
+                                                        <a class="dropdown-item" href="contact-us.php">Contact</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="checkout.html">Checkout</a>
+                                                        <a class="dropdown-item" href="checkout.php">Checkout</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="coming-soon.html">Coming Soon</a>
+                                                        <a class="dropdown-item" href="coming-soon.php">Coming Soon</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="compare.html">Compare</a>
+                                                        <a class="dropdown-item" href="compare.php">Compare</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="faq.html">Faq</a>
+                                                        <a class="dropdown-item" href="faq.php">Faq</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="order-success.html">Order
+                                                        <a class="dropdown-item" href="order-success.php">Order
                                                             Success</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="order-tracking.html">Order
+                                                        <a class="dropdown-item" href="order-tracking.php">Order
                                                             Tracking</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="otp.html">OTP</a>
+                                                        <a class="dropdown-item" href="otp.php">OTP</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="search.html">Search</a>
+                                                        <a class="dropdown-item" href="search.php">Search</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="user-dashboard.html">User
+                                                        <a class="dropdown-item" href="user-dashboard.php">User
                                                             Dashboard</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="wishlist.html">Wishlist</a>
+                                                        <a class="dropdown-item" href="wishlist.php">Wishlist</a>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -1140,26 +1138,26 @@
                                                     data-bs-toggle="dropdown">Seller</a>
                                                 <ul class="dropdown-menu">
                                                     <li>
-                                                        <a class="dropdown-item" href="seller-become.html">Become a
+                                                        <a class="dropdown-item" href="seller-become.php">Become a
                                                             Seller</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="seller-dashboard.html">Seller
+                                                        <a class="dropdown-item" href="seller-dashboard.php">Seller
                                                             Dashboard</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="seller-detail.html">Seller
+                                                        <a class="dropdown-item" href="seller-detail.php">Seller
                                                             Detail</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="seller-detail-2.html">Seller
+                                                        <a class="dropdown-item" href="seller-detail-2.php">Seller
                                                             Detail 2</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="seller-grid.html">Seller Grid</a>
+                                                        <a class="dropdown-item" href="seller-grid.php">Seller Grid</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="seller-grid-2.html">Seller Grid
+                                                        <a class="dropdown-item" href="seller-grid-2.php">Seller Grid
                                                             2</a>
                                                     </li>
                                                 </ul>
@@ -1187,7 +1185,7 @@
     <div class="mobile-menu d-md-none d-block mobile-cart">
         <ul>
             <li class="active">
-                <a href="index.html">
+                <a href="index.php">
                     <i class="iconly-Home icli"></i>
                     <span>Home</span>
                 </a>
@@ -1201,21 +1199,21 @@
             </li>
 
             <li>
-                <a href="search.html" class="search-box">
+                <a href="search.php" class="search-box">
                     <i class="iconly-Search icli"></i>
                     <span>Search</span>
                 </a>
             </li>
 
             <li>
-                <a href="wishlist.html" class="notifi-wishlist">
+                <a href="wishlist.php" class="notifi-wishlist">
                     <i class="iconly-Heart icli"></i>
                     <span>My Wish</span>
                 </a>
             </li>
 
             <li>
-                <a href="cart.html">
+                <a href="cart.php">
                     <i class="iconly-Bag-2 icli fly-cate"></i>
                     <span>Cart</span>
                 </a>
@@ -1234,7 +1232,7 @@
                         <nav>
                             <ol class="breadcrumb mb-0">
                                 <li class="breadcrumb-item">
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <i class="fa-solid fa-house"></i>
                                     </a>
                                 </li>
@@ -1480,17 +1478,17 @@
                                         </div>
                                     </div>
 
-                                    <button onclick="location.href = 'cart.html';"
+                                    <button onclick="location.href = 'cart.php';"
                                         class="btn btn-md bg-dark cart-button text-white w-100">Add To Cart</button>
                                 </div>
 
                                 <div class="buy-box">
-                                    <a href="wishlist.html">
+                                    <a href="wishlist.php">
                                         <i data-feather="heart"></i>
                                         <span>Add To Wishlist</span>
                                     </a>
 
-                                    <a href="compare.html">
+                                    <a href="compare.php">
                                         <i data-feather="shuffle"></i>
                                         <span>Add To Compare</span>
                                     </a>
@@ -1647,13 +1645,13 @@
                                     <li>
                                         <div class="product-box product-box-bg wow fadeInUp">
                                             <div class="product-image">
-                                                <a href="product-left-thumbnail.html">
+                                                <a href="product-left-thumbnail.php">
                                                     <img src="../assets/images/fashion/product/27.png"
                                                         class="img-fluid blur-up lazyload" alt="">
                                                 </a>
                                             </div>
                                             <div class="product-detail">
-                                                <a href="product-left-thumbnail.html">
+                                                <a href="product-left-thumbnail.php">
                                                     <h6 class="name">Women Flare Bell Bottom Jeans</h6>
                                                 </a>
 
@@ -1668,13 +1666,13 @@
                                     <li>
                                         <div class="product-box product-box-bg wow fadeInUp" data-wow-delay="0.1s">
                                             <div class="product-image">
-                                                <a href="product-left-thumbnail.html">
+                                                <a href="product-left-thumbnail.php">
                                                     <img src="../assets/images/fashion/product/28.png"
                                                         class="img-fluid blur-up lazyload" alt="">
                                                 </a>
                                             </div>
                                             <div class="product-detail">
-                                                <a href="product-left-thumbnail.html">
+                                                <a href="product-left-thumbnail.php">
                                                     <h6 class="name">Women Straight Fit Jeans</h6>
                                                 </a>
 
@@ -1689,13 +1687,13 @@
                                     <li>
                                         <div class="product-box product-box-bg wow fadeInUp">
                                             <div class="product-image">
-                                                <a href="product-left-thumbnail.html">
+                                                <a href="product-left-thumbnail.php">
                                                     <img src="../assets/images/fashion/product/29.png"
                                                         class="img-fluid blur-up lazyload" alt="">
                                                 </a>
                                             </div>
                                             <div class="product-detail">
-                                                <a href="product-left-thumbnail.html">
+                                                <a href="product-left-thumbnail.php">
                                                     <h6 class="name">Women Polyester Activewear</h6>
                                                 </a>
 
@@ -2259,7 +2257,7 @@
                             <div class="product-box-3 wow fadeInUp">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-2.html">
+                                        <a href="product-left-2.php">
                                             <img src="../assets/images/cake/product/11.png"
                                                 class="img-fluid blur-up lazyload" alt="">
                                         </a>
@@ -2273,13 +2271,13 @@
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
+                                                <a href="compare.php">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="wishlist.php" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -2290,7 +2288,7 @@
                                 <div class="product-footer">
                                     <div class="product-detail">
                                         <span class="span-name">Cake</span>
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <h5 class="name">Chocolate Chip Cookies 250 g</h5>
                                         </a>
                                         <div class="product-rating mt-2">
@@ -2346,7 +2344,7 @@
                             <div class="product-box-3 wow fadeInUp" data-wow-delay="0.05s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <img src="../assets/images/cake/product/2.png"
                                                 class="img-fluid blur-up lazyload" alt="">
                                         </a>
@@ -2360,13 +2358,13 @@
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
+                                                <a href="compare.php">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="wishlist.php" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -2376,7 +2374,7 @@
                                 <div class="product-footer">
                                     <div class="product-detail">
                                         <span class="span-name">Vegetable</span>
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <h5 class="name">Fresh Bread and Pastry Flour 200 g</h5>
                                         </a>
                                         <div class="product-rating mt-2">
@@ -2432,7 +2430,7 @@
                             <div class="product-box-3 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <img src="../assets/images/cake/product/3.png"
                                                 class="img-fluid blur-up lazyload" alt="">
                                         </a>
@@ -2446,13 +2444,13 @@
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
+                                                <a href="compare.php">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="wishlist.php" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -2463,7 +2461,7 @@
                                 <div class="product-footer">
                                     <div class="product-detail">
                                         <span class="span-name">Vegetable</span>
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <h5 class="name">Peanut Butter Bite Premium Butter Cookies 600 g</h5>
                                         </a>
                                         <div class="product-rating mt-2">
@@ -2519,7 +2517,7 @@
                             <div class="product-box-3 wow fadeInUp" data-wow-delay="0.15s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <img src="../assets/images/cake/product/4.png"
                                                 class="img-fluid blur-up lazyload" alt="">
                                         </a>
@@ -2533,13 +2531,13 @@
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
+                                                <a href="compare.php">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="wishlist.php" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -2550,7 +2548,7 @@
                                 <div class="product-footer">
                                     <div class="product-detail">
                                         <span class="span-name">Snacks</span>
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <h5 class="name">SnackAmor Combo Pack of Jowar Stick and Jowar Chips</h5>
                                         </a>
                                         <div class="product-rating mt-2">
@@ -2606,7 +2604,7 @@
                             <div class="product-box-3 wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <img src="../assets/images/cake/product/5.png"
                                                 class="img-fluid blur-up lazyload" alt="">
                                         </a>
@@ -2620,13 +2618,13 @@
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
+                                                <a href="compare.php">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="wishlist.php" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -2637,7 +2635,7 @@
                                 <div class="product-footer">
                                     <div class="product-detail">
                                         <span class="span-name">Snacks</span>
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <h5 class="name">Yumitos Chilli Sprinkled Potato Chips 100 g</h5>
                                         </a>
                                         <div class="product-rating mt-2">
@@ -2693,7 +2691,7 @@
                             <div class="product-box-3 wow fadeInUp" data-wow-delay="0.25s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <img src="../assets/images/cake/product/6.png"
                                                 class="img-fluid blur-up lazyload" alt="">
                                         </a>
@@ -2707,13 +2705,13 @@
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
+                                                <a href="compare.php">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="wishlist.php" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -2724,7 +2722,7 @@
                                 <div class="product-footer">
                                     <div class="product-detail">
                                         <span class="span-name">Vegetable</span>
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <h5 class="name">Fantasy Crunchy Choco Chip Cookies</h5>
                                         </a>
                                         <div class="product-rating mt-2">
@@ -2782,7 +2780,7 @@
                             <div class="product-box-3 wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="product-header">
                                     <div class="product-image">
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <img src="../assets/images/cake/product/7.png" class="img-fluid" alt="">
                                         </a>
 
@@ -2795,13 +2793,13 @@
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Compare">
-                                                <a href="compare.html">
+                                                <a href="compare.php">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
 
                                             <li data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist">
-                                                <a href="wishlist.html" class="notifi-wishlist">
+                                                <a href="wishlist.php" class="notifi-wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -2812,7 +2810,7 @@
                                 <div class="product-footer">
                                     <div class="product-detail">
                                         <span class="span-name">Vegetable</span>
-                                        <a href="product-left-thumbnail.html">
+                                        <a href="product-left-thumbnail.php">
                                             <h5 class="name">Fresh Bread and Pastry Flour 200 g</h5>
                                         </a>
                                         <div class="product-rating mt-2">
@@ -2928,7 +2926,7 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6">
                         <div class="footer-logo">
                             <div class="theme-logo">
-                                <a href="index.html">
+                                <a href="index.php">
                                     <img src="../assets/images/logo/1.png" class="blur-up lazyload" alt="">
                                 </a>
                             </div>
@@ -2959,22 +2957,22 @@
                         <div class="footer-contain">
                             <ul>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Vegetables & Fruit</a>
+                                    <a href="shop-left-sidebar.php" class="text-content">Vegetables & Fruit</a>
                                 </li>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Beverages</a>
+                                    <a href="shop-left-sidebar.php" class="text-content">Beverages</a>
                                 </li>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Meats & Seafood</a>
+                                    <a href="shop-left-sidebar.php" class="text-content">Meats & Seafood</a>
                                 </li>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Frozen Foods</a>
+                                    <a href="shop-left-sidebar.php" class="text-content">Frozen Foods</a>
                                 </li>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Biscuits & Snacks</a>
+                                    <a href="shop-left-sidebar.php" class="text-content">Biscuits & Snacks</a>
                                 </li>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Grocery & Staples</a>
+                                    <a href="shop-left-sidebar.php" class="text-content">Grocery & Staples</a>
                                 </li>
                             </ul>
                         </div>
@@ -2988,19 +2986,19 @@
                         <div class="footer-contain">
                             <ul>
                                 <li>
-                                    <a href="index.html" class="text-content">Home</a>
+                                    <a href="index.php" class="text-content">Home</a>
                                 </li>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Shop</a>
+                                    <a href="shop-left-sidebar.php" class="text-content">Shop</a>
                                 </li>
                                 <li>
-                                    <a href="about-us.html" class="text-content">About Us</a>
+                                    <a href="about-us.php" class="text-content">About Us</a>
                                 </li>
                                 <li>
-                                    <a href="blog-list.html" class="text-content">Blog</a>
+                                    <a href="blog-list.php" class="text-content">Blog</a>
                                 </li>
                                 <li>
-                                    <a href="contact-us.html" class="text-content">Contact Us</a>
+                                    <a href="contact-us.php" class="text-content">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -3014,22 +3012,22 @@
                         <div class="footer-contain">
                             <ul>
                                 <li>
-                                    <a href="order-success.html" class="text-content">Your Order</a>
+                                    <a href="order-success.php" class="text-content">Your Order</a>
                                 </li>
                                 <li>
-                                    <a href="user-dashboard.html" class="text-content">Your Account</a>
+                                    <a href="user-dashboard.php" class="text-content">Your Account</a>
                                 </li>
                                 <li>
-                                    <a href="order-tracking.html" class="text-content">Track Order</a>
+                                    <a href="order-tracking.php" class="text-content">Track Order</a>
                                 </li>
                                 <li>
-                                    <a href="wishlist.html" class="text-content">Your Wishlist</a>
+                                    <a href="wishlist.php" class="text-content">Your Wishlist</a>
                                 </li>
                                 <li>
-                                    <a href="search.html" class="text-content">Search</a>
+                                    <a href="search.php" class="text-content">Search</a>
                                 </li>
                                 <li>
-                                    <a href="faq.html" class="text-content">FAQ</a>
+                                    <a href="faq.php" class="text-content">FAQ</a>
                                 </li>
                             </ul>
                         </div>
@@ -3212,10 +3210,10 @@
                                 </div>
 
                                 <div class="modal-button">
-                                    <button onclick="location.href = 'cart.html';"
+                                    <button onclick="location.href = 'cart.php';"
                                         class="btn btn-md add-cart-button icon">Add
                                         To Cart</button>
-                                    <button onclick="location.href = 'product-left.html';"
+                                    <button onclick="location.href = 'product-left.php';"
                                         class="btn theme-bg-color view-button icon text-white fw-bold btn-md">
                                         View More Details</button>
                                 </div>
@@ -3346,12 +3344,12 @@
                         <ul class="deal-offer-list">
                             <li class="list-1">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/10.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -3360,12 +3358,12 @@
 
                             <li class="list-2">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/11.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -3374,12 +3372,12 @@
 
                             <li class="list-3">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/12.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -3388,12 +3386,12 @@
 
                             <li class="list-1">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/13.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -3511,9 +3509,9 @@
                             </div>
                         </div>
                         <div class="add-btn">
-                            <a class="btn theme-bg-color text-white wishlist-btn" href="wishlist.html"><i
+                            <a class="btn theme-bg-color text-white wishlist-btn" href="wishlist.php"><i
                                     class="fa fa-bookmark"></i> Wishlist</a>
-                            <a class="btn theme-bg-color text-white" href="cart.html"><i
+                            <a class="btn theme-bg-color text-white" href="cart.php"><i
                                     class="fas fa-shopping-cart"></i> Add To Cart</a>
                         </div>
                     </div>
@@ -3645,6 +3643,4 @@
     <script src="../assets/js/theme-setting.js"></script>
 </body>
 
-
-<!-- Mirrored from themes.pixelstrap.com/fastkart/front-end/product-rectangle.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 15:08:12 GMT -->
 </html>

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -58,7 +57,7 @@
     <div class="mobile-menu d-md-none d-block mobile-cart">
         <ul>
             <li class="active">
-                <a href="index.html">
+                <a href="index.php">
                     <i class="iconly-Home icli"></i>
                     <span>Home</span>
                 </a>
@@ -72,21 +71,21 @@
             </li>
 
             <li>
-                <a href="search.html" class="search-box">
+                <a href="search.php" class="search-box">
                     <i class="iconly-Search icli"></i>
                     <span>Search</span>
                 </a>
             </li>
 
             <li>
-                <a href="wishlist.html" class="notifi-wishlist">
+                <a href="wishlist.php" class="notifi-wishlist">
                     <i class="iconly-Heart icli"></i>
                     <span>My Wish</span>
                 </a>
             </li>
 
             <li>
-                <a href="cart.html">
+                <a href="cart.php">
                     <i class="iconly-Bag-2 icli fly-cate"></i>
                     <span>Cart</span>
                 </a>
@@ -115,7 +114,7 @@
                                     Vegetables contain many vitamins and minerals that are good
                                     for your health.
                                 </p>
-                                <button onclick="location.href = 'shop-left-sidebar.html';"
+                                <button onclick="location.href = 'shop-left-sidebar.php';"
                                     class="btn btn-animation mt-xxl-4 mt-2 home-button mend-auto">
                                     Shop Now <i class="fa-solid fa-right-long icon"></i>
                                 </button>
@@ -137,7 +136,7 @@
                                         </h2>
                                         <h3 class="theme-color">Nut Collection</h3>
                                         <p class="w-75">We deliver organic vegetables & fruits</p>
-                                        <a href="shop-left-sidebar.html" class="shop-button">Shop Now <i
+                                        <a href="shop-left-sidebar.php" class="shop-button">Shop Now <i
                                                 class="fa-solid fa-right-long"></i></a>
                                     </div>
                                 </div>
@@ -155,7 +154,7 @@
                                         <p class="organic">
                                             Start your daily shopping with some Organic food
                                         </p>
-                                        <a href="shop-left-sidebar.html" class="shop-button">Shop Now <i
+                                        <a href="shop-left-sidebar.php" class="shop-button">Shop Now <i
                                                 class="fa-solid fa-right-long"></i></a>
                                     </div>
                                 </div>
@@ -181,7 +180,7 @@
                                 <h5>Hot Deals on New Items</h5>
                                 <h6 class="text-content">Daily Essentials Eggs & Dairy</h6>
                             </div>
-                            <a href="shop-left-sidebar.html" class="banner-button text-white">Shop Now <i
+                            <a href="shop-left-sidebar.php" class="banner-button text-white">Shop Now <i
                                     class="fa-solid fa-right-long ms-2"></i></a>
                         </div>
                     </div>
@@ -196,7 +195,7 @@
                                 <h5>Buy More & Save More</h5>
                                 <h6 class="text-content">Fresh Vegetables</h6>
                             </div>
-                            <a href="shop-left-sidebar.html" class="banner-button text-white">Shop Now <i
+                            <a href="shop-left-sidebar.php" class="banner-button text-white">Shop Now <i
                                     class="fa-solid fa-right-long ms-2"></i></a>
                         </div>
                     </div>
@@ -211,7 +210,7 @@
                                 <h5>Organic Meat Prepared</h5>
                                 <h6 class="text-content">Delivered to Your Home</h6>
                             </div>
-                            <a href="shop-left-sidebar.html" class="banner-button text-white">Shop Now <i
+                            <a href="shop-left-sidebar.php" class="banner-button text-white">Shop Now <i
                                     class="fa-solid fa-right-long ms-2"></i></a>
                         </div>
                     </div>
@@ -226,7 +225,7 @@
                                 <h5>Buy More & Save More</h5>
                                 <h6 class="text-content">Nuts & Snacks</h6>
                             </div>
-                            <a href="shop-left-sidebar.html" class="banner-button text-white">Shop Now <i
+                            <a href="shop-left-sidebar.php" class="banner-button text-white">Shop Now <i
                                     class="fa-solid fa-right-long ms-2"></i></a>
                         </div>
                     </div>
@@ -250,7 +249,7 @@
                                         <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/vegetable.svg"
                                             class="blur-up lazyload" alt="" />
                                         <h5>
-                                            <a href="shop-left-sidebar.html">Vegetables & Fruit</a>
+                                            <a href="shop-left-sidebar.php">Vegetables & Fruit</a>
                                         </h5>
                                     </div>
                                 </li>
@@ -259,7 +258,7 @@
                                         <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/cup.svg"
                                             class="blur-up lazyload" alt="" />
                                         <h5>
-                                            <a href="shop-left-sidebar.html">Beverages</a>
+                                            <a href="shop-left-sidebar.php">Beverages</a>
                                         </h5>
                                     </div>
                                 </li>
@@ -268,7 +267,7 @@
                                         <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/meats.svg"
                                             class="blur-up lazyload" alt="" />
                                         <h5>
-                                            <a href="shop-left-sidebar.html">Meats & Seafood</a>
+                                            <a href="shop-left-sidebar.php">Meats & Seafood</a>
                                         </h5>
                                     </div>
                                 </li>
@@ -277,7 +276,7 @@
                                         <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/breakfast.svg"
                                             class="blur-up lazyload" alt="" />
                                         <h5>
-                                            <a href="shop-left-sidebar.html">Breakfast & Dairy</a>
+                                            <a href="shop-left-sidebar.php">Breakfast & Dairy</a>
                                         </h5>
                                     </div>
                                 </li>
@@ -286,7 +285,7 @@
                                         <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/frozen.svg"
                                             class="blur-up lazyload" alt="" />
                                         <h5>
-                                            <a href="shop-left-sidebar.html">Frozen Foods</a>
+                                            <a href="shop-left-sidebar.php">Frozen Foods</a>
                                         </h5>
                                     </div>
                                 </li>
@@ -295,7 +294,7 @@
                                         <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/biscuit.svg"
                                             class="blur-up lazyload" alt="" />
                                         <h5>
-                                            <a href="shop-left-sidebar.html">Biscuits & Snacks</a>
+                                            <a href="shop-left-sidebar.php">Biscuits & Snacks</a>
                                         </h5>
                                     </div>
                                 </li>
@@ -304,7 +303,7 @@
                                         <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/grocery.svg"
                                             class="blur-up lazyload" alt="" />
                                         <h5>
-                                            <a href="shop-left-sidebar.html">Grocery & Staples</a>
+                                            <a href="shop-left-sidebar.php">Grocery & Staples</a>
                                         </h5>
                                     </div>
                                 </li>
@@ -313,7 +312,7 @@
                                         <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/drink.svg"
                                             class="blur-up lazyload" alt="" />
                                         <h5>
-                                            <a href="shop-left-sidebar.html">Wines & Alcohol Drinks</a>
+                                            <a href="shop-left-sidebar.php">Wines & Alcohol Drinks</a>
                                         </h5>
                                     </div>
                                 </li>
@@ -322,7 +321,7 @@
                                         <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/milk.svg"
                                             class="blur-up lazyload" alt="" />
                                         <h5>
-                                            <a href="shop-left-sidebar.html">Milk & Dairies</a>
+                                            <a href="shop-left-sidebar.php">Milk & Dairies</a>
                                         </h5>
                                     </div>
                                 </li>
@@ -331,7 +330,7 @@
                                         <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/pet.svg"
                                             class="blur-up lazyload" alt="" />
                                         <h5>
-                                            <a href="shop-left-sidebar.html">Pet Foods</a>
+                                            <a href="shop-left-sidebar.php">Pet Foods</a>
                                         </h5>
                                     </div>
                                 </li>
@@ -341,21 +340,21 @@
                                 <li>
                                     <div class="category-list">
                                         <h5 class="ms-0 text-title">
-                                            <a href="shop-left-sidebar.html">Value of the Day</a>
+                                            <a href="shop-left-sidebar.php">Value of the Day</a>
                                         </h5>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="category-list">
                                         <h5 class="ms-0 text-title">
-                                            <a href="shop-left-sidebar.html">Top 50 Offers</a>
+                                            <a href="shop-left-sidebar.php">Top 50 Offers</a>
                                         </h5>
                                     </div>
                                 </li>
                                 <li class="mb-0">
                                     <div class="category-list">
                                         <h5 class="ms-0 text-title">
-                                            <a href="shop-left-sidebar.html">New Arrivals</a>
+                                            <a href="shop-left-sidebar.php">New Arrivals</a>
                                         </h5>
                                     </div>
                                 </li>
@@ -374,7 +373,7 @@
                                             Products
                                         </h3>
                                         <h3 class="fw-light">every hour</h3>
-                                        <button onclick="location.href = 'shop-left-sidebar.html';"
+                                        <button onclick="location.href = 'shop-left-sidebar.php';"
                                             class="btn btn-animation btn-md mend-auto">
                                             Shop Now <i class="fa-solid fa-arrow-right icon"></i>
                                         </button>
@@ -397,7 +396,7 @@
                                             Vegetables
                                         </h2>
                                         <p class="mb-3">Super Offer to 50% Off</p>
-                                        <button onclick="location.href = 'shop-left-sidebar.html';"
+                                        <button onclick="location.href = 'shop-left-sidebar.php';"
                                             class="btn btn-animation btn-md mend-auto">
                                             Shop Now <i class="fa-solid fa-arrow-right icon"></i>
                                         </button>
@@ -413,14 +412,14 @@
                                 <ul class="product-list border-0 p-0 d-block">
                                     <li>
                                         <div class="offer-product">
-                                            <a href="product-left-thumbnail.html" class="offer-image">
+                                            <a href="product-left-thumbnail.php" class="offer-image">
                                                 <img src="../assets/images/vegetable/product/23.png"
                                                     class="blur-up lazyload" alt="" />
                                             </a>
 
                                             <div class="offer-detail">
                                                 <div>
-                                                    <a href="product-left-thumbnail.html" class="text-title">
+                                                    <a href="product-left-thumbnail.php" class="text-title">
                                                         <h6 class="name">Meatigo Premium Goat Curry</h6>
                                                     </a>
                                                     <span>450 G</span>
@@ -432,14 +431,14 @@
 
                                     <li>
                                         <div class="offer-product">
-                                            <a href="product-left-thumbnail.html" class="offer-image">
+                                            <a href="product-left-thumbnail.php" class="offer-image">
                                                 <img src="../assets/images/vegetable/product/24.png"
                                                     class="blur-up lazyload" alt="" />
                                             </a>
 
                                             <div class="offer-detail">
                                                 <div>
-                                                    <a href="product-left-thumbnail.html" class="text-title">
+                                                    <a href="product-left-thumbnail.php" class="text-title">
                                                         <h6 class="name">
                                                             Dates Medjoul Premium Imported
                                                         </h6>
@@ -453,14 +452,14 @@
 
                                     <li>
                                         <div class="offer-product">
-                                            <a href="product-left-thumbnail.html" class="offer-image">
+                                            <a href="product-left-thumbnail.php" class="offer-image">
                                                 <img src="../assets/images/vegetable/product/25.png"
                                                     class="blur-up lazyload" alt="" />
                                             </a>
 
                                             <div class="offer-detail">
                                                 <div>
-                                                    <a href="product-left-thumbnail.html" class="text-title">
+                                                    <a href="product-left-thumbnail.php" class="text-title">
                                                         <h6 class="name">Good Life Walnut Kernels</h6>
                                                     </a>
                                                     <span>200 G</span>
@@ -472,14 +471,14 @@
 
                                     <li class="mb-0">
                                         <div class="offer-product">
-                                            <a href="product-left-thumbnail.html" class="offer-image">
+                                            <a href="product-left-thumbnail.php" class="offer-image">
                                                 <img src="../assets/images/vegetable/product/26.png"
                                                     class="blur-up lazyload" alt="" />
                                             </a>
 
                                             <div class="offer-detail">
                                                 <div>
-                                                    <a href="product-left-thumbnail.html" class="text-title">
+                                                    <a href="product-left-thumbnail.php" class="text-title">
                                                         <h6 class="name">Apple Red Premium Imported</h6>
                                                     </a>
                                                     <span>1 KG</span>
@@ -588,7 +587,7 @@
                                         <div class="col-12 px-0">
                                             <div class="product-box">
                                                 <div class="product-image">
-                                                    <a href="product-left-thumbnail.html">
+                                                    <a href="product-left-thumbnail.php">
                                                         <img src="../assets/images/vegetable/product/1.png"
                                                             class="img-fluid blur-up lazyload" alt="" />
                                                     </a>
@@ -603,21 +602,21 @@
 
                                                         <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                             title="Compare">
-                                                            <a href="compare.html">
+                                                            <a href="compare.php">
                                                                 <i data-feather="refresh-cw"></i>
                                                             </a>
                                                         </li>
 
                                                         <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                             title="Wishlist">
-                                                            <a href="wishlist.html" class="notifi-wishlist">
+                                                            <a href="wishlist.php" class="notifi-wishlist">
                                                                 <i data-feather="heart"></i>
                                                             </a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="product-detail">
-                                                    <a href="product-left-thumbnail.html">
+                                                    <a href="product-left-thumbnail.php">
                                                         <h6 class="name">
                                                             Fantasy Crunchy Choco Chip Cookies
                                                         </h6>
@@ -679,7 +678,7 @@
                                         <div class="col-12 px-0">
                                             <div class="product-box">
                                                 <div class="product-image">
-                                                    <a href="product-left-thumbnail.html">
+                                                    <a href="product-left-thumbnail.php">
                                                         <img src="../assets/images/vegetable/product/2.png"
                                                             class="img-fluid blur-up lazyload" alt="" />
                                                     </a>
@@ -694,21 +693,21 @@
 
                                                         <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                             title="Compare">
-                                                            <a href="compare.html">
+                                                            <a href="compare.php">
                                                                 <i data-feather="refresh-cw"></i>
                                                             </a>
                                                         </li>
 
                                                         <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                             title="Wishlist">
-                                                            <a href="wishlist.html" class="notifi-wishlist">
+                                                            <a href="wishlist.php" class="notifi-wishlist">
                                                                 <i data-feather="heart"></i>
                                                             </a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="product-detail">
-                                                    <a href="product-left-thumbnail.html">
+                                                    <a href="product-left-thumbnail.php">
                                                         <h6 class="name">
                                                             Cold Brew Coffee Instant Coffee 50 g
                                                         </h6>
@@ -774,7 +773,7 @@
                                         <div class="col-12 px-0">
                                             <div class="product-box">
                                                 <div class="product-image">
-                                                    <a href="product-left-thumbnail.html">
+                                                    <a href="product-left-thumbnail.php">
                                                         <img src="../assets/images/vegetable/product/3.png"
                                                             class="img-fluid blur-up lazyload" alt="" />
                                                     </a>
@@ -789,21 +788,21 @@
 
                                                         <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                             title="Compare">
-                                                            <a href="compare.html">
+                                                            <a href="compare.php">
                                                                 <i data-feather="refresh-cw"></i>
                                                             </a>
                                                         </li>
 
                                                         <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                             title="Wishlist">
-                                                            <a href="wishlist.html" class="notifi-wishlist">
+                                                            <a href="wishlist.php" class="notifi-wishlist">
                                                                 <i data-feather="heart"></i>
                                                             </a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="product-detail">
-                                                    <a href="product-left-thumbnail.html">
+                                                    <a href="product-left-thumbnail.php">
                                                         <h6 class="name">
                                                             Peanut Butter Bite Premium Butter Cookies 600 g
                                                         </h6>
@@ -868,7 +867,7 @@
                                                     <span>NEW</span>
                                                 </div>
                                                 <div class="product-image">
-                                                    <a href="product-left-thumbnail.html">
+                                                    <a href="product-left-thumbnail.php">
                                                         <img src="../assets/images/vegetable/product/4.png"
                                                             class="img-fluid blur-up lazyload" alt="" />
                                                     </a>
@@ -883,21 +882,21 @@
 
                                                         <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                             title="Compare">
-                                                            <a href="compare.html">
+                                                            <a href="compare.php">
                                                                 <i data-feather="refresh-cw"></i>
                                                             </a>
                                                         </li>
 
                                                         <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                             title="Wishlist">
-                                                            <a href="wishlist.html" class="notifi-wishlist">
+                                                            <a href="wishlist.php" class="notifi-wishlist">
                                                                 <i data-feather="heart"></i>
                                                             </a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="product-detail">
-                                                    <a href="product-left-thumbnail.html">
+                                                    <a href="product-left-thumbnail.php">
                                                         <h6 class="name">
                                                             SnackAmor Combo Pack of Jowar Stick and Jowar
                                                             Chips
@@ -964,7 +963,7 @@
                                         <div class="col-12 px-0">
                                             <div class="product-box">
                                                 <div class="product-image">
-                                                    <a href="product-left-thumbnail.html">
+                                                    <a href="product-left-thumbnail.php">
                                                         <img src="../assets/images/vegetable/product/5.png"
                                                             class="img-fluid blur-up lazyload" alt="" />
                                                     </a>
@@ -979,21 +978,21 @@
 
                                                         <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                             title="Compare">
-                                                            <a href="compare.html">
+                                                            <a href="compare.php">
                                                                 <i data-feather="refresh-cw"></i>
                                                             </a>
                                                         </li>
 
                                                         <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                             title="Wishlist">
-                                                            <a href="wishlist.html" class="notifi-wishlist">
+                                                            <a href="wishlist.php" class="notifi-wishlist">
                                                                 <i data-feather="heart"></i>
                                                             </a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="product-detail">
-                                                    <a href="product-left-thumbnail.html">
+                                                    <a href="product-left-thumbnail.php">
                                                         <h6 class="name">
                                                             Yumitos Chilli Sprinkled Potato Chips 100 g
                                                         </h6>
@@ -1055,7 +1054,7 @@
                                         <div class="col-12 px-0">
                                             <div class="product-box">
                                                 <div class="product-image">
-                                                    <a href="product-left-thumbnail.html">
+                                                    <a href="product-left-thumbnail.php">
                                                         <img src="../assets/images/vegetable/product/6.png"
                                                             class="img-fluid blur-up lazyload" alt="" />
                                                     </a>
@@ -1070,21 +1069,21 @@
 
                                                         <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                             title="Compare">
-                                                            <a href="compare.html">
+                                                            <a href="compare.php">
                                                                 <i data-feather="refresh-cw"></i>
                                                             </a>
                                                         </li>
 
                                                         <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                             title="Wishlist">
-                                                            <a href="wishlist.html" class="notifi-wishlist">
+                                                            <a href="wishlist.php" class="notifi-wishlist">
                                                                 <i data-feather="heart"></i>
                                                             </a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="product-detail">
-                                                    <a href="product-left-thumbnail.html">
+                                                    <a href="product-left-thumbnail.php">
                                                         <h6 class="name">
                                                             Neu Farm Unpolished Desi Toor Dal 1 kg
                                                         </h6>
@@ -1153,7 +1152,7 @@
                                                     <span>NEW</span>
                                                 </div>
                                                 <div class="product-image">
-                                                    <a href="product-left-thumbnail.html">
+                                                    <a href="product-left-thumbnail.php">
                                                         <img src="../assets/images/vegetable/product/7.png"
                                                             class="img-fluid blur-up lazyload" alt="" />
                                                     </a>
@@ -1168,21 +1167,21 @@
 
                                                         <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                             title="Compare">
-                                                            <a href="compare.html">
+                                                            <a href="compare.php">
                                                                 <i data-feather="refresh-cw"></i>
                                                             </a>
                                                         </li>
 
                                                         <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                             title="Wishlist">
-                                                            <a href="wishlist.html" class="notifi-wishlist">
+                                                            <a href="wishlist.php" class="notifi-wishlist">
                                                                 <i data-feather="heart"></i>
                                                             </a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="product-detail">
-                                                    <a href="product-left-thumbnail.html">
+                                                    <a href="product-left-thumbnail.php">
                                                         <h6 class="name">
                                                             healthy Long Life Toned Milk 1 L
                                                         </h6>
@@ -1244,7 +1243,7 @@
                                         <div class="col-12 px-0">
                                             <div class="product-box">
                                                 <div class="product-image">
-                                                    <a href="product-left-thumbnail.html">
+                                                    <a href="product-left-thumbnail.php">
                                                         <img src="../assets/images/vegetable/product/8.png"
                                                             class="img-fluid blur-up lazyload" alt="" />
                                                     </a>
@@ -1259,21 +1258,21 @@
 
                                                         <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                             title="Compare">
-                                                            <a href="compare.html">
+                                                            <a href="compare.php">
                                                                 <i data-feather="refresh-cw"></i>
                                                             </a>
                                                         </li>
 
                                                         <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                             title="Wishlist">
-                                                            <a href="wishlist.html" class="notifi-wishlist">
+                                                            <a href="wishlist.php" class="notifi-wishlist">
                                                                 <i data-feather="heart"></i>
                                                             </a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="product-detail">
-                                                    <a href="product-left-thumbnail.html">
+                                                    <a href="product-left-thumbnail.php">
                                                         <h6 class="name">
                                                             Dog Treats Natural Yak Milk Bars For Small Dogs
                                                             100g
@@ -1340,7 +1339,7 @@
                                         <div class="col-12 px-0">
                                             <div class="product-box">
                                                 <div class="product-image">
-                                                    <a href="product-left-thumbnail.html">
+                                                    <a href="product-left-thumbnail.php">
                                                         <img src="../assets/images/vegetable/product/9.png"
                                                             class="img-fluid blur-up lazyload" alt="" />
                                                     </a>
@@ -1355,21 +1354,21 @@
 
                                                         <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                             title="Compare">
-                                                            <a href="compare.html">
+                                                            <a href="compare.php">
                                                                 <i data-feather="refresh-cw"></i>
                                                             </a>
                                                         </li>
 
                                                         <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                             title="Wishlist">
-                                                            <a href="wishlist.html" class="notifi-wishlist">
+                                                            <a href="wishlist.php" class="notifi-wishlist">
                                                                 <i data-feather="heart"></i>
                                                             </a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="product-detail">
-                                                    <a href="product-left-thumbnail.html">
+                                                    <a href="product-left-thumbnail.php">
                                                         <h6 class="name">
                                                             Raw Mutton Leg, Packaging 5 Kg
                                                         </h6>
@@ -1431,7 +1430,7 @@
                                         <div class="col-12 px-0">
                                             <div class="product-box">
                                                 <div class="product-image">
-                                                    <a href="product-left-thumbnail.html">
+                                                    <a href="product-left-thumbnail.php">
                                                         <img src="../assets/images/vegetable/product/10.png"
                                                             class="img-fluid blur-up lazyload" alt="" />
                                                     </a>
@@ -1446,21 +1445,21 @@
 
                                                         <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                             title="Compare">
-                                                            <a href="compare.html">
+                                                            <a href="compare.php">
                                                                 <i data-feather="refresh-cw"></i>
                                                             </a>
                                                         </li>
 
                                                         <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                             title="Wishlist">
-                                                            <a href="wishlist.html" class="notifi-wishlist">
+                                                            <a href="wishlist.php" class="notifi-wishlist">
                                                                 <i data-feather="heart"></i>
                                                             </a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="product-detail">
-                                                    <a href="product-left-thumbnail.html">
+                                                    <a href="product-left-thumbnail.php">
                                                         <h6 class="name">
                                                             Blended Instant Coffee 50 g Buy 1 Get 1 Free
                                                         </h6>
@@ -1526,7 +1525,7 @@
                                         <div class="col-12 px-0">
                                             <div class="product-box">
                                                 <div class="product-image">
-                                                    <a href="product-left-thumbnail.html">
+                                                    <a href="product-left-thumbnail.php">
                                                         <img src="../assets/images/vegetable/product/3.png"
                                                             class="img-fluid blur-up lazyload" alt="" />
                                                     </a>
@@ -1541,21 +1540,21 @@
 
                                                         <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                             title="Compare">
-                                                            <a href="compare.html">
+                                                            <a href="compare.php">
                                                                 <i data-feather="refresh-cw"></i>
                                                             </a>
                                                         </li>
 
                                                         <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                             title="Wishlist">
-                                                            <a href="wishlist.html" class="notifi-wishlist">
+                                                            <a href="wishlist.php" class="notifi-wishlist">
                                                                 <i data-feather="heart"></i>
                                                             </a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="product-detail">
-                                                    <a href="product-left-thumbnail.html">
+                                                    <a href="product-left-thumbnail.php">
                                                         <h6 class="name">
                                                             Peanut Butter Bite Premium Butter Cookies 600 g
                                                         </h6>
@@ -1617,7 +1616,7 @@
                                         <div class="col-12 px-0">
                                             <div class="product-box">
                                                 <div class="product-image">
-                                                    <a href="product-left-thumbnail.html">
+                                                    <a href="product-left-thumbnail.php">
                                                         <img src="../assets/images/vegetable/product/5.png"
                                                             class="img-fluid blur-up lazyload" alt="" />
                                                     </a>
@@ -1632,21 +1631,21 @@
 
                                                         <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                             title="Compare">
-                                                            <a href="compare.html">
+                                                            <a href="compare.php">
                                                                 <i data-feather="refresh-cw"></i>
                                                             </a>
                                                         </li>
 
                                                         <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                             title="Wishlist">
-                                                            <a href="wishlist.html" class="notifi-wishlist">
+                                                            <a href="wishlist.php" class="notifi-wishlist">
                                                                 <i data-feather="heart"></i>
                                                             </a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="product-detail">
-                                                    <a href="product-left-thumbnail.html">
+                                                    <a href="product-left-thumbnail.php">
                                                         <h6 class="name">
                                                             Yumitos Chilli Sprinkled Potato Chips 100 g
                                                         </h6>
@@ -1722,7 +1721,7 @@
 
                     <div class="category-slider-2 product-wrapper no-arrow">
                         <div>
-                            <a href="shop-left-sidebar.html" class="category-box category-dark">
+                            <a href="shop-left-sidebar.php" class="category-box category-dark">
                                 <div>
                                     <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/vegetable.svg"
                                         class="blur-up lazyload" alt="" />
@@ -1732,7 +1731,7 @@
                         </div>
 
                         <div>
-                            <a href="shop-left-sidebar.html" class="category-box category-dark">
+                            <a href="shop-left-sidebar.php" class="category-box category-dark">
                                 <div>
                                     <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/cup.svg"
                                         class="blur-up lazyload" alt="" />
@@ -1742,7 +1741,7 @@
                         </div>
 
                         <div>
-                            <a href="shop-left-sidebar.html" class="category-box category-dark">
+                            <a href="shop-left-sidebar.php" class="category-box category-dark">
                                 <div>
                                     <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/meats.svg"
                                         class="blur-up lazyload" alt="" />
@@ -1752,7 +1751,7 @@
                         </div>
 
                         <div>
-                            <a href="shop-left-sidebar.html" class="category-box category-dark">
+                            <a href="shop-left-sidebar.php" class="category-box category-dark">
                                 <div>
                                     <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/breakfast.svg"
                                         class="blur-up lazyload" alt="" />
@@ -1762,7 +1761,7 @@
                         </div>
 
                         <div>
-                            <a href="shop-left-sidebar.html" class="category-box category-dark">
+                            <a href="shop-left-sidebar.php" class="category-box category-dark">
                                 <div>
                                     <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/frozen.svg"
                                         class="blur-up lazyload" alt="" />
@@ -1772,7 +1771,7 @@
                         </div>
 
                         <div>
-                            <a href="shop-left-sidebar.html" class="category-box category-dark">
+                            <a href="shop-left-sidebar.php" class="category-box category-dark">
                                 <div>
                                     <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/milk.svg"
                                         class="blur-up lazyload" alt="" />
@@ -1782,7 +1781,7 @@
                         </div>
 
                         <div>
-                            <a href="shop-left-sidebar.html" class="category-box category-dark">
+                            <a href="shop-left-sidebar.php" class="category-box category-dark">
                                 <div>
                                     <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/pet.svg"
                                         class="blur-up lazyload" alt="" />
@@ -1804,7 +1803,7 @@
                                             <h4 class="text-russo fw-normal theme-color mb-2">
                                                 Testy Mushrooms
                                             </h4>
-                                            <button onclick="location.href = 'shop-left-sidebar.html';"
+                                            <button onclick="location.href = 'shop-left-sidebar.php';"
                                                 class="btn btn-animation btn-sm mend-auto">
                                                 Shop Now <i class="fa-solid fa-arrow-right icon"></i>
                                             </button>
@@ -1822,7 +1821,7 @@
                                             <h4 class="text-russo fw-normal theme-color mb-2">
                                                 Fresh MEAT
                                             </h4>
-                                            <button onclick="location.href = 'shop-left-sidebar.html';"
+                                            <button onclick="location.href = 'shop-left-sidebar.php';"
                                                 class="btn btn-animation btn-sm mend-auto">
                                                 Shop Now <i class="fa-solid fa-arrow-right icon"></i>
                                             </button>
@@ -1850,7 +1849,7 @@
                                     <div class="col-12 px-0">
                                         <div class="product-box">
                                             <div class="product-image">
-                                                <a href="product-left-thumbnail.html">
+                                                <a href="product-left-thumbnail.php">
                                                     <img src="../assets/images/vegetable/product/1.png"
                                                         class="img-fluid blur-up lazyload" alt="" />
                                                 </a>
@@ -1864,21 +1863,21 @@
 
                                                     <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                         title="Compare">
-                                                        <a href="compare.html">
+                                                        <a href="compare.php">
                                                             <i data-feather="refresh-cw"></i>
                                                         </a>
                                                     </li>
 
                                                     <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                         title="Wishlist">
-                                                        <a href="wishlist.html" class="notifi-wishlist">
+                                                        <a href="wishlist.php" class="notifi-wishlist">
                                                             <i data-feather="heart"></i>
                                                         </a>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div class="product-detail">
-                                                <a href="product-left-thumbnail.html">
+                                                <a href="product-left-thumbnail.php">
                                                     <h6 class="name h-100">Chocolate Powder</h6>
                                                 </a>
 
@@ -1942,7 +1941,7 @@
                                     <div class="col-12 px-0">
                                         <div class="product-box">
                                             <div class="product-image">
-                                                <a href="product-left-thumbnail.html">
+                                                <a href="product-left-thumbnail.php">
                                                     <img src="../assets/images/vegetable/product/2.png"
                                                         class="img-fluid blur-up lazyload" alt="" />
                                                 </a>
@@ -1956,21 +1955,21 @@
 
                                                     <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                         title="Compare">
-                                                        <a href="compare.html">
+                                                        <a href="compare.php">
                                                             <i data-feather="refresh-cw"></i>
                                                         </a>
                                                     </li>
 
                                                     <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                         title="Wishlist">
-                                                        <a href="wishlist.html" class="notifi-wishlist">
+                                                        <a href="wishlist.php" class="notifi-wishlist">
                                                             <i data-feather="heart"></i>
                                                         </a>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div class="product-detail">
-                                                <a href="product-left-thumbnail.html">
+                                                <a href="product-left-thumbnail.php">
                                                     <h6 class="name h-100">Sandwich Cookies</h6>
                                                 </a>
 
@@ -2034,7 +2033,7 @@
                                     <div class="col-12 px-0">
                                         <div class="product-box">
                                             <div class="product-image">
-                                                <a href="product-left-thumbnail.html">
+                                                <a href="product-left-thumbnail.php">
                                                     <img src="../assets/images/vegetable/product/3.png"
                                                         class="img-fluid blur-up lazyload" alt="" />
                                                 </a>
@@ -2048,21 +2047,21 @@
 
                                                     <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                         title="Compare">
-                                                        <a href="compare.html">
+                                                        <a href="compare.php">
                                                             <i data-feather="refresh-cw"></i>
                                                         </a>
                                                     </li>
 
                                                     <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                         title="Wishlist">
-                                                        <a href="wishlist.html" class="notifi-wishlist">
+                                                        <a href="wishlist.php" class="notifi-wishlist">
                                                             <i data-feather="heart"></i>
                                                         </a>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div class="product-detail">
-                                                <a href="product-left-thumbnail.html">
+                                                <a href="product-left-thumbnail.php">
                                                     <h6 class="name h-100">Butter Croissant</h6>
                                                 </a>
 
@@ -2126,7 +2125,7 @@
                                     <div class="col-12 px-0">
                                         <div class="product-box">
                                             <div class="product-image">
-                                                <a href="product-left-thumbnail.html">
+                                                <a href="product-left-thumbnail.php">
                                                     <img src="../assets/images/vegetable/product/4.png"
                                                         class="img-fluid blur-up lazyload" alt="" />
                                                 </a>
@@ -2140,21 +2139,21 @@
 
                                                     <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                         title="Compare">
-                                                        <a href="compare.html">
+                                                        <a href="compare.php">
                                                             <i data-feather="refresh-cw"></i>
                                                         </a>
                                                     </li>
 
                                                     <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                         title="Wishlist">
-                                                        <a href="wishlist.html" class="notifi-wishlist">
+                                                        <a href="wishlist.php" class="notifi-wishlist">
                                                             <i data-feather="heart"></i>
                                                         </a>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div class="product-detail">
-                                                <a href="product-left-thumbnail.html">
+                                                <a href="product-left-thumbnail.php">
                                                     <h6 class="name h-100">Dark Chocolate</h6>
                                                 </a>
 
@@ -2218,7 +2217,7 @@
                                     <div class="col-12 px-0">
                                         <div class="product-box">
                                             <div class="product-image">
-                                                <a href="product-left-thumbnail.html">
+                                                <a href="product-left-thumbnail.php">
                                                     <img src="../assets/images/vegetable/product/5.png"
                                                         class="img-fluid blur-up lazyload" alt="" />
                                                 </a>
@@ -2232,21 +2231,21 @@
 
                                                     <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                         title="Compare">
-                                                        <a href="compare.html">
+                                                        <a href="compare.php">
                                                             <i data-feather="refresh-cw"></i>
                                                         </a>
                                                     </li>
 
                                                     <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                         title="Wishlist">
-                                                        <a href="wishlist.html" class="notifi-wishlist">
+                                                        <a href="wishlist.php" class="notifi-wishlist">
                                                             <i data-feather="heart"></i>
                                                         </a>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div class="product-detail">
-                                                <a href="product-left-thumbnail.html">
+                                                <a href="product-left-thumbnail.php">
                                                     <h6 class="name h-100">Mix-sweet-food</h6>
                                                 </a>
 
@@ -2310,7 +2309,7 @@
                                     <div class="col-12 px-0">
                                         <div class="product-box">
                                             <div class="product-image">
-                                                <a href="product-left-thumbnail.html">
+                                                <a href="product-left-thumbnail.php">
                                                     <img src="../assets/images/vegetable/product/4.png"
                                                         class="img-fluid blur-up lazyload" alt="" />
                                                 </a>
@@ -2324,21 +2323,21 @@
 
                                                     <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                         title="Compare">
-                                                        <a href="compare.html">
+                                                        <a href="compare.php">
                                                             <i data-feather="refresh-cw"></i>
                                                         </a>
                                                     </li>
 
                                                     <li data-bs-toggle="tooltip" data-bs-placement="top"
                                                         title="Wishlist">
-                                                        <a href="wishlist.html" class="notifi-wishlist">
+                                                        <a href="wishlist.php" class="notifi-wishlist">
                                                             <i data-feather="heart"></i>
                                                         </a>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div class="product-detail">
-                                                <a href="product-left-thumbnail.html">
+                                                <a href="product-left-thumbnail.php">
                                                     <h6 class="name h-100">Dark Chocolate</h6>
                                                 </a>
 
@@ -2430,7 +2429,7 @@
                                                 In publishing and graphic design, Lorem ipsum is a
                                                 placeholder text commonly used to demonstrate.
                                             </p>
-                                            <button onclick="location.href = 'shop-left-sidebar.html';"
+                                            <button onclick="location.href = 'shop-left-sidebar.php';"
                                                 class="btn btn-animation btn-sm mend-auto">
                                                 Shop Now <i class="fa-solid fa-arrow-right icon"></i>
                                             </button>
@@ -2440,7 +2439,7 @@
                             </div>
 
                             <div class="col-xxl-4 col-xl-12 col-md-5">
-                                <a href="shop-left-sidebar.html" class="banner-contain hover-effect h-100">
+                                <a href="shop-left-sidebar.php" class="banner-contain hover-effect h-100">
                                     <img src="../assets/images/vegetable/banner/13.jpg" class="bg-img blur-up lazyload"
                                         alt="" />
                                     <div class="banner-details p-center-left p-4 h-100">
@@ -2477,14 +2476,14 @@
                             <ul class="product-list">
                                 <li>
                                     <div class="offer-product">
-                                        <a href="product-left-thumbnail.html" class="offer-image">
+                                        <a href="product-left-thumbnail.php" class="offer-image">
                                             <img src="../assets/images/vegetable/product/11.png"
                                                 class="blur-up lazyload" alt="" />
                                         </a>
 
                                         <div class="offer-detail">
                                             <div>
-                                                <a href="product-left-thumbnail.html" class="text-title">
+                                                <a href="product-left-thumbnail.php" class="text-title">
                                                     <h6 class="name">Tuffets Whole Wheat Bread</h6>
                                                 </a>
                                                 <span>500 G</span>
@@ -2496,14 +2495,14 @@
 
                                 <li>
                                     <div class="offer-product">
-                                        <a href="product-left-thumbnail.html" class="offer-image">
+                                        <a href="product-left-thumbnail.php" class="offer-image">
                                             <img src="../assets/images/vegetable/product/12.png"
                                                 class="blur-up lazyload" alt="" />
                                         </a>
 
                                         <div class="offer-detail">
                                             <div>
-                                                <a href="product-left-thumbnail.html" class="text-title">
+                                                <a href="product-left-thumbnail.php" class="text-title">
                                                     <h6 class="name">Potato</h6>
                                                 </a>
                                                 <span>500 G</span>
@@ -2515,14 +2514,14 @@
 
                                 <li>
                                     <div class="offer-product">
-                                        <a href="product-left-thumbnail.html" class="offer-image">
+                                        <a href="product-left-thumbnail.php" class="offer-image">
                                             <img src="../assets/images/vegetable/product/13.png"
                                                 class="blur-up lazyload" alt="" />
                                         </a>
 
                                         <div class="offer-detail">
                                             <div>
-                                                <a href="product-left-thumbnail.html" class="text-title">
+                                                <a href="product-left-thumbnail.php" class="text-title">
                                                     <h6 class="name">Green Chilli</h6>
                                                 </a>
                                                 <span>200 G</span>
@@ -2534,14 +2533,14 @@
 
                                 <li>
                                     <div class="offer-product">
-                                        <a href="product-left-thumbnail.html" class="offer-image">
+                                        <a href="product-left-thumbnail.php" class="offer-image">
                                             <img src="../assets/images/vegetable/product/14.png"
                                                 class="blur-up lazyload" alt="" />
                                         </a>
 
                                         <div class="offer-detail">
                                             <div>
-                                                <a href="product-left-thumbnail.html" class="text-title">
+                                                <a href="product-left-thumbnail.php" class="text-title">
                                                     <h6 class="name">Muffets Burger Bun</h6>
                                                 </a>
                                                 <span>150 G</span>
@@ -2557,14 +2556,14 @@
                             <ul class="product-list">
                                 <li>
                                     <div class="offer-product">
-                                        <a href="product-left-thumbnail.html" class="offer-image">
+                                        <a href="product-left-thumbnail.php" class="offer-image">
                                             <img src="../assets/images/vegetable/product/15.png"
                                                 class="blur-up lazyload" alt="" />
                                         </a>
 
                                         <div class="offer-detail">
                                             <div>
-                                                <a href="product-left-thumbnail.html" class="text-title">
+                                                <a href="product-left-thumbnail.php" class="text-title">
                                                     <h6 class="name">Tuffets Britannia Cheezza</h6>
                                                 </a>
                                                 <span>500 G</span>
@@ -2576,14 +2575,14 @@
 
                                 <li>
                                     <div class="offer-product">
-                                        <a href="product-left-thumbnail.html" class="offer-image">
+                                        <a href="product-left-thumbnail.php" class="offer-image">
                                             <img src="../assets/images/vegetable/product/16.png"
                                                 class="blur-up lazyload" alt="" />
                                         </a>
 
                                         <div class="offer-detail">
                                             <div>
-                                                <a href="product-left-thumbnail.html" class="text-title">
+                                                <a href="product-left-thumbnail.php" class="text-title">
                                                     <h6 class="name">Long Life Toned Milk</h6>
                                                 </a>
                                                 <span>1 L</span>
@@ -2595,14 +2594,14 @@
 
                                 <li>
                                     <div class="offer-product">
-                                        <a href="product-left-thumbnail.html" class="offer-image">
+                                        <a href="product-left-thumbnail.php" class="offer-image">
                                             <img src="../assets/images/vegetable/product/17.png"
                                                 class="blur-up lazyload" alt="" />
                                         </a>
 
                                         <div class="offer-detail">
                                             <div>
-                                                <a href="product-left-thumbnail.html" class="text-title">
+                                                <a href="product-left-thumbnail.php" class="text-title">
                                                     <h6 class="name">Organic Tomato</h6>
                                                 </a>
                                                 <span>1 KG</span>
@@ -2614,14 +2613,14 @@
 
                                 <li>
                                     <div class="offer-product">
-                                        <a href="product-left-thumbnail.html" class="offer-image">
+                                        <a href="product-left-thumbnail.php" class="offer-image">
                                             <img src="../assets/images/vegetable/product/18.png"
                                                 class="blur-up lazyload" alt="" />
                                         </a>
 
                                         <div class="offer-detail">
                                             <div>
-                                                <a href="product-left-thumbnail.html" class="text-title">
+                                                <a href="product-left-thumbnail.php" class="text-title">
                                                     <h6 class="name">Organic Jam</h6>
                                                 </a>
                                                 <span>150 G</span>
@@ -2637,14 +2636,14 @@
                             <ul class="product-list">
                                 <li>
                                     <div class="offer-product">
-                                        <a href="product-left-thumbnail.html" class="offer-image">
+                                        <a href="product-left-thumbnail.php" class="offer-image">
                                             <img src="../assets/images/vegetable/product/19.png"
                                                 class="blur-up lazyload" alt="" />
                                         </a>
 
                                         <div class="offer-detail">
                                             <div>
-                                                <a href="product-left-thumbnail.html" class="text-title">
+                                                <a href="product-left-thumbnail.php" class="text-title">
                                                     <h6 class="name">
                                                         Good Life Refined Sunflower Oil
                                                     </h6>
@@ -2658,14 +2657,14 @@
 
                                 <li>
                                     <div class="offer-product">
-                                        <a href="product-left-thumbnail.html" class="offer-image">
+                                        <a href="product-left-thumbnail.php" class="offer-image">
                                             <img src="../assets/images/vegetable/product/20.png"
                                                 class="blur-up lazyload" alt="" />
                                         </a>
 
                                         <div class="offer-detail">
                                             <div>
-                                                <a href="product-left-thumbnail.html" class="text-title">
+                                                <a href="product-left-thumbnail.php" class="text-title">
                                                     <h6 class="name">Good Life Raw Peanuts</h6>
                                                 </a>
                                                 <span>500 G</span>
@@ -2677,14 +2676,14 @@
 
                                 <li>
                                     <div class="offer-product">
-                                        <a href="product-left-thumbnail.html" class="offer-image">
+                                        <a href="product-left-thumbnail.php" class="offer-image">
                                             <img src="../assets/images/vegetable/product/21.png"
                                                 class="blur-up lazyload" alt="" />
                                         </a>
 
                                         <div class="offer-detail">
                                             <div>
-                                                <a href="product-left-thumbnail.html" class="text-title">
+                                                <a href="product-left-thumbnail.php" class="text-title">
                                                     <h6 class="name">TufBest Farms Mong Dal</h6>
                                                 </a>
                                                 <span>1 KG</span>
@@ -2696,14 +2695,14 @@
 
                                 <li>
                                     <div class="offer-product">
-                                        <a href="product-left-thumbnail.html" class="offer-image">
+                                        <a href="product-left-thumbnail.php" class="offer-image">
                                             <img src="../assets/images/vegetable/product/22.png"
                                                 class="blur-up lazyload" alt="" />
                                         </a>
 
                                         <div class="offer-detail">
                                             <div>
-                                                <a href="product-left-thumbnail.html" class="text-title">
+                                                <a href="product-left-thumbnail.php" class="text-title">
                                                     <h6 class="name">Frooti Mango Drink</h6>
                                                 </a>
                                                 <span>160 ML</span>
@@ -2727,7 +2726,7 @@
                                     <h5 class="lh-sm mx-auto mt-1 text-content">
                                         Save up to 5% OFF
                                     </h5>
-                                    <button onclick="location.href = 'shop-left-sidebar.html';"
+                                    <button onclick="location.href = 'shop-left-sidebar.php';"
                                         class="btn btn-animation btn-sm mx-auto mt-sm-3 mt-2">
                                         Shop Now <i class="fa-solid fa-arrow-right icon"></i>
                                     </button>
@@ -2750,13 +2749,13 @@
                         <div>
                             <div class="blog-box">
                                 <div class="blog-box-image">
-                                    <a href="blog-detail.html" class="blog-image">
+                                    <a href="blog-detail.php" class="blog-image">
                                         <img src="../assets/images/vegetable/blog/1.jpg" class="bg-img blur-up lazyload"
                                             alt="" />
                                     </a>
                                 </div>
 
-                                <a href="blog-detail.html" class="blog-detail">
+                                <a href="blog-detail.php" class="blog-detail">
                                     <h6>20 March, 2022</h6>
                                     <h5>Fresh Vegetable Online</h5>
                                 </a>
@@ -2766,13 +2765,13 @@
                         <div>
                             <div class="blog-box">
                                 <div class="blog-box-image">
-                                    <a href="blog-detail.html" class="blog-image">
+                                    <a href="blog-detail.php" class="blog-image">
                                         <img src="../assets/images/vegetable/blog/2.jpg" class="bg-img blur-up lazyload"
                                             alt="" />
                                     </a>
                                 </div>
 
-                                <a href="blog-detail.html" class="blog-detail">
+                                <a href="blog-detail.php" class="blog-detail">
                                     <h6>10 April, 2022</h6>
                                     <h5>Fresh Combo Fruit</h5>
                                 </a>
@@ -2782,13 +2781,13 @@
                         <div>
                             <div class="blog-box">
                                 <div class="blog-box-image">
-                                    <a href="blog-detail.html" class="blog-image">
+                                    <a href="blog-detail.php" class="blog-image">
                                         <img src="../assets/images/vegetable/blog/3.jpg" class="bg-img blur-up lazyload"
                                             alt="" />
                                     </a>
                                 </div>
 
-                                <a href="blog-detail.html" class="blog-detail">
+                                <a href="blog-detail.php" class="blog-detail">
                                     <h6>10 April, 2022</h6>
                                     <h5>Nuts to Eat for Better Health</h5>
                                 </a>
@@ -2798,13 +2797,13 @@
                         <div>
                             <div class="blog-box">
                                 <div class="blog-box-image">
-                                    <a href="blog-detail.html" class="blog-image">
+                                    <a href="blog-detail.php" class="blog-image">
                                         <img src="../assets/images/vegetable/blog/1.jpg" class="bg-img blur-up lazyload"
                                             alt="" />
                                     </a>
                                 </div>
 
-                                <a href="blog-detail.html" class="blog-detail">
+                                <a href="blog-detail.php" class="blog-detail">
                                     <h6>20 March, 2022</h6>
                                     <h5>Fresh Vegetable Online</h5>
                                 </a>
@@ -2945,11 +2944,11 @@
                                 </div>
 
                                 <div class="modal-button">
-                                    <button onclick="location.href = 'cart.html';"
+                                    <button onclick="location.href = 'cart.php';"
                                         class="btn btn-md add-cart-button icon">
                                         Add To Cart
                                     </button>
-                                    <button onclick="location.href = 'product-left.html';"
+                                    <button onclick="location.href = 'product-left.php';"
                                         class="btn theme-bg-color view-button icon text-white fw-bold btn-md">
                                         View More Details
                                     </button>
@@ -3107,12 +3106,12 @@
                         <ul class="deal-offer-list">
                             <li class="list-1">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/10.png" class="blur-up lazyload"
                                             alt="" />
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -3121,12 +3120,12 @@
 
                             <li class="list-2">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/11.png" class="blur-up lazyload"
                                             alt="" />
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -3135,12 +3134,12 @@
 
                             <li class="list-3">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/12.png" class="blur-up lazyload"
                                             alt="" />
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -3149,12 +3148,12 @@
 
                             <li class="list-1">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/13.png" class="blur-up lazyload"
                                             alt="" />
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -3277,19 +3276,4 @@
     <script src="../assets/js/theme-setting.js"></script>
 </body>
 
-=======
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <!-- HEADER -->
-    <?php include "header.php"; ?>
-
-
-    <!-- FOOTER -->
-    <?php include "footer.php"; ?>
-</body>
->>>>>>> 12b5c8393be68b749a34095321cf37db07d99198
 </html>

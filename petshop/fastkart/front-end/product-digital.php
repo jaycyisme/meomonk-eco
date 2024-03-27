@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from themes.pixelstrap.com/fastkart/front-end/product-digital.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 15:08:10 GMT -->
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,7 +54,7 @@
     <div class="mobile-menu d-md-none d-block mobile-cart">
         <ul>
             <li class="active">
-                <a href="index.html">
+                <a href="index.php">
                     <i class="iconly-Home icli"></i>
                     <span>Home</span>
                 </a>
@@ -70,21 +68,21 @@
             </li>
 
             <li>
-                <a href="search.html" class="search-box">
+                <a href="search.php" class="search-box">
                     <i class="iconly-Search icli"></i>
                     <span>Search</span>
                 </a>
             </li>
 
             <li>
-                <a href="wishlist.html" class="notifi-wishlist">
+                <a href="wishlist.php" class="notifi-wishlist">
                     <i class="iconly-Heart icli"></i>
                     <span>My Wish</span>
                 </a>
             </li>
 
             <li>
-                <a href="cart.html">
+                <a href="cart.php">
                     <i class="iconly-Bag-2 icli fly-cate"></i>
                     <span>Cart</span>
                 </a>
@@ -103,7 +101,7 @@
                         <nav>
                             <ol class="breadcrumb mb-0">
                                 <li class="breadcrumb-item">
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <i class="fa-solid fa-house"></i>
                                     </a>
                                 </li>
@@ -862,12 +860,12 @@
                             </div>
 
                             <div class="buy-box">
-                                <a href="wishlist.html">
+                                <a href="wishlist.php">
                                     <i data-feather="heart"></i>
                                     <span>Add To Wishlist</span>
                                 </a>
 
-                                <a href="compare.html">
+                                <a href="compare.php">
                                     <i data-feather="shuffle"></i>
                                     <span>Add To Compare</span>
                                 </a>
@@ -924,7 +922,7 @@
                             <i data-feather="zap"></i>
                         </div>
                         <div class="img-box ratio_50">
-                            <a href="product-digital.html">
+                            <a href="product-digital.php">
                                 <img src="../assets/images/digital/theme/1.jpg" class="bg-img">
                             </a>
                             <a href="#!" class="heart-icon">
@@ -933,7 +931,7 @@
                         </div>
                         <div class="content-box">
                             <div class="top-content">
-                                <a href="product-digital.html">
+                                <a href="product-digital.php">
                                     <h5>Mido - Musical app</h5>
                                 </a>
                                 <div class="d-flex align-items-center justify-content-between">
@@ -968,7 +966,7 @@
                                 </div>
                                 <div class="btn-grp">
                                     <a class="btn btn-outline" href="#!"> <i data-feather="shopping-cart"></i></a>
-                                    <a class="btn" href="product-digital.html">Preview</a>
+                                    <a class="btn" href="product-digital.php">Preview</a>
                                 </div>
                             </div>
                         </div>
@@ -977,7 +975,7 @@
                 <div class="col-xxl-3 col-lg-4 col-sm-6">
                     <div class="product-theme-box">
                         <div class="img-box ratio_50">
-                            <a href="product-digital.html">
+                            <a href="product-digital.php">
                                 <img src="../assets/images/digital/theme/2.jpg" class="bg-img">
                             </a>
                             <a href="#!" class="heart-icon">
@@ -986,7 +984,7 @@
                         </div>
                         <div class="content-box">
                             <div class="top-content">
-                                <a href="product-digital.html">
+                                <a href="product-digital.php">
                                     <h5>Criphin - Contemporary Business Keynote Template</h5>
                                 </a>
                                 <div class="d-flex align-items-center justify-content-between">
@@ -1021,7 +1019,7 @@
                                 </div>
                                 <div class="btn-grp">
                                     <a class="btn btn-outline" href="#!"> <i data-feather="shopping-cart"></i></a>
-                                    <a class="btn" href="product-digital.html">Preview</a>
+                                    <a class="btn" href="product-digital.php">Preview</a>
                                 </div>
                             </div>
                         </div>
@@ -1030,7 +1028,7 @@
                 <div class="col-xxl-3 col-lg-4 col-sm-6">
                     <div class="product-theme-box">
                         <div class="img-box ratio_50">
-                            <a href="product-digital.html">
+                            <a href="product-digital.php">
                                 <img src="../assets/images/digital/theme/3.jpg" class="bg-img">
                             </a>
                             <a href="#!" class="heart-icon">
@@ -1039,7 +1037,7 @@
                         </div>
                         <div class="content-box">
                             <div class="top-content">
-                                <a href="product-digital.html">
+                                <a href="product-digital.php">
                                     <h5>Maxico - Kids Happiness</h5>
                                 </a>
                                 <div class="d-flex align-items-center justify-content-between">
@@ -1074,7 +1072,7 @@
                                 </div>
                                 <div class="btn-grp">
                                     <a class="btn btn-outline" href="#!"> <i data-feather="shopping-cart"></i></a>
-                                    <a class="btn" href="product-digital.html">Preview</a>
+                                    <a class="btn" href="product-digital.php">Preview</a>
                                 </div>
                             </div>
                         </div>
@@ -1083,7 +1081,7 @@
                 <div class="col-xxl-3 col-lg-4 col-sm-6">
                     <div class="product-theme-box">
                         <div class="img-box ratio_50">
-                            <a href="product-digital.html">
+                            <a href="product-digital.php">
                                 <img src="../assets/images/digital/theme/4.jpg" class="bg-img">
                             </a>
                             <a href="#!" class="heart-icon">
@@ -1092,7 +1090,7 @@
                         </div>
                         <div class="content-box">
                             <div class="top-content">
-                                <a href="product-digital.html">
+                                <a href="product-digital.php">
                                     <h5>Real Paint FX - Photoshop Add-On</h5>
                                 </a>
                                 <div class="d-flex align-items-center justify-content-between">
@@ -1127,7 +1125,7 @@
                                 </div>
                                 <div class="btn-grp">
                                     <a class="btn btn-outline" href="#!"> <i data-feather="shopping-cart"></i></a>
-                                    <a class="btn" href="product-digital.html">Preview</a>
+                                    <a class="btn" href="product-digital.php">Preview</a>
                                 </div>
                             </div>
                         </div>
@@ -1231,10 +1229,10 @@
                                 </div>
 
                                 <div class="modal-button">
-                                    <button onclick="location.href = 'cart.html';"
+                                    <button onclick="location.href = 'cart.php';"
                                         class="btn btn-md add-cart-button icon">Add
                                         To Cart</button>
-                                    <button onclick="location.href = 'product-left.html';"
+                                    <button onclick="location.href = 'product-left.php';"
                                         class="btn theme-bg-color view-button icon text-white fw-bold btn-md">
                                         View More Details</button>
                                 </div>
@@ -1366,12 +1364,12 @@
                         <ul class="deal-offer-list">
                             <li class="list-1">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/10.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -1380,12 +1378,12 @@
 
                             <li class="list-2">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/11.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -1394,12 +1392,12 @@
 
                             <li class="list-3">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/12.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -1408,12 +1406,12 @@
 
                             <li class="list-1">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/13.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -1530,9 +1528,9 @@
                             </div>
                         </div>
                         <div class="add-btn">
-                            <a class="btn theme-bg-color text-white wishlist-btn" href="wishlist.html"><i
+                            <a class="btn theme-bg-color text-white wishlist-btn" href="wishlist.php"><i
                                     class="fa fa-bookmark"></i> Wishlist</a>
-                            <a class="btn theme-bg-color text-white" href="cart.html"><i
+                            <a class="btn theme-bg-color text-white" href="cart.php"><i
                                     class="fas fa-shopping-cart"></i> Add To Cart</a>
                         </div>
                     </div>
@@ -1667,6 +1665,4 @@
 
 </body>
 
-
-<!-- Mirrored from themes.pixelstrap.com/fastkart/front-end/product-digital.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 15:08:11 GMT -->
 </html>

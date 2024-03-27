@@ -2,7 +2,6 @@
 <html lang="en">
 
 
-<!-- Mirrored from themes.pixelstrap.com/fastkart/front-end/404.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 15:08:19 GMT -->
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -55,7 +54,7 @@
     <div class="mobile-menu d-md-none d-block mobile-cart">
         <ul>
             <li class="active">
-                <a href="index.html">
+                <a href="index.php">
                     <i class="iconly-Home icli"></i>
                     <span>Home</span>
                 </a>
@@ -69,21 +68,21 @@
             </li>
 
             <li>
-                <a href="search.html" class="search-box">
+                <a href="search.php" class="search-box">
                     <i class="iconly-Search icli"></i>
                     <span>Search</span>
                 </a>
             </li>
 
             <li>
-                <a href="wishlist.html" class="notifi-wishlist">
+                <a href="wishlist.php" class="notifi-wishlist">
                     <i class="iconly-Heart icli"></i>
                     <span>My Wish</span>
                 </a>
             </li>
 
             <li>
-                <a href="cart.html">
+                <a href="cart.php">
                     <i class="iconly-Bag-2 icli fly-cate"></i>
                     <span>Cart</span>
                 </a>
@@ -102,7 +101,7 @@
                         <nav>
                             <ol class="breadcrumb mb-0">
                                 <li class="breadcrumb-item">
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <i class="fa-solid fa-house"></i>
                                     </a>
                                 </li>
@@ -130,7 +129,7 @@
                     <div class="contain-404">
                         <h3 class="text-content">The page you are looking for could not be found. The link to this
                             address may be outdated or we may have moved the since you last bookmarked it.</h3>
-                        <button onclick="location.href = 'index.html';"
+                        <button onclick="location.href = 'index.php';"
                             class="btn btn-md text-white theme-bg-color mt-4 mx-auto">Back To Home Screen</button>
                     </div>
                 </div>
@@ -195,7 +194,7 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6">
                         <div class="footer-logo">
                             <div class="theme-logo">
-                                <a href="index.html">
+                                <a href="index.php">
                                     <img src="../assets/images/logo/1.png" class="blur-up lazyload" alt="">
                                 </a>
                             </div>
@@ -226,22 +225,22 @@
                         <div class="footer-contain">
                             <ul>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Vegetables & Fruit</a>
+                                    <a href="shop-left-sidebar.php" class="text-content">Vegetables & Fruit</a>
                                 </li>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Beverages</a>
+                                    <a href="shop-left-sidebar.php" class="text-content">Beverages</a>
                                 </li>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Meats & Seafood</a>
+                                    <a href="shop-left-sidebar.php" class="text-content">Meats & Seafood</a>
                                 </li>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Frozen Foods</a>
+                                    <a href="shop-left-sidebar.php" class="text-content">Frozen Foods</a>
                                 </li>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Biscuits & Snacks</a>
+                                    <a href="shop-left-sidebar.php" class="text-content">Biscuits & Snacks</a>
                                 </li>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Grocery & Staples</a>
+                                    <a href="shop-left-sidebar.php" class="text-content">Grocery & Staples</a>
                                 </li>
                             </ul>
                         </div>
@@ -255,19 +254,19 @@
                         <div class="footer-contain">
                             <ul>
                                 <li>
-                                    <a href="index.html" class="text-content">Home</a>
+                                    <a href="index.php" class="text-content">Home</a>
                                 </li>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Shop</a>
+                                    <a href="shop-left-sidebar.php" class="text-content">Shop</a>
                                 </li>
                                 <li>
-                                    <a href="about-us.html" class="text-content">About Us</a>
+                                    <a href="about-us.php" class="text-content">About Us</a>
                                 </li>
                                 <li>
-                                    <a href="blog-list.html" class="text-content">Blog</a>
+                                    <a href="blog-list.php" class="text-content">Blog</a>
                                 </li>
                                 <li>
-                                    <a href="contact-us.html" class="text-content">Contact Us</a>
+                                    <a href="contact-us.php" class="text-content">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -281,22 +280,22 @@
                         <div class="footer-contain">
                             <ul>
                                 <li>
-                                    <a href="order-success.html" class="text-content">Your Order</a>
+                                    <a href="order-success.php" class="text-content">Your Order</a>
                                 </li>
                                 <li>
-                                    <a href="user-dashboard.html" class="text-content">Your Account</a>
+                                    <a href="user-dashboard.php" class="text-content">Your Account</a>
                                 </li>
                                 <li>
-                                    <a href="order-tracking.html" class="text-content">Track Order</a>
+                                    <a href="order-tracking.php" class="text-content">Track Order</a>
                                 </li>
                                 <li>
-                                    <a href="wishlist.html" class="text-content">Your Wishlist</a>
+                                    <a href="wishlist.php" class="text-content">Your Wishlist</a>
                                 </li>
                                 <li>
-                                    <a href="search.html" class="text-content">Search</a>
+                                    <a href="search.php" class="text-content">Search</a>
                                 </li>
                                 <li>
-                                    <a href="faq.html" class="text-content">FAQ</a>
+                                    <a href="faq.php" class="text-content">FAQ</a>
                                 </li>
                             </ul>
                         </div>
@@ -509,12 +508,12 @@
                         <ul class="deal-offer-list">
                             <li class="list-1">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/10.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5 class="fw-bold">Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -523,12 +522,12 @@
 
                             <li class="list-2">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/11.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -537,12 +536,12 @@
 
                             <li class="list-3">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/12.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -551,12 +550,12 @@
 
                             <li class="list-1">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/13.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -658,7 +657,4 @@
     <!-- theme setting js -->
     <script src="../assets/js/theme-setting.js"></script>
 </body>
-
-
-<!-- Mirrored from themes.pixelstrap.com/fastkart/front-end/404.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 15:08:20 GMT -->
 </html>

@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from themes.pixelstrap.com/fastkart/front-end/about-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 15:08:20 GMT -->
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,7 +54,7 @@
     <div class="mobile-menu d-md-none d-block mobile-cart">
         <ul>
             <li class="active">
-                <a href="index.html">
+                <a href="index.php">
                     <i class="iconly-Home icli"></i>
                     <span>Home</span>
                 </a>
@@ -70,21 +68,21 @@
             </li>
 
             <li>
-                <a href="search.html" class="search-box">
+                <a href="search.php" class="search-box">
                     <i class="iconly-Search icli"></i>
                     <span>Search</span>
                 </a>
             </li>
 
             <li>
-                <a href="wishlist.html" class="notifi-wishlist">
+                <a href="wishlist.php" class="notifi-wishlist">
                     <i class="iconly-Heart icli"></i>
                     <span>My Wish</span>
                 </a>
             </li>
 
             <li>
-                <a href="cart.html">
+                <a href="cart.php">
                     <i class="iconly-Bag-2 icli fly-cate"></i>
                     <span>Cart</span>
                 </a>
@@ -103,7 +101,7 @@
                         <nav>
                             <ol class="breadcrumb mb-0">
                                 <li class="breadcrumb-item">
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <i class="fa-solid fa-house"></i>
                                     </a>
                                 </li>
@@ -854,14 +852,14 @@
                             <div class="blog-box">
                                 <div class="blog-box-image">
                                     <div class="blog-image">
-                                        <a href="blog-detail.html" class="rounded-3">
+                                        <a href="blog-detail.php" class="rounded-3">
                                             <img src="../assets/images/veg-2/blog/1.jpg" class="bg-img blur-up lazyload"
                                                 alt="">
                                         </a>
                                     </div>
                                 </div>
 
-                                <a href="blog-detail.html" class="blog-detail d-block">
+                                <a href="blog-detail.php" class="blog-detail d-block">
                                     <h6>Farmart</h6>
                                     <h5>Fresh Meat Saugage</h5>
                                 </a>
@@ -872,14 +870,14 @@
                             <div class="blog-box">
                                 <div class="blog-box-image">
                                     <div class="blog-image">
-                                        <a href="blog-detail.html" class="rounded-3">
+                                        <a href="blog-detail.php" class="rounded-3">
                                             <img src="../assets/images/veg-2/blog/2.jpg" class="bg-img blur-up lazyload"
                                                 alt="">
                                         </a>
                                     </div>
                                 </div>
 
-                                <a href="blog-detail.html" class="blog-detail d-block">
+                                <a href="blog-detail.php" class="blog-detail d-block">
                                     <h6>Soda Brand</h6>
                                     <h5>Soda 500ml - 20% OFF</h5>
                                 </a>
@@ -890,14 +888,14 @@
                             <div class="blog-box">
                                 <div class="blog-box-image">
                                     <div class="blog-image">
-                                        <a href="blog-detail.html" class="rounded-3">
+                                        <a href="blog-detail.php" class="rounded-3">
                                             <img src="../assets/images/veg-2/blog/3.jpg" class="bg-img blur-up lazyload"
                                                 alt="">
                                         </a>
                                     </div>
                                 </div>
 
-                                <a href="blog-detail.html" class="blog-detail d-block">
+                                <a href="blog-detail.php" class="blog-detail d-block">
                                     <h6>Beer Brand</h6>
                                     <h5>Soda 500ml - 20% OFF</h5>
                                 </a>
@@ -908,14 +906,14 @@
                             <div class="blog-box">
                                 <div class="blog-box-image">
                                     <div class="blog-image">
-                                        <a href="blog-detail.html" class="rounded-3">
+                                        <a href="blog-detail.php" class="rounded-3">
                                             <img src="../assets/images/veg-2/blog/4.jpg" class="bg-img blur-up lazyload"
                                                 alt="">
                                         </a>
                                     </div>
                                 </div>
 
-                                <a href="blog-detail.html" class="blog-detail d-block">
+                                <a href="blog-detail.php" class="blog-detail d-block">
                                     <h6>Beer Brand</h6>
                                     <h5>Fresh Beer -30% OFF</h5>
                                 </a>
@@ -925,13 +923,13 @@
                         <div>
                             <div class="blog-box">
                                 <div class="blog-image">
-                                    <a href="blog-detail.html" class="rounded-3">
+                                    <a href="blog-detail.php" class="rounded-3">
                                         <img src="../assets/images/veg-2/blog/5.jpg" class="bg-img blur-up lazyload"
                                             alt="">
                                     </a>
                                 </div>
 
-                                <a href="blog-detail.html" class="blog-detail d-block">
+                                <a href="blog-detail.php" class="blog-detail d-block">
                                     <h6>Milk Brand</h6>
                                     <h5>Fresh Milk</h5>
                                 </a>
@@ -1066,12 +1064,12 @@
                         <ul class="deal-offer-list">
                             <li class="list-1">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/10.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -1080,12 +1078,12 @@
 
                             <li class="list-2">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/11.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -1094,12 +1092,12 @@
 
                             <li class="list-3">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/12.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -1108,12 +1106,12 @@
 
                             <li class="list-1">
                                 <div class="deal-offer-contain">
-                                    <a href="shop-left-sidebar.html" class="deal-image">
+                                    <a href="shop-left-sidebar.php" class="deal-image">
                                         <img src="../assets/images/vegetable/product/13.png" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
-                                    <a href="shop-left-sidebar.html" class="deal-contain">
+                                    <a href="shop-left-sidebar.php" class="deal-contain">
                                         <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
                                         <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
@@ -1215,7 +1213,4 @@
     <!-- theme setting js -->
     <script src="../assets/js/theme-setting.js"></script>
 </body>
-
-
-<!-- Mirrored from themes.pixelstrap.com/fastkart/front-end/about-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 15:08:21 GMT -->
 </html>

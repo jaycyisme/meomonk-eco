@@ -54,7 +54,7 @@
                     <div class="col-xl-3 col-lg-4 col-sm-6">
                         <div class="footer-logo">
                             <div class="theme-logo">
-                                <a href="index.html">
+                                <a href="index.php">
                                     <img src="../assets/images/logo/1.png" class="blur-up lazyload" alt="">
                                 </a>
                             </div>
@@ -85,22 +85,22 @@
                         <div class="footer-contain">
                             <ul>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Vegetables & Fruit</a>
+                                    <a href="shop-left-sidebar.php" class="text-content">Vegetables & Fruit</a>
                                 </li>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Beverages</a>
+                                    <a href="shop-left-sidebar.php" class="text-content">Beverages</a>
                                 </li>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Meats & Seafood</a>
+                                    <a href="shop-left-sidebar.php" class="text-content">Meats & Seafood</a>
                                 </li>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Frozen Foods</a>
+                                    <a href="shop-left-sidebar.php" class="text-content">Frozen Foods</a>
                                 </li>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Biscuits & Snacks</a>
+                                    <a href="shop-left-sidebar.php" class="text-content">Biscuits & Snacks</a>
                                 </li>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Grocery & Staples</a>
+                                    <a href="shop-left-sidebar.php" class="text-content">Grocery & Staples</a>
                                 </li>
                             </ul>
                         </div>
