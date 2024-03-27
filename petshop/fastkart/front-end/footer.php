@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<<<<<<< HEAD
+=======
+
+<!-- Mirrored from themes.pixelstrap.com/fastkart/front-end/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 15:06:27 GMT -->
+
+>>>>>>> 17e2dcf68c7461cf4403ac88e60b638a8ebbd865
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
