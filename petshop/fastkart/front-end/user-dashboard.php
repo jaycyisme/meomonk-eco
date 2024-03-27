@@ -2300,6 +2300,7 @@
     <!-- User Dashboard Section End -->
 
     <!-- Footer Section Start -->
+<<<<<<< HEAD
     <footer class="section-t-space">
         <div class="container-fluid-lg">
             <div class="service-section">
@@ -2549,6 +2550,9 @@
             </div>
         </div>
     </footer>
+=======
+    <?php include "footer.php"; ?>
+>>>>>>> 53090cd53f5222d459ccb2a5d4f89c9bf578c7ca
     <!-- Footer Section End -->
 
     <!-- Deal Box Modal Start -->
