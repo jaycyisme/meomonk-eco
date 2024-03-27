@@ -6,7 +6,11 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- HEADER -->
     <?php include "header.php"; ?>
+
+
+    <!-- FOOTER -->
     <?php include "footer.php"; ?>
 </body>
 </html>
