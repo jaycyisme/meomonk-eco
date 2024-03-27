@@ -1,20 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Fastkart">
-    <meta name="keywords" content="Fastkart">
-    <meta name="author" content="Fastkart">
-    <link rel="icon" href="../assets/images/favicon/1.png" type="image/x-icon">
-    <title>On-demand last-mile delivery</title>
-</head>
-
-<body class="bg-effect">
-    <!-- Footer Section Start -->
-    <footer class="section-t-space">
+<!-- Footer Section Start -->
+<footer class="section-t-space">
         <div class="container-fluid-lg">
             <div class="service-section">
                 <div class="row g-3">
@@ -129,19 +114,19 @@
                         <div class="footer-contain">
                             <ul>
                                 <li>
-                                    <a href="index.html" class="text-content">Home</a>
+                                    <a href="index.php" class="text-content">Home</a>
                                 </li>
                                 <li>
-                                    <a href="shop-left-sidebar.html" class="text-content">Shop</a>
+                                    <a href="shop-left-sidebar.php" class="text-content">Shop</a>
                                 </li>
                                 <li>
-                                    <a href="about-us.html" class="text-content">About Us</a>
+                                    <a href="about-us.php" class="text-content">About Us</a>
                                 </li>
                                 <li>
-                                    <a href="blog-list.html" class="text-content">Blog</a>
+                                    <a href="blog-list.php" class="text-content">Blog</a>
                                 </li>
                                 <li>
-                                    <a href="contact-us.html" class="text-content">Contact Us</a>
+                                    <a href="contact-us.php" class="text-content">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -155,22 +140,22 @@
                         <div class="footer-contain">
                             <ul>
                                 <li>
-                                    <a href="order-success.html" class="text-content">Your Order</a>
+                                    <a href="order-success.php" class="text-content">Your Order</a>
                                 </li>
                                 <li>
-                                    <a href="user-dashboard.html" class="text-content">Your Account</a>
+                                    <a href="user-dashboard.php" class="text-content">Your Account</a>
                                 </li>
                                 <li>
-                                    <a href="order-tracking.html" class="text-content">Track Order</a>
+                                    <a href="order-tracking.php" class="text-content">Track Order</a>
                                 </li>
                                 <li>
-                                    <a href="wishlist.html" class="text-content">Your Wishlist</a>
+                                    <a href="wishlist.php" class="text-content">Your Wishlist</a>
                                 </li>
                                 <li>
-                                    <a href="search.html" class="text-content">Search</a>
+                                    <a href="search.php" class="text-content">Search</a>
                                 </li>
                                 <li>
-                                    <a href="faq.html" class="text-content">FAQ</a>
+                                    <a href="faq.php" class="text-content">FAQ</a>
                                 </li>
                             </ul>
                         </div>
@@ -264,7 +249,3 @@
         </div>
     </footer>
     <!-- Footer Section End -->
-
-</body>
-
-</html>
