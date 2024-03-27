@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -3276,4 +3277,19 @@
     <script src="../assets/js/theme-setting.js"></script>
 </body>
 
+=======
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <?php include "header.php"; ?>
+
+
+    <!-- FOOTER -->
+    <?php include "footer.php"; ?>
+</body>
+>>>>>>> 12b5c8393be68b749a34095321cf37db07d99198
 </html>
