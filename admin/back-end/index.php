@@ -432,11 +432,9 @@
             <!-- index body start -->
 
             <?php
-            // Kiểm tra xem các tham số đã được truyền qua URL chưa, nếu không thì gán giá trị mặc định cho chúng
             $pages = isset($_GET["pages"]) ? $_GET["pages"] : 1;
             $action = isset($_GET["action"]) ? $_GET["action"] : 1;
 
-            // Kiểm tra các giá trị của $pages và $action để include các file tương ứng
             if ($pages == 1 && $action == 1) {
                 include ("body-index.php");
             } elseif ($pages == 2 && $action == 1) {
