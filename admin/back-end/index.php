@@ -439,7 +439,7 @@
                 include ("body-index.php");
             } elseif ($pages == 2 && $action == 1) {
                 include ("products.php");
-            }
+            } 
             ?>
 
             <!-- index body end -->
