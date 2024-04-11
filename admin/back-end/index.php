@@ -40,6 +40,8 @@
     <!-- Plugins css -->
     <link rel="stylesheet" type="text/css" href="assets/css/vendors/scrollbar.css">
     <link rel="stylesheet" type="text/css" href="assets/css/vendors/animate.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/chartist.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/date-picker.css">
 
     <!-- Bootstrap css-->
     <link rel="stylesheet" type="text/css" href="assets/css/vendors/bootstrap.css">
@@ -52,6 +54,15 @@
 
     <!-- App css -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!--Dropzon css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/dropzone.css">
+
+    <!-- Select2 css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/select2.min.css">
+
+    <!-- Bootstrap-tag input css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/bootstrap-tagsinput.css">
 </head>
 
 <body>
@@ -244,11 +255,11 @@
                                     </a>
                                     <ul class="sidebar-submenu">
                                         <li>
-                                            <a href="index.php?pages=2&action=1">Prodcts</a>
+                                            <a href="index.php?pages=2&action=1">Products</a>
                                         </li>
 
                                         <li>
-                                            <a href="add-new-product.html">Add New Products</a>
+                                            <a href="index.php?pages=2&action=2">Add New Products</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -260,11 +271,11 @@
                                     </a>
                                     <ul class="sidebar-submenu">
                                         <li>
-                                            <a href="category.html">Category List</a>
+                                            <a href="index.php?pages=3&action=1">Category List</a>
                                         </li>
 
                                         <li>
-                                            <a href="add-new-category.html">Add New Category</a>
+                                            <a href="index.php?pages=3&action=2">Add New Category</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -276,11 +287,11 @@
                                     </a>
                                     <ul class="sidebar-submenu">
                                         <li>
-                                            <a href="attributes.html">Attributes</a>
+                                            <a href="index.php?pages=4&action=1">Attributes</a>
                                         </li>
 
                                         <li>
-                                            <a href="add-new-attributes.html">Add Attributes</a>
+                                            <a href="index.php?pages=4&action=2">Add Attributes</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -292,10 +303,10 @@
                                     </a>
                                     <ul class="sidebar-submenu">
                                         <li>
-                                            <a href="all-users.html">All users</a>
+                                            <a href="index.php?pages=5&action=1">All users</a>
                                         </li>
                                         <li>
-                                            <a href="add-new-user.html">Add new user</a>
+                                            <a href="index.php?pages=5&action=2">Add new user</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -307,16 +318,16 @@
                                     </a>
                                     <ul class="sidebar-submenu">
                                         <li>
-                                            <a href="role.html">All roles</a>
+                                            <a href="index.php?pages=6&action=1">All roles</a>
                                         </li>
                                         <li>
-                                            <a href="create-role.html">Create Role</a>
+                                            <a href="index.php?pages=6&action=2">Create Role</a>
                                         </li>
                                     </ul>
                                 </li>
 
                                 <li class="sidebar-list">
-                                    <a class="sidebar-link sidebar-title link-nav" href="media.html">
+                                    <a class="sidebar-link sidebar-title link-nav" href="index.php?pages=7&action=1">
                                         <i class="ri-price-tag-3-line"></i>
                                         <span>Media</span>
                                     </a>
@@ -329,14 +340,14 @@
                                     </a>
                                     <ul class="sidebar-submenu">
                                         <li>
-                                            <a href="order-list.html">Order List</a>
+                                            <a href="index.php?pages=8&action=1">Order List</a>
                                         </li>
-                                        <li>
-                                            <a href="order-detail.html">Order Detail</a>
-                                        </li>
-                                        <li>
-                                            <a href="order-tracking.html">Order Tracking</a>
-                                        </li>
+<!--                                        <li>-->
+<!--                                            <a href="order-detail.html">Order Detail</a>-->
+<!--                                        </li>-->
+<!--                                        <li>-->
+<!--                                            <a href="order-tracking.html">Order Tracking</a>-->
+<!--                                        </li>-->
                                     </ul>
                                 </li>
 
@@ -346,9 +357,9 @@
                                         <span>Localization</span>
                                     </a>
                                     <ul class="sidebar-submenu">
-                                        <li>
-                                            <a href="translation.html">Translation</a>
-                                        </li>
+<!--                                        <li>-->
+<!--                                            <a href="translation.html">Translation</a>-->
+<!--                                        </li>-->
 
                                         <li>
                                             <a href="currency-rates.html">Currency Rates</a>
@@ -412,12 +423,12 @@
                                     </a>
                                 </li>
 
-                                <li class="sidebar-list">
-                                    <a class="sidebar-link sidebar-title link-nav" href="list-page.html">
-                                        <i class="ri-list-check"></i>
-                                        <span>List Page</span>
-                                    </a>
-                                </li>
+<!--                                <li class="sidebar-list">-->
+<!--                                    <a class="sidebar-link sidebar-title link-nav" href="list-page.html">-->
+<!--                                        <i class="ri-list-check"></i>-->
+<!--                                        <span>List Page</span>-->
+<!--                                    </a>-->
+<!--                                </li>-->
                             </ul>
                         </div>
 
@@ -439,6 +450,32 @@
                 include ("body-index.php");
             } elseif ($pages == 2 && $action == 1) {
                 include ("products.php");
+            } elseif ($pages == 2 && $action == 2) {
+                include ("add-new-product.php");
+            } elseif ($pages == 3 && $action == 1) {
+                include ("category.php");
+            } elseif ($pages == 3 && $action == 2) {
+                include ("add-new-category.php");
+            } elseif ($pages == 4 && $action == 1) {
+                include("attributes.php");
+            } elseif ($pages == 4 && $action == 2) {
+                include ("add-new-attributes.php");
+            } elseif ($pages == 5 && $action == 1) {
+                include ("all-users.php");
+            } elseif ($pages == 5 && $action == 2) {
+                include ("add-new-user.php");
+            }  elseif ($pages == 6 && $action == 1) {
+                include ("role.php");
+            }  elseif ($pages == 6 && $action == 2) {
+                include ("create-role.php");
+            } elseif ($pages == 7 && $action == 1) {
+                include ("media.php");
+            } elseif ($pages == 8 && $action == 1) {
+                include ("order-list.php");
+            } elseif ($pages == 8 && $action == 2) {
+                include ("order-detail.php");
+            } elseif ($pages == 8 && $action == 3) {
+                include ("order-tracking.php");
             }
             ?>
 
@@ -493,6 +530,16 @@
     <script src="assets/js/notify/bootstrap-notify.min.js"></script>
     <script src="assets/js/notify/index.js"></script>
 
+    <!-- Data table js -->
+    <script src="assets/js/jquery.dataTables.js"></script>
+    <script src="assets/js/custom-data-table.js"></script>
+
+    <!-- Theme js -->
+    <script src="assets/js/script.js"></script>
+
+    <!-- customizer js -->
+    <script src="assets/js/customizer.js"></script>
+
     <!-- Apexchar js -->
     <script src="assets/js/chart/apex-chart/apex-chart1.js"></script>
     <script src="assets/js/chart/apex-chart/moment.min.js"></script>
@@ -516,6 +563,20 @@
 
     <!-- Theme js -->
     <script src="assets/js/script.js"></script>
+
+    <!--Dropzon js -->
+    <script src="assets/js/dropzone/dropzone.js"></script>
+    <script src="assets/js/dropzone/dropzone-script.js"></script>
+
+    <!-- select2 js -->
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/select2-custom.js"></script>
+
+    <!-- bootstrap tag-input js -->
+    <script src="assets/js/bootstrap-tagsinput.min.js"></script>
+<!--    <script src="assets/js/sidebar-menu.js"></script>-->
+
+
 </body>
 
 

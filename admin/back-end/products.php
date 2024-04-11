@@ -1,5 +1,4 @@
-<div class="page-body-wrapper">
-    <!-- Container-fluid starts-->
+<!-- Container-fluid starts-->
     <div class="page-body">
         <div class="container-fluid">
             <div class="row">
@@ -17,7 +16,7 @@
                                             <a href="javascript:void(0)">Export</a>
                                         </li>
                                         <li>
-                                            <a class="btn btn-solid" href="add-new-product.html">Add Product</a>
+                                            <a class="btn btn-solid" href="index.php?pages=2&action=2">Add Product</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -30,7 +29,10 @@
                                                 <th>Product Image</th>
                                                 <th>Product Name</th>
                                                 <th>Category</th>
-                                                <th>Current Qty</th>
+                                                <th>Brand</th>
+                                                <th>Attribute</th>
+                                                <th>Description</th>
+                                                <th>Current Quantity</th>
                                                 <th>Price</th>
                                                 <th>Status</th>
                                                 <th>Option</th>
@@ -48,6 +50,24 @@
                                                 <td>Aata Buscuit</td>
 
                                                 <td>Buscuit</td>
+
+                                                <td>BOBO</td>
+
+                                                <td>Weight: 1kg, 2kg, 3kg</td>
+
+                                                <td
+                                                        style="
+                                                max-width: 300px;
+                                                white-space: nowrap;
+                                                overflow: hidden;
+                                                text-overflow: ellipsis;"
+                                                >
+                                                    A pet shop or pet store is an essential services retailer which
+                                                    sells animals and pet care resources to the public. A variety of
+                                                    animal supplies and pet accessories are also sold in pet shops.
+                                                    The products sold include: food, treats, toys, collars, leashes,
+                                                    cat litter, cages and aquariums.
+                                                </td>
 
                                                 <td>12</td>
 
@@ -92,6 +112,24 @@
 
                                                 <td>Drinks</td>
 
+                                                <td>BOBO</td>
+
+                                                <td>Weight: 1kg, 2kg, 3kg</td>
+
+                                                <td
+                                                        style="
+                                                max-width: 300px;
+                                                white-space: nowrap;
+                                                overflow: hidden;
+                                                text-overflow: ellipsis;"
+                                                >
+                                                    A pet shop or pet store is an essential services retailer which
+                                                    sells animals and pet care resources to the public. A variety of
+                                                    animal supplies and pet accessories are also sold in pet shops.
+                                                    The products sold include: food, treats, toys, collars, leashes,
+                                                    cat litter, cages and aquariums.
+                                                </td>
+
                                                 <td>10</td>
 
                                                 <td class="td-price">$95.97</td>
@@ -135,6 +173,24 @@
 
                                                 <td>Cookies</td>
 
+                                                <td>BOBO</td>
+
+                                                <td>Weight: 1kg, 2kg, 3kg</td>
+
+                                                <td
+                                                        style="
+                                                max-width: 300px;
+                                                white-space: nowrap;
+                                                overflow: hidden;
+                                                text-overflow: ellipsis;"
+                                                >
+                                                    A pet shop or pet store is an essential services retailer which
+                                                    sells animals and pet care resources to the public. A variety of
+                                                    animal supplies and pet accessories are also sold in pet shops.
+                                                    The products sold include: food, treats, toys, collars, leashes,
+                                                    cat litter, cages and aquariums.
+                                                </td>
+
                                                 <td>9</td>
 
                                                 <td class="td-price">$86.35</td>
@@ -177,6 +233,24 @@
 
                                                 <td>Flakes</td>
 
+                                                <td>BOBO</td>
+
+                                                <td>Weight: 1kg, 2kg, 3kg</td>
+
+                                                <td
+                                                        style="
+                                                max-width: 300px;
+                                                white-space: nowrap;
+                                                overflow: hidden;
+                                                text-overflow: ellipsis;"
+                                                >
+                                                    A pet shop or pet store is an essential services retailer which
+                                                    sells animals and pet care resources to the public. A variety of
+                                                    animal supplies and pet accessories are also sold in pet shops.
+                                                    The products sold include: food, treats, toys, collars, leashes,
+                                                    cat litter, cages and aquariums.
+                                                </td>
+
                                                 <td>8</td>
 
                                                 <td class="td-price">$95.97</td>
@@ -218,6 +292,24 @@
                                                 <td>Potato Chips</td>
 
                                                 <td>Chips</td>
+
+                                                <td>BOBO</td>
+
+                                                <td>Weight: 1kg, 2kg, 3kg</td>
+
+                                                <td
+                                                        style="
+                                                max-width: 300px;
+                                                white-space: nowrap;
+                                                overflow: hidden;
+                                                text-overflow: ellipsis;"
+                                                >
+                                                    A pet shop or pet store is an essential services retailer which
+                                                    sells animals and pet care resources to the public. A variety of
+                                                    animal supplies and pet accessories are also sold in pet shops.
+                                                    The products sold include: food, treats, toys, collars, leashes,
+                                                    cat litter, cages and aquariums.
+                                                </td>
 
                                                 <td>23</td>
 
@@ -262,6 +354,24 @@
 
                                                 <td>Dals</td>
 
+                                                <td>BOBO</td>
+
+                                                <td>Weight: 1kg, 2kg, 3kg</td>
+
+                                                <td
+                                                        style="
+                                                max-width: 300px;
+                                                white-space: nowrap;
+                                                overflow: hidden;
+                                                text-overflow: ellipsis;"
+                                                >
+                                                    A pet shop or pet store is an essential services retailer which
+                                                    sells animals and pet care resources to the public. A variety of
+                                                    animal supplies and pet accessories are also sold in pet shops.
+                                                    The products sold include: food, treats, toys, collars, leashes,
+                                                    cat litter, cages and aquariums.
+                                                </td>
+
                                                 <td>50</td>
 
                                                 <td class="td-price">$95.97</td>
@@ -304,6 +414,24 @@
                                                 <td>Almond Milk</td>
 
                                                 <td>Milk</td>
+
+                                                <td>BOBO</td>
+
+                                                <td>Weight: 1kg, 2kg, 3kg</td>
+
+                                                <td
+                                                        style="
+                                                max-width: 300px;
+                                                white-space: nowrap;
+                                                overflow: hidden;
+                                                text-overflow: ellipsis;"
+                                                >
+                                                    A pet shop or pet store is an essential services retailer which
+                                                    sells animals and pet care resources to the public. A variety of
+                                                    animal supplies and pet accessories are also sold in pet shops.
+                                                    The products sold include: food, treats, toys, collars, leashes,
+                                                    cat litter, cages and aquariums.
+                                                </td>
 
                                                 <td>25</td>
 
@@ -349,6 +477,24 @@
 
                                                 <td>Breads</td>
 
+                                                <td>BOBO</td>
+
+                                                <td>Weight: 1kg, 2kg, 3kg</td>
+
+                                                <td
+                                                        style="
+                                                max-width: 300px;
+                                                white-space: nowrap;
+                                                overflow: hidden;
+                                                text-overflow: ellipsis;"
+                                                >
+                                                    A pet shop or pet store is an essential services retailer which
+                                                    sells animals and pet care resources to the public. A variety of
+                                                    animal supplies and pet accessories are also sold in pet shops.
+                                                    The products sold include: food, treats, toys, collars, leashes,
+                                                    cat litter, cages and aquariums.
+                                                </td>
+
                                                 <td>6</td>
 
                                                 <td class="td-price">$95.97</td>
@@ -392,6 +538,24 @@
 
                                                 <td>Pet Food</td>
 
+                                                <td>BOBO</td>
+
+                                                <td>Weight: 1kg, 2kg, 3kg</td>
+
+                                                <td
+                                                        style="
+                                                max-width: 300px;
+                                                white-space: nowrap;
+                                                overflow: hidden;
+                                                text-overflow: ellipsis;"
+                                                >
+                                                    A pet shop or pet store is an essential services retailer which
+                                                    sells animals and pet care resources to the public. A variety of
+                                                    animal supplies and pet accessories are also sold in pet shops.
+                                                    The products sold include: food, treats, toys, collars, leashes,
+                                                    cat litter, cages and aquariums.
+                                                </td>
+
                                                 <td>11</td>
 
                                                 <td class="td-price">$95.97</td>
@@ -433,6 +597,24 @@
                                                 <td>Fresh Meat</td>
 
                                                 <td>Meats</td>
+
+                                                <td>BOBO</td>
+
+                                                <td>Weight: 1kg, 2kg, 3kg</td>
+
+                                                <td
+                                                        style="
+                                                max-width: 300px;
+                                                white-space: nowrap;
+                                                overflow: hidden;
+                                                text-overflow: ellipsis;"
+                                                >
+                                                    A pet shop or pet store is an essential services retailer which
+                                                    sells animals and pet care resources to the public. A variety of
+                                                    animal supplies and pet accessories are also sold in pet shops.
+                                                    The products sold include: food, treats, toys, collars, leashes,
+                                                    cat litter, cages and aquariums.
+                                                </td>
 
                                                 <td>18</td>
 
@@ -478,6 +660,24 @@
 
                                                 <td>Coffee</td>
 
+                                                <td>BOBO</td>
+
+                                                <td>Weight: 1kg, 2kg, 3kg</td>
+
+                                                <td
+                                                        style="
+                                                max-width: 300px;
+                                                white-space: nowrap;
+                                                overflow: hidden;
+                                                text-overflow: ellipsis;"
+                                                >
+                                                    A pet shop or pet store is an essential services retailer which
+                                                    sells animals and pet care resources to the public. A variety of
+                                                    animal supplies and pet accessories are also sold in pet shops.
+                                                    The products sold include: food, treats, toys, collars, leashes,
+                                                    cat litter, cages and aquariums.
+                                                </td>
+
                                                 <td>25</td>
 
                                                 <td class="td-price">$86.35</td>
@@ -519,19 +719,7 @@
             </div>
         </div>
         <!-- Container-fluid Ends-->
-
-        <div class="container-fluid">
-            <!-- footer start-->
-            <footer class="footer">
-                <div class="row">
-                    <div class="col-md-12 footer-copyright text-center">
-                        <p class="mb-0">Copyright 2022 © Fastkart theme by pixelstrap</p>
-                    </div>
-                </div>
-            </footer>
-        </div>
     </div>
-</div>
 <!-- Modal Start -->
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
