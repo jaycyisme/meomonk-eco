@@ -450,6 +450,7 @@
                 include ("body-index.php");
             } elseif ($pages == 2 && $action == 1) {
                 include ("products.php");
+<<<<<<< HEAD
             } elseif ($pages == 2 && $action == 2) {
                 include ("add-new-product.php");
             } elseif ($pages == 3 && $action == 1) {
@@ -477,6 +478,9 @@
             } elseif ($pages == 8 && $action == 3) {
                 include ("order-tracking.php");
             }
+=======
+            } 
+>>>>>>> 3e6bfd28a3d4341daa8ae41b2d38fa6165e21dbb
             ?>
 
             <!-- index body end -->
