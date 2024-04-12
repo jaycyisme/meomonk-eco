@@ -46,15 +46,6 @@
     <!-- Bootstrap css-->
     <link rel="stylesheet" type="text/css" href="assets/css/vendors/bootstrap.css">
 
-    <!-- vector map css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/vector-map.css">
-
-    <!-- Slick Slider Css -->
-    <link rel="stylesheet" href="assets/css/vendors/slick.css">
-
-    <!-- App css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
     <!--Dropzon css -->
     <link rel="stylesheet" type="text/css" href="assets/css/vendors/dropzone.css">
 
@@ -63,6 +54,15 @@
 
     <!-- Bootstrap-tag input css -->
     <link rel="stylesheet" type="text/css" href="assets/css/vendors/bootstrap-tagsinput.css">
+
+    <!-- vector map css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/vector-map.css">
+
+    <!-- Slick Slider Css -->
+    <link rel="stylesheet" href="assets/css/vendors/slick.css">
+
+    <!-- App css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
@@ -362,7 +362,7 @@
 <!--                                        </li>-->
 
                                         <li>
-                                            <a href="currency-rates.html">Currency Rates</a>
+                                            <a href="index.php?pages=9&action=1">Currency Rates</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -374,31 +374,31 @@
                                     </a>
                                     <ul class="sidebar-submenu">
                                         <li>
-                                            <a href="coupon-list.html">Coupon List</a>
+                                            <a href="index.php?pages=10&action=1">Coupon List</a>
                                         </li>
 
                                         <li>
-                                            <a href="create-coupon.html">Create Coupon</a>
+                                            <a href="index.php?pages=10&action=2">Create Coupon</a>
                                         </li>
                                     </ul>
                                 </li>
 
-                                <li class="sidebar-list">
-                                    <a class="sidebar-link sidebar-title link-nav" href="taxes.html">
-                                        <i class="ri-price-tag-3-line"></i>
-                                        <span>Tax</span>
-                                    </a>
-                                </li>
+<!--                                <li class="sidebar-list">-->
+<!--                                    <a class="sidebar-link sidebar-title link-nav" href="taxes.html">-->
+<!--                                        <i class="ri-price-tag-3-line"></i>-->
+<!--                                        <span>Tax</span>-->
+<!--                                    </a>-->
+<!--                                </li>-->
 
                                 <li class="sidebar-list">
-                                    <a class="sidebar-link sidebar-title link-nav" href="product-review.html">
+                                    <a class="sidebar-link sidebar-title link-nav" href="index.php?pages=11&action=1">
                                         <i class="ri-star-line"></i>
                                         <span>Product Review</span>
                                     </a>
                                 </li>
 
                                 <li class="sidebar-list">
-                                    <a class="sidebar-link sidebar-title link-nav" href="support-ticket.html">
+                                    <a class="sidebar-link sidebar-title link-nav" href="index.php?pages=12&action=1">
                                         <i class="ri-phone-line"></i>
                                         <span>Support Ticket</span>
                                     </a>
@@ -411,13 +411,13 @@
                                     </a>
                                     <ul class="sidebar-submenu">
                                         <li>
-                                            <a href="profile-setting.html">Profile Setting</a>
+                                            <a href="index.php?pages=13&action=1">Profile Setting</a>
                                         </li>
                                     </ul>
                                 </li>
 
                                 <li class="sidebar-list">
-                                    <a class="sidebar-link sidebar-title link-nav" href="reports.html">
+                                    <a class="sidebar-link sidebar-title link-nav" href="index.php?pages=14&action=1">
                                         <i class="ri-file-chart-line"></i>
                                         <span>Reports</span>
                                     </a>
@@ -450,7 +450,6 @@
                 include ("body-index.php");
             } elseif ($pages == 2 && $action == 1) {
                 include ("products.php");
-<<<<<<< HEAD
             } elseif ($pages == 2 && $action == 2) {
                 include ("add-new-product.php");
             } elseif ($pages == 3 && $action == 1) {
@@ -477,10 +476,21 @@
                 include ("order-detail.php");
             } elseif ($pages == 8 && $action == 3) {
                 include ("order-tracking.php");
+            } elseif ($pages == 9 && $action == 1) {
+                include ("currency-rates.php");
+            } elseif ($pages == 10 && $action == 1) {
+                include ("coupon-list.php");
+            } elseif ($pages == 10 && $action == 2) {
+                include ("create-coupon.php");
+            } elseif ($pages == 11 && $action == 1) {
+                include ("product-review.php");
+            } elseif ($pages == 12 && $action == 1) {
+                include ("support-ticket.php");
+            } elseif ($pages == 13 && $action == 1) {
+                include ("profile-setting.php");
+            } elseif ($pages == 14 && $action == 1) {
+                include ("reports.php");
             }
-=======
-            } 
->>>>>>> 3e6bfd28a3d4341daa8ae41b2d38fa6165e21dbb
             ?>
 
             <!-- index body end -->
@@ -538,9 +548,6 @@
     <script src="assets/js/jquery.dataTables.js"></script>
     <script src="assets/js/custom-data-table.js"></script>
 
-    <!-- Theme js -->
-    <script src="assets/js/script.js"></script>
-
     <!-- customizer js -->
     <script src="assets/js/customizer.js"></script>
 
@@ -550,7 +557,8 @@
     <script src="assets/js/chart/apex-chart/apex-chart.js"></script>
     <script src="assets/js/chart/apex-chart/stock-prices.js"></script>
     <script src="assets/js/chart/apex-chart/chart-custom1.js"></script>
-
+    <script src="assets/js/chart/apex-chart/chart-custom.js"></script>
+    <!--    Sửa chart ở Dashboard và Reports ở đây-->
 
     <!-- slick slider js -->
     <script src="assets/js/slick.min.js"></script>
@@ -579,6 +587,9 @@
     <!-- bootstrap tag-input js -->
     <script src="assets/js/bootstrap-tagsinput.min.js"></script>
 <!--    <script src="assets/js/sidebar-menu.js"></script>-->
+
+    <!-- Theme js -->
+    <script src="assets/js/script.js"></script>
 
 
 </body>
