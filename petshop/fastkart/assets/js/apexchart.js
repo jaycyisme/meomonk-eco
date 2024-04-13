@@ -3403,7 +3403,7 @@
                         d = null;
                     if (!n.enabled || !Array.isArray(t.x)) return d;
                     d = o.group({
-                        class: "apexcharts-data-labels"
+                        class: "apexcharts-animalServices-labels"
                     });
                     for (var g = 0; g < t.x.length; g++)
                         if (l = t.x[g] + n.offsetX, h = t.y[g] + n.offsetY + s, !isNaN(l)) {
@@ -3716,7 +3716,7 @@
                         b = d.globals.collapsedSeriesIndices.indexOf(r) > -1;
                     if (c.enabled && !b) {
                         x = p.group({
-                            class: "apexcharts-data-labels",
+                            class: "apexcharts-animalServices-labels",
                             transform: g
                         });
                         var v = "";
@@ -3824,7 +3824,7 @@
                         var s = parseInt(e.getAttribute("rel"), 10) - 1,
                             r = null,
                             o = null;
-                        i.globals.axisCharts || "radialBar" === i.config.chart.type ? i.globals.axisCharts ? (r = i.globals.dom.baseEl.querySelector(".apexcharts-series[data\\:realIndex='".concat(s, "']")), o = i.globals.dom.baseEl.querySelector(".apexcharts-datalabels[data\\:realIndex='".concat(s, "']"))) : r = i.globals.dom.baseEl.querySelector(".apexcharts-series[rel='".concat(s + 1, "']")) : r = i.globals.dom.baseEl.querySelector(".apexcharts-series[rel='".concat(s + 1, "'] path"));
+                        i.globals.axisCharts || "radialBar" === i.config.chart.type ? i.globals.axisCharts ? (r = i.globals.dom.baseEl.querySelector(".apexcharts-series[animalServices\\:realIndex='".concat(s, "']")), o = i.globals.dom.baseEl.querySelector(".apexcharts-datalabels[animalServices\\:realIndex='".concat(s, "']"))) : r = i.globals.dom.baseEl.querySelector(".apexcharts-series[rel='".concat(s + 1, "']")) : r = i.globals.dom.baseEl.querySelector(".apexcharts-series[rel='".concat(s + 1, "'] path"));
                         for (var n = 0; n < a.length; n++) a[n].classList.add(this.legendInactiveClass);
                         null !== r && (i.globals.axisCharts || r.parentNode.classList.remove(this.legendInactiveClass), r.classList.remove(this.legendInactiveClass), null !== o && o.classList.remove(this.legendInactiveClass))
                     } else if ("mouseout" === t.type)
@@ -3894,7 +3894,7 @@
                     var i = t.globals.dom.baseEl.querySelectorAll(".apexcharts-".concat(t.config.chart.type, " .apexcharts-series"));
                     if (i.length > 0)
                         for (var a = function (e) {
-                                for (var i = t.globals.dom.baseEl.querySelectorAll(".apexcharts-".concat(t.config.chart.type, " .apexcharts-series[data\\:realIndex='").concat(e, "'] rect")), a = [], s = function (t) {
+                                for (var i = t.globals.dom.baseEl.querySelectorAll(".apexcharts-".concat(t.config.chart.type, " .apexcharts-series[animalServices\\:realIndex='").concat(e, "'] rect")), a = [], s = function (t) {
                                         var e = function (e) {
                                                 return i[t].getAttribute(e)
                                             },
@@ -3920,7 +3920,7 @@
                         i = e.globals.dom.baseEl.querySelectorAll(".apexcharts-".concat(t, "-series .apexcharts-series"));
                     if (i.length > 0)
                         for (var a = 0; a < i.length; a++) {
-                            for (var s = e.globals.dom.baseEl.querySelectorAll(".apexcharts-".concat(t, "-series .apexcharts-series[data\\:realIndex='").concat(a, "'] circle")), r = [], o = 0; o < s.length; o++) r.push({
+                            for (var s = e.globals.dom.baseEl.querySelectorAll(".apexcharts-".concat(t, "-series .apexcharts-series[animalServices\\:realIndex='").concat(a, "'] circle")), r = [], o = 0; o < s.length; o++) r.push({
                                 x: s[o].getAttribute("cx"),
                                 y: s[o].getAttribute("cy"),
                                 r: s[o].getAttribute("r")
@@ -4379,7 +4379,7 @@
                         });
                     P.attr("clip-path", "url(#gridRectMask".concat(S.globals.cuid, ")"));
                     var M = S.config.forecastDataPoints;
-                    M.count > 0 && s >= S.globals.dataPoints - M.count && (P.node.setAttribute("stroke-dasharray", M.dashArray), P.node.setAttribute("stroke-width", M.strokeWidth), P.node.setAttribute("fill-opacity", M.fillOpacity)), void 0 !== g && void 0 !== u && (P.attr("data-range-y1", g), P.attr("data-range-y2", u)), new v(this.ctx).setSelectionFilter(P, e, s), h.add(P);
+                    M.count > 0 && s >= S.globals.dataPoints - M.count && (P.node.setAttribute("stroke-dasharray", M.dashArray), P.node.setAttribute("stroke-width", M.strokeWidth), P.node.setAttribute("fill-opacity", M.fillOpacity)), void 0 !== g && void 0 !== u && (P.attr("animalServices-range-y1", g), P.attr("animalServices-range-y2", u)), new v(this.ctx).setSelectionFilter(P, e, s), h.add(P);
                     var T = new X(this).handleBarDataLabels({
                         x: c,
                         y: d,
@@ -6130,7 +6130,7 @@
                                     e.twoDSeriesX.push(r.parseDate(o[t]))
                                 } else e.twoDSeriesX.push(o[t])
                         }, l = 0; l < t.length; l++) {
-                        if (this.twoDSeries = [], this.twoDSeriesX = [], this.threeDSeries = [], void 0 === t[l].data) return void console.error("It is a possibility that you may have not included 'data' property in series.");
+                        if (this.twoDSeries = [], this.twoDSeriesX = [], this.threeDSeries = [], void 0 === t[l].data) return void console.error("It is a possibility that you may have not included 'animalServices' property in series.");
                         if ("rangeBar" !== a.chart.type && "rangeArea" !== a.chart.type && "rangeBar" !== t[l].type && "rangeArea" !== t[l].type || (s.isRangeData = !0, this.handleRangeData(t, l)), this.isMultiFormat()) this.isFormat2DArray() ? this.handleFormat2DArray(t, l) : this.isFormatXY() && this.handleFormatXY(t, l), "candlestick" !== a.chart.type && "candlestick" !== t[l].type && "boxPlot" !== a.chart.type && "boxPlot" !== t[l].type || this.handleCandleStickBoxData(t, l), s.series.push(this.twoDSeries), s.labels.push(this.twoDSeriesX), s.seriesX.push(this.twoDSeriesX), s.seriesGoals = this.seriesGoals, l !== this.activeSeriesIndex || this.fallbackToCategory || (s.isXNumeric = !0);
                         else {
                             "datetime" === a.xaxis.type ? (s.isXNumeric = !0, n(), s.seriesX.push(this.twoDSeriesX)) : "numeric" === a.xaxis.type && (s.isXNumeric = !0, o.length > 0 && (this.twoDSeriesX = o, s.seriesX.push(this.twoDSeriesX))), s.labels.push(this.twoDSeriesX);
@@ -6482,7 +6482,7 @@
                                 blob: c
                             })
                         } else {
-                            var d = "data:image/svg+xml," + encodeURIComponent(l),
+                            var d = "animalServices:image/svg+xml," + encodeURIComponent(l),
                                 g = new Image;
                             g.crossOrigin = "anonymous", g.onload = function () {
                                 if (n.drawImage(g, 0, 0), r.msToBlob) {
@@ -6565,7 +6565,7 @@
                                 }
                             var n
                         }(t, e) : ((h = []).push(l.globals.labels[e].split(r).join("")), h.push(l.globals.series[e]), c.push(h.join(r)))
-                    })), d += c.join(n), this.triggerDownload("data:text/csv; charset=utf-8," + encodeURIComponent("\ufeff" + d), a || l.config.chart.toolbar.export.csv.filename, ".csv")
+                    })), d += c.join(n), this.triggerDownload("animalServices:text/csv; charset=utf-8," + encodeURIComponent("\ufeff" + d), a || l.config.chart.toolbar.export.csv.filename, ".csv")
                 }
             }, {
                 key: "triggerDownload",
@@ -8589,7 +8589,7 @@
                         a.globals.resized = !0;
                         var s = null,
                             r = null;
-                        if (a.globals.risingSeries = [], a.globals.axisCharts ? (s = a.globals.dom.baseEl.querySelector(".apexcharts-series[data\\:realIndex='".concat(t, "']")), r = parseInt(s.getAttribute("data:realIndex"), 10)) : (s = a.globals.dom.baseEl.querySelector(".apexcharts-series[rel='".concat(t + 1, "']")), r = parseInt(s.getAttribute("rel"), 10) - 1), e)[{
+                        if (a.globals.risingSeries = [], a.globals.axisCharts ? (s = a.globals.dom.baseEl.querySelector(".apexcharts-series[animalServices\\:realIndex='".concat(t, "']")), r = parseInt(s.getAttribute("data:realIndex"), 10)) : (s = a.globals.dom.baseEl.querySelector(".apexcharts-series[rel='".concat(t + 1, "']")), r = parseInt(s.getAttribute("rel"), 10) - 1), e)[{
                             cs: a.globals.collapsedSeries,
                             csi: a.globals.collapsedSeriesIndices
                         }, {
@@ -9958,7 +9958,7 @@
                     var i = this.w,
                         a = this.ttCtx;
                     if (i.globals.markers.size[t] > 0)
-                        for (var s = i.globals.dom.baseEl.querySelectorAll(" .apexcharts-series[data\\:realIndex='".concat(t, "'] .apexcharts-marker")), r = 0; r < s.length; r++) parseInt(s[r].getAttribute("rel"), 10) === e && (a.marker.resetPointsSize(), a.marker.enlargeCurrentPoint(e, s[r]));
+                        for (var s = i.globals.dom.baseEl.querySelectorAll(" .apexcharts-series[animalServices\\:realIndex='".concat(t, "'] .apexcharts-marker")), r = 0; r < s.length; r++) parseInt(s[r].getAttribute("rel"), 10) === e && (a.marker.resetPointsSize(), a.marker.enlargeCurrentPoint(e, s[r]));
                     else a.marker.resetPointsSize(), this.moveDynamicPointOnHover(e, t)
                 }
             }, {
@@ -9971,7 +9971,7 @@
                         l = s.config.series[e].type;
                     if (!l || "column" !== l && "candlestick" !== l && "boxPlot" !== l) {
                         i = o[e][t][0], a = o[e][t][1] ? o[e][t][1] : 0;
-                        var h = s.globals.dom.baseEl.querySelector(".apexcharts-series[data\\:realIndex='".concat(e, "'] .apexcharts-series-markers circle"));
+                        var h = s.globals.dom.baseEl.querySelector(".apexcharts-series[animalServices\\:realIndex='".concat(e, "'] .apexcharts-series-markers circle"));
                         h && a < s.globals.gridHeight && a > 0 && (h.setAttribute("r", n), h.setAttribute("cx", i), h.setAttribute("cy", a)), this.moveXCrosshairs(i), r.fixedTooltip || this.moveTooltip(i, a, n)
                     }
                 }
@@ -10240,8 +10240,8 @@
                         h = parseFloat(g.getAttribute("barWidth"));
                         var m = "touchmove" === e.type ? e.touches[0].clientX : e.clientX;
                         s = parseInt(g.getAttribute("j"), 10), o = parseInt(g.parentNode.getAttribute("rel"), 10) - 1;
-                        var y = g.getAttribute("data-range-y1"),
-                            w = g.getAttribute("data-range-y2");
+                        var y = g.getAttribute("animalServices-range-y1"),
+                            w = g.getAttribute("animalServices-range-y2");
                         a.globals.comboCharts && (o = parseInt(g.parentNode.getAttribute("data:realIndex"), 10)), r.tooltipLabels.drawSeriesTexts({
                             ttItems: i.ttItems,
                             i: o,
@@ -10425,7 +10425,7 @@
                             tooltipX: h,
                             ttItems: this.ttItems
                         };
-                    if (t.globals.axisCharts && (s ? n = t.globals.dom.baseEl.querySelectorAll(".apexcharts-series[data\\:longestSeries='true'] .apexcharts-marker") : a ? n = t.globals.dom.baseEl.querySelectorAll(".apexcharts-series .apexcharts-bar-area, .apexcharts-series .apexcharts-candlestick-area, .apexcharts-series .apexcharts-boxPlot-area, .apexcharts-series .apexcharts-rangebar-area") : "heatmap" !== e && "treemap" !== e || (n = t.globals.dom.baseEl.querySelectorAll(".apexcharts-series .apexcharts-heatmap, .apexcharts-series .apexcharts-treemap")), n && n.length))
+                    if (t.globals.axisCharts && (s ? n = t.globals.dom.baseEl.querySelectorAll(".apexcharts-series[animalServices\\:longestSeries='true'] .apexcharts-marker") : a ? n = t.globals.dom.baseEl.querySelectorAll(".apexcharts-series .apexcharts-bar-area, .apexcharts-series .apexcharts-candlestick-area, .apexcharts-series .apexcharts-boxPlot-area, .apexcharts-series .apexcharts-rangebar-area") : "heatmap" !== e && "treemap" !== e || (n = t.globals.dom.baseEl.querySelectorAll(".apexcharts-series .apexcharts-heatmap, .apexcharts-series .apexcharts-treemap")), n && n.length))
                         for (var d = 0; d < n.length; d++) l.push(n[d].getAttribute("cy")), h.push(n[d].getAttribute("cx"));
                     if (t.globals.xyCharts && !this.showOnIntersect || t.globals.comboCharts && !this.showOnIntersect || a && this.tooltipUtil.hasBars() && this.tConfig.shared) this.addPathsEventListeners([r], c);
                     else if (a && !t.globals.comboCharts || s && this.showOnIntersect) this.addDatapointEventsListeners(c);
@@ -11220,7 +11220,7 @@
                         d = null;
                     if (l.enabled) {
                         d = h.group({
-                            class: "apexcharts-data-labels"
+                            class: "apexcharts-animalServices-labels"
                         });
                         var g = l.offsetX,
                             u = l.offsetY,
@@ -11607,7 +11607,7 @@
                             startAngle: g,
                             angle: d,
                             size: c
-                        }), t.node.setAttribute("data:pathOrig", o), t.attr({
+                        }), t.node.setAttribute("animalServices:pathOrig", o), t.attr({
                             d: o
                         })
                     })) : (o = n.getPiePath({
@@ -11615,7 +11615,7 @@
                         startAngle: g,
                         angle: a,
                         size: c
-                    }), r.isTrack || (l.globals.animationEnded = !0), t.node.setAttribute("data:pathOrig", o), t.attr({
+                    }), r.isTrack || (l.globals.animationEnded = !0), t.node.setAttribute("animalServices:pathOrig", o), t.attr({
                         d: o,
                         "stroke-width": n.strokeWidth
                     }))
@@ -11631,7 +11631,7 @@
                         var o = i.globals.dom.baseEl.getElementsByClassName("apexcharts-pie-area");
                         Array.prototype.forEach.call(o, (function (t) {
                             t.setAttribute("data:pieClicked", "false");
-                            var e = t.getAttribute("data:pathOrig");
+                            var e = t.getAttribute("animalServices:pathOrig");
                             t.setAttribute("d", e)
                         })), r.attr("data:pieClicked", "true");
                         var n = parseInt(r.attr("data:startAngle"), 10),
@@ -11646,7 +11646,7 @@
                         r.attr({
                             "data:pieClicked": "false"
                         }), this.revertDataLabelsInner(r.node, this.donutDataLabels);
-                        var h = r.attr("data:pathOrig");
+                        var h = r.attr("animalServices:pathOrig");
                         r.attr({
                             d: h
                         })
@@ -12902,7 +12902,7 @@
                             new v(e.ctx).dropShadow(r, h, n)
                         }
                         var c = a.group({
-                            class: "apexcharts-data-labels"
+                            class: "apexcharts-animalServices-labels"
                         });
                         o.forEach((function (r, o) {
                             var h = r[0],
@@ -13832,7 +13832,7 @@
                 value: function (t, e) {
                     var i = this.w,
                         a = null,
-                        s = ".apexcharts-series[data\\:realIndex='".concat(t, "']");
+                        s = ".apexcharts-series[animalServices\\:realIndex='".concat(t, "']");
                     return i.globals.axisCharts ? a = i.globals.dom.Paper.select("".concat(s, " path[j='").concat(e, "'], ").concat(s, " circle[j='").concat(e, "'], ").concat(s, " rect[j='").concat(e, "']")).members[0] : void 0 === e && (a = i.globals.dom.Paper.select("".concat(s, " path[j='").concat(t, "']")).members[0], "pie" !== i.config.chart.type && "polarArea" !== i.config.chart.type && "donut" !== i.config.chart.type || this.ctx.pie.pieClicked(t)), a ? (new m(this.ctx).pathMouseDown(a, null), a.node ? a.node : null) : (console.warn("toggleDataPointSelection: Element not found"), null)
                 }
             }, {
@@ -13894,7 +13894,7 @@
                 };
                 return t.inherit && (e.prototype = new t.inherit), t.extend && a.extend(e, t.extend), t.construct && a.extend(t.parent || a.Container, t.construct), e
             }, a.adopt = function (e) {
-                return e ? e.instance ? e.instance : ((i = "svg" == e.nodeName ? e.parentNode instanceof t.SVGElement ? new a.Nested : new a.Doc : "linearGradient" == e.nodeName ? new a.Gradient("linear") : "radialGradient" == e.nodeName ? new a.Gradient("radial") : a[d(e.nodeName)] ? new(a[d(e.nodeName)]) : new a.Element(e)).type = e.nodeName, i.node = e, e.instance = i, i instanceof a.Doc && i.namespace().defs(), i.setData(JSON.parse(e.getAttribute("svgjs:data")) || {}), i) : null;
+                return e ? e.instance ? e.instance : ((i = "svg" == e.nodeName ? e.parentNode instanceof t.SVGElement ? new a.Nested : new a.Doc : "linearGradient" == e.nodeName ? new a.Gradient("linear") : "radialGradient" == e.nodeName ? new a.Gradient("radial") : a[d(e.nodeName)] ? new(a[d(e.nodeName)]) : new a.Element(e)).type = e.nodeName, i.node = e, e.instance = i, i instanceof a.Doc && i.namespace().defs(), i.setData(JSON.parse(e.getAttribute("svgjs:animalServices")) || {}), i) : null;
                 var i
             }, a.prepare = function () {
                 var t = e.getElementsByTagName("body")[0],
@@ -14272,7 +14272,7 @@
                     writeDataToDom: function () {
                         return (this.each || this.lines) && (this.each ? this : this.lines()).each((function () {
                             this.writeDataToDom()
-                        })), this.node.removeAttribute("svgjs:data"), Object.keys(this.dom).length && this.node.setAttribute("svgjs:data", JSON.stringify(this.dom)), this
+                        })), this.node.removeAttribute("svgjs:animalServices"), Object.keys(this.dom).length && this.node.setAttribute("svgjs:animalServices", JSON.stringify(this.dom)), this
                     },
                     setData: function (t) {
                         return this.dom = t, this
@@ -16624,7 +16624,7 @@
                     i = this,
                     a = i.w;
                 return new Promise((function (s, r) {
-                    if (null === i.el) return r(new Error("Not enough data to display or target element not found"));
+                    if (null === i.el) return r(new Error("Not enough animalServices to display or target element not found"));
                     (null === e || a.globals.allSeriesCollapsed) && i.series.handleNoData(), "treemap" !== a.config.chart.type && i.axes.drawAxis(a.config.chart.type, e.xyRatios), i.grid = new U(i);
                     var o = i.grid.drawGrid();
                     i.annotations = new P(i), i.annotations.drawImageAnnos(), i.annotations.drawTextAnnos(), "back" === a.config.grid.position && o && a.globals.dom.elGraphical.add(o.el);
@@ -16907,8 +16907,8 @@
         }, {
             key: "initOnLoad",
             value: function () {
-                for (var e = document.querySelectorAll("[data-apexcharts]"), i = 0; i < e.length; i++) {
-                    new t(e[i], JSON.parse(e[i].getAttribute("data-options"))).render()
+                for (var e = document.querySelectorAll("[animalServices-apexcharts]"), i = 0; i < e.length; i++) {
+                    new t(e[i], JSON.parse(e[i].getAttribute("animalServices-options"))).render()
                 }
             }
         }, {

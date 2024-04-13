@@ -3935,7 +3935,7 @@
                         c = null;
                     if (!r.enabled || t.x instanceof Array != !0) return c;
                     c = n.group({
-                        class: "apexcharts-data-labels"
+                        class: "apexcharts-animalServices-labels"
                     });
                     for (var d = 0; d < t.x.length; d++)
                         if (o = t.x[d] + r.offsetX, l = t.y[d] + r.offsetY - s.globals.markers.size[e] - 5, "bottom" === a && (l = l + 2 * s.globals.markers.size[e] + 1.4 * parseInt(r.style.fontSize)), !isNaN(o)) {
@@ -4488,7 +4488,7 @@
                         m = d.globals.collapsedSeriesIndices.indexOf(s) > -1;
                     if (c.enabled && !m) {
                         b = f.group({
-                            class: "apexcharts-data-labels",
+                            class: "apexcharts-animalServices-labels",
                             transform: u
                         });
                         var v = "";
@@ -5107,7 +5107,7 @@
                         u = null;
                     if (l.enabled) {
                         u = h.group({
-                            class: "apexcharts-data-labels"
+                            class: "apexcharts-animalServices-labels"
                         });
                         var g = l.offsetX,
                             f = l.offsetY,
@@ -5370,7 +5370,7 @@
                             startAngle: u,
                             angle: d,
                             size: c
-                        }), t.node.setAttribute("data:pathOrig", r), t.attr({
+                        }), t.node.setAttribute("animalServices:pathOrig", r), t.attr({
                             d: r
                         })
                     }) : (r = o.getPiePath({
@@ -5378,7 +5378,7 @@
                         startAngle: u,
                         angle: a,
                         size: c
-                    }), n.isTrack || (l.globals.animationEnded = !0), t.node.setAttribute("data:pathOrig", r), t.attr({
+                    }), n.isTrack || (l.globals.animationEnded = !0), t.node.setAttribute("animalServices:pathOrig", r), t.attr({
                         d: r
                     }))
                 }
@@ -5393,7 +5393,7 @@
                         var r = i.globals.dom.baseEl.querySelectorAll(".apexcharts-pie-area");
                         Array.prototype.forEach.call(r, function (t) {
                             t.setAttribute("data:pieClicked", "false");
-                            var e = t.getAttribute("data:pathOrig");
+                            var e = t.getAttribute("animalServices:pathOrig");
                             t.setAttribute("d", e)
                         }), s.attr("data:pieClicked", "true");
                         var o = parseInt(s.attr("data:startAngle")),
@@ -5408,7 +5408,7 @@
                         s.attr({
                             "data:pieClicked": "false"
                         }), this.revertDataLabelsInner(s.node, this.donutDataLabels);
-                        var h = s.attr("data:pathOrig");
+                        var h = s.attr("animalServices:pathOrig");
                         s.attr({
                             d: h
                         })
@@ -6876,7 +6876,7 @@
                     if ("mousemove" === t.type) {
                         var s = parseInt(e.getAttribute("rel")) - 1,
                             n = null;
-                        n = i.globals.axisCharts || "radialBar" === i.config.chart.type ? i.globals.axisCharts ? i.globals.dom.baseEl.querySelector(".apexcharts-series[data\\:realIndex='".concat(s, "']")) : i.globals.dom.baseEl.querySelector(".apexcharts-series[rel='".concat(s + 1, "']")) : i.globals.dom.baseEl.querySelector(".apexcharts-series[rel='".concat(s + 1, "'] path"));
+                        n = i.globals.axisCharts || "radialBar" === i.config.chart.type ? i.globals.axisCharts ? i.globals.dom.baseEl.querySelector(".apexcharts-series[animalServices\\:realIndex='".concat(s, "']")) : i.globals.dom.baseEl.querySelector(".apexcharts-series[rel='".concat(s + 1, "']")) : i.globals.dom.baseEl.querySelector(".apexcharts-series[rel='".concat(s + 1, "'] path"));
                         for (var r = 0; r < a.length; r++) a[r].classList.add("legend-mouseover-inactive");
                         null !== n && (i.globals.axisCharts || n.parentNode.classList.remove("legend-mouseover-inactive"), n.classList.remove("legend-mouseover-inactive"))
                     } else if ("mouseout" === t.type)
@@ -6969,7 +6969,7 @@
                     var u = t.globals.dom.baseEl.querySelectorAll(".apexcharts-bubble-series .apexcharts-series");
                     if (u.length > 0)
                         for (var g = 0; g < u.length; g++) {
-                            for (var f = t.globals.dom.baseEl.querySelectorAll(".apexcharts-bubble-series .apexcharts-series[data\\:realIndex='".concat(g, "'] circle")), p = [], x = 0; x < f.length; x++) p.push({
+                            for (var f = t.globals.dom.baseEl.querySelectorAll(".apexcharts-bubble-series .apexcharts-series[animalServices\\:realIndex='".concat(g, "'] circle")), p = [], x = 0; x < f.length; x++) p.push({
                                 x: f[x].getAttribute("cx"),
                                 y: f[x].getAttribute("cy"),
                                 r: f[x].getAttribute("r")
@@ -6979,7 +6979,7 @@
                     var b = t.globals.dom.baseEl.querySelectorAll(".apexcharts-scatter-series .apexcharts-series");
                     if (b.length > 0)
                         for (var m = 0; m < b.length; m++) {
-                            for (var v = t.globals.dom.baseEl.querySelectorAll(".apexcharts-scatter-series .apexcharts-series[data\\:realIndex='".concat(m, "'] circle")), y = [], w = 0; w < v.length; w++) y.push({
+                            for (var v = t.globals.dom.baseEl.querySelectorAll(".apexcharts-scatter-series .apexcharts-series[animalServices\\:realIndex='".concat(m, "'] circle")), y = [], w = 0; w < v.length; w++) y.push({
                                 x: v[w].getAttribute("cx"),
                                 y: v[w].getAttribute("cy"),
                                 r: v[w].getAttribute("r")
@@ -6989,7 +6989,7 @@
                     var k = t.globals.dom.baseEl.querySelectorAll(".apexcharts-heatmap .apexcharts-series");
                     if (k.length > 0)
                         for (var A = 0; A < k.length; A++) {
-                            for (var S = t.globals.dom.baseEl.querySelectorAll(".apexcharts-heatmap .apexcharts-series[data\\:realIndex='".concat(A, "'] rect")), C = [], L = 0; L < S.length; L++) C.push({
+                            for (var S = t.globals.dom.baseEl.querySelectorAll(".apexcharts-heatmap .apexcharts-series[animalServices\\:realIndex='".concat(A, "'] rect")), C = [], L = 0; L < S.length; L++) C.push({
                                 color: S[L].getAttribute("color")
                             });
                             t.globals.previousPaths.push(C)
@@ -7215,7 +7215,7 @@
                         i.globals.resized = !0;
                         var a = null,
                             s = null;
-                        if (i.globals.risingSeries = [], i.globals.axisCharts ? (a = i.globals.dom.baseEl.querySelector(".apexcharts-series[data\\:realIndex='".concat(t, "']")), s = parseInt(a.getAttribute("data:realIndex"))) : (a = i.globals.dom.baseEl.querySelector(".apexcharts-series[rel='".concat(t + 1, "']")), s = parseInt(a.getAttribute("rel")) - 1), e) this.riseCollapsedSeries(i.globals.collapsedSeries, i.globals.collapsedSeriesIndices, s), this.riseCollapsedSeries(i.globals.ancillaryCollapsedSeries, i.globals.ancillaryCollapsedSeriesIndices, s);
+                        if (i.globals.risingSeries = [], i.globals.axisCharts ? (a = i.globals.dom.baseEl.querySelector(".apexcharts-series[animalServices\\:realIndex='".concat(t, "']")), s = parseInt(a.getAttribute("data:realIndex"))) : (a = i.globals.dom.baseEl.querySelector(".apexcharts-series[rel='".concat(t + 1, "']")), s = parseInt(a.getAttribute("rel")) - 1), e) this.riseCollapsedSeries(i.globals.collapsedSeries, i.globals.collapsedSeriesIndices, s), this.riseCollapsedSeries(i.globals.ancillaryCollapsedSeries, i.globals.ancillaryCollapsedSeriesIndices, s);
                         else {
                             if (i.globals.axisCharts) {
                                 var n = !1;
@@ -8816,7 +8816,7 @@
                 key: "parseDataAxisCharts",
                 value: function (t) {
                     for (var e = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : this.ctx, i = this.w.config, a = this.w.globals, s = new v(e), n = 0; n < t.length; n++) {
-                        if (this.twoDSeries = [], this.twoDSeriesX = [], this.threeDSeries = [], void 0 === t[n].data) return void console.error("It is a possibility that you may have not included 'data' property in series.");
+                        if (this.twoDSeries = [], this.twoDSeriesX = [], this.threeDSeries = [], void 0 === t[n].data) return void console.error("It is a possibility that you may have not included 'animalServices' property in series.");
                         if ("rangeBar" !== i.chart.type && "rangeArea" !== i.chart.type && "rangeBar" !== t[n].type && "rangeArea" !== t[n].type || (a.isRangeData = !0, this.handleRangeData(t, n)), this.isMultiFormat()) this.isFormat2DArray() ? this.handleFormat2DArray(t, n) : this.isFormatXY() && this.handleFormatXY(t, n), "candlestick" !== i.chart.type && "candlestick" !== t[n].type || this.handleCandleStickData(t, n), a.series.push(this.twoDSeries), a.labels.push(this.twoDSeriesX), a.seriesX.push(this.twoDSeriesX), this.fallbackToCategory || (a.isXNumeric = !0);
                         else {
                             if ("datetime" === i.xaxis.type) {
@@ -9134,7 +9134,7 @@
                             o = new Image;
                         o.crossOrigin = "anonymous";
                         var l = t.getSvgString(),
-                            h = "data:image/svg+xml," + encodeURIComponent(l);
+                            h = "animalServices:image/svg+xml," + encodeURIComponent(l);
                         o.onload = function () {
                             n.drawImage(o, 0, 0), r.revokeObjectURL(h);
                             var t = a.toDataURL("image/png");
@@ -9897,7 +9897,7 @@
                     var i = this.w,
                         a = this.ttCtx;
                     if (i.globals.markers.size[t] > 0)
-                        for (var s = i.globals.dom.baseEl.querySelectorAll(" .apexcharts-series[data\\:realIndex='".concat(t, "'] .apexcharts-marker")), n = 0; n < s.length; n++) parseInt(s[n].getAttribute("rel")) === e && (a.marker.resetPointsSize(), a.marker.enlargeCurrentPoint(e, s[n]));
+                        for (var s = i.globals.dom.baseEl.querySelectorAll(" .apexcharts-series[animalServices\\:realIndex='".concat(t, "'] .apexcharts-marker")), n = 0; n < s.length; n++) parseInt(s[n].getAttribute("rel")) === e && (a.marker.resetPointsSize(), a.marker.enlargeCurrentPoint(e, s[n]));
                     else a.marker.resetPointsSize(), this.moveDynamicPointOnHover(e, t)
                 }
             }, {
@@ -9909,7 +9909,7 @@
                         o = s.config.markers.hover.size;
                     if (void 0 === o && (o = s.globals.markers.size[e] + s.config.markers.hover.sizeOffset), !s.config.series[e].type || "column" !== s.config.series[e].type && "candlestick" !== s.config.series[e].type) {
                         i = r[e][t][0], a = r[e][t][1] ? r[e][t][1] : 0;
-                        var l = s.globals.dom.baseEl.querySelector(".apexcharts-series[data\\:realIndex='".concat(e, "'] .apexcharts-series-markers circle"));
+                        var l = s.globals.dom.baseEl.querySelector(".apexcharts-series[animalServices\\:realIndex='".concat(e, "'] .apexcharts-series-markers circle"));
                         l && (l.setAttribute("r", o), l.setAttribute("cx", i), l.setAttribute("cy", a)), this.moveXCrosshairs(i), n.fixedTooltip || this.moveTooltip(i, a, o)
                     }
                 }
@@ -9969,7 +9969,7 @@
                 value: function () {
                     for (var t = this.w, e = new p(this.ctx), i = new L(this.ctx), a = t.globals.dom.baseEl.querySelectorAll(".apexcharts-series"), s = 0; s < a.length; s++) {
                         var n = parseInt(a[s].getAttribute("data:realIndex")),
-                            r = t.globals.dom.baseEl.querySelector(".apexcharts-series[data\\:realIndex='".concat(n, "'] .apexcharts-series-markers-wrap"));
+                            r = t.globals.dom.baseEl.querySelector(".apexcharts-series[animalServices\\:realIndex='".concat(n, "'] .apexcharts-series-markers-wrap"));
                         if (null !== r) {
                             var o = void 0,
                                 l = "apexcharts-marker w".concat((Math.random() + 1).toString(36).substring(4));
@@ -10347,7 +10347,7 @@
                             tooltipX: l,
                             ttItems: this.ttItems
                         };
-                    if (t.globals.axisCharts && ("area" === e || "line" === e || "scatter" === e || "bubble" === e ? r = t.globals.dom.baseEl.querySelectorAll(".apexcharts-series[data\\:longestSeries='true'] .apexcharts-marker") : a ? r = t.globals.dom.baseEl.querySelectorAll(".apexcharts-series .apexcharts-bar-area, .apexcharts-series .apexcharts-candlestick-area, .apexcharts-series .apexcharts-rangebar-area") : "heatmap" === e ? r = t.globals.dom.baseEl.querySelectorAll(".apexcharts-series .apexcharts-heatmap") : "radar" === e && (r = t.globals.dom.baseEl.querySelectorAll(".apexcharts-series .apexcharts-marker")), r && r.length))
+                    if (t.globals.axisCharts && ("area" === e || "line" === e || "scatter" === e || "bubble" === e ? r = t.globals.dom.baseEl.querySelectorAll(".apexcharts-series[animalServices\\:longestSeries='true'] .apexcharts-marker") : a ? r = t.globals.dom.baseEl.querySelectorAll(".apexcharts-series .apexcharts-bar-area, .apexcharts-series .apexcharts-candlestick-area, .apexcharts-series .apexcharts-rangebar-area") : "heatmap" === e ? r = t.globals.dom.baseEl.querySelectorAll(".apexcharts-series .apexcharts-heatmap") : "radar" === e && (r = t.globals.dom.baseEl.querySelectorAll(".apexcharts-series .apexcharts-marker")), r && r.length))
                         for (var c = 0; c < r.length; c++) o.push(r[c].getAttribute("cy")), l.push(r[c].getAttribute("cx"));
                     if (t.globals.xyCharts && !this.showOnIntersect || t.globals.comboCharts && !this.showOnIntersect || a && this.hasBars() && this.tConfig.shared) this.addPathsEventListeners([s], h);
                     else if (a && !t.globals.comboCharts) this.addBarsEventListeners(h);
@@ -11253,7 +11253,7 @@
                 };
                 return t.inherit && (e.prototype = new t.inherit), t.extend && a.extend(e, t.extend), t.construct && a.extend(t.parent || a.Container, t.construct), e
             }, a.adopt = function (t) {
-                return t ? t.instance ? t.instance : ((i = "svg" == t.nodeName ? t.parentNode instanceof e.SVGElement ? new a.Nested : new a.Doc : "linearGradient" == t.nodeName ? new a.Gradient("linear") : "radialGradient" == t.nodeName ? new a.Gradient("radial") : a[d(t.nodeName)] ? new(a[d(t.nodeName)]) : new a.Element(t)).type = t.nodeName, i.node = t, t.instance = i, i instanceof a.Doc && i.namespace().defs(), i.setData(JSON.parse(t.getAttribute("svgjs:data")) || {}), i) : null;
+                return t ? t.instance ? t.instance : ((i = "svg" == t.nodeName ? t.parentNode instanceof e.SVGElement ? new a.Nested : new a.Doc : "linearGradient" == t.nodeName ? new a.Gradient("linear") : "radialGradient" == t.nodeName ? new a.Gradient("radial") : a[d(t.nodeName)] ? new(a[d(t.nodeName)]) : new a.Element(t)).type = t.nodeName, i.node = t, t.instance = i, i instanceof a.Doc && i.namespace().defs(), i.setData(JSON.parse(t.getAttribute("svgjs:animalServices")) || {}), i) : null;
                 var i
             }, a.prepare = function () {
                 var t = i.getElementsByTagName("body")[0],
@@ -11749,7 +11749,7 @@
                         (this.each || this.lines) && (this.each ? this : this.lines()).each(function () {
                             this.writeDataToDom()
                         });
-                        return this.node.removeAttribute("svgjs:data"), Object.keys(this.dom).length && this.node.setAttribute("svgjs:data", JSON.stringify(this.dom)), this
+                        return this.node.removeAttribute("svgjs:animalServices"), Object.keys(this.dom).length && this.node.setAttribute("svgjs:animalServices", JSON.stringify(this.dom)), this
                     },
                     setData: function (t) {
                         return this.dom = t, this
@@ -13541,10 +13541,10 @@
                     if ("object" === t(e))
                         for (i in e) this.data(i, e[i]);
                     else if (arguments.length < 2) try {
-                        return JSON.parse(this.attr("data-" + e))
+                        return JSON.parse(this.attr("animalServices-" + e))
                     } catch (t) {
-                        return this.attr("data-" + e)
-                    } else this.attr("data-" + e, null === i ? null : !0 === a || "string" == typeof i || "number" == typeof i ? i : JSON.stringify(i));
+                        return this.attr("animalServices-" + e)
+                    } else this.attr("animalServices-" + e, null === i ? null : !0 === a || "string" == typeof i || "number" == typeof i ? i : JSON.stringify(i));
                     return this
                 }
             }), a.extend(a.Element, {
@@ -14745,7 +14745,7 @@
                         e = this,
                         i = e.w;
                     return new Q(function (a, s) {
-                        if (null === e.el) return s(new Error("Not enough data to display or target element not found"));
+                        if (null === e.el) return s(new Error("Not enough animalServices to display or target element not found"));
                         if ((null === t || i.globals.allSeriesCollapsed) && e.series.handleNoData(), e.annotations = new m(e), e.core.drawAxis(i.config.chart.type, t.xyRatios), e.grid = new lt(e), "back" === i.config.grid.position && e.grid.drawGrid(), "back" === i.config.annotations.position && e.annotations.drawAnnotations(), t.elGraph instanceof Array)
                             for (var n = 0; n < t.elGraph.length; n++) i.globals.dom.elGraphical.add(t.elGraph[n]);
                         else i.globals.dom.elGraphical.add(t.elGraph);
@@ -15060,7 +15060,7 @@
                 value: function (t, e) {
                     var i = this.w,
                         a = null;
-                    i.globals.axisCharts ? a = i.globals.dom.Paper.select(".apexcharts-series[data\\:realIndex='".concat(t, "'] path[j='").concat(e, "'], .apexcharts-series[data\\:realIndex='").concat(t, "'] circle[j='").concat(e, "'], .apexcharts-series[data\\:realIndex='").concat(t, "'] rect[j='").concat(e, "']")).members[0] : (a = i.globals.dom.Paper.select(".apexcharts-series[data\\:realIndex='".concat(t, "']")).members[0], ("pie" === i.config.chart.type || "donut" === i.config.chart.type) && new Y(this.ctx).pieClicked(t));
+                    i.globals.axisCharts ? a = i.globals.dom.Paper.select(".apexcharts-series[animalServices\\:realIndex='".concat(t, "'] path[j='").concat(e, "'], .apexcharts-series[animalServices\\:realIndex='").concat(t, "'] circle[j='").concat(e, "'], .apexcharts-series[animalServices\\:realIndex='").concat(t, "'] rect[j='").concat(e, "']")).members[0] : (a = i.globals.dom.Paper.select(".apexcharts-series[animalServices\\:realIndex='".concat(t, "']")).members[0], ("pie" === i.config.chart.type || "donut" === i.config.chart.type) && new Y(this.ctx).pieClicked(t));
                     a ? new p(this.ctx).pathMouseDown(a, null) : console.warn("toggleDataPointSelection: Element not found");
                     return a.node ? a.node : null
                 }
@@ -15102,8 +15102,8 @@
             }], [{
                 key: "initOnLoad",
                 value: function () {
-                    for (var t = document.querySelectorAll("[data-apexcharts]"), e = 0; e < t.length; e++) {
-                        new i(t[e], JSON.parse(t[e].getAttribute("data-options"))).render()
+                    for (var t = document.querySelectorAll("[animalServices-apexcharts]"), e = 0; e < t.length; e++) {
+                        new i(t[e], JSON.parse(t[e].getAttribute("animalServices-options"))).render()
                     }
                 }
             }, {

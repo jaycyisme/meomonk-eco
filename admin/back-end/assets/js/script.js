@@ -90,7 +90,7 @@
     $(".filter-toggle").click(function () {
         $(".product-sidebar").toggleClass("open");
     });
-    $(".toggle-data").click(function () {
+    $(".toggle-animalServices").click(function () {
         $(".product-wrapper").toggleClass("sidebaron");
     });
     $(".form-control-search input").keyup(function (e) {
@@ -122,7 +122,7 @@
     $(".mode").on("click", function () {
         $('.mode i').toggleClass("fa-moon-o").toggleClass("fa-lightbulb-o");
         $('body').toggleClass("dark-only");
-        var color = $(this).attr("data-attr");
+        var color = $(this).attr("animalServices-attr");
         localStorage.setItem('body', 'dark-only');
 
         ////ck editor body dark

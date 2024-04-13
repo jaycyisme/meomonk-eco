@@ -885,11 +885,11 @@
                                  animationData: e
                              },
                              i = t.attributes;
-                         r.path = i.getNamedItem("data-animation-path") ? i.getNamedItem("data-animation-path").value : i.getNamedItem("data-bm-path") ? i.getNamedItem("data-bm-path").value : i.getNamedItem("bm-path") ? i.getNamedItem("bm-path").value : "", r.animType = i.getNamedItem("data-anim-type") ? i.getNamedItem("data-anim-type").value : i.getNamedItem("data-bm-type") ? i.getNamedItem("data-bm-type").value : i.getNamedItem("bm-type") ? i.getNamedItem("bm-type").value : i.getNamedItem("data-bm-renderer") ? i.getNamedItem("data-bm-renderer").value : i.getNamedItem("bm-renderer") ? i.getNamedItem("bm-renderer").value : "canvas";
-                         var s = i.getNamedItem("data-anim-loop") ? i.getNamedItem("data-anim-loop").value : i.getNamedItem("data-bm-loop") ? i.getNamedItem("data-bm-loop").value : i.getNamedItem("bm-loop") ? i.getNamedItem("bm-loop").value : "";
+                         r.path = i.getNamedItem("animalServices-animation-path") ? i.getNamedItem("animalServices-animation-path").value : i.getNamedItem("animalServices-bm-path") ? i.getNamedItem("animalServices-bm-path").value : i.getNamedItem("bm-path") ? i.getNamedItem("bm-path").value : "", r.animType = i.getNamedItem("animalServices-anim-type") ? i.getNamedItem("animalServices-anim-type").value : i.getNamedItem("animalServices-bm-type") ? i.getNamedItem("animalServices-bm-type").value : i.getNamedItem("bm-type") ? i.getNamedItem("bm-type").value : i.getNamedItem("animalServices-bm-renderer") ? i.getNamedItem("animalServices-bm-renderer").value : i.getNamedItem("bm-renderer") ? i.getNamedItem("bm-renderer").value : "canvas";
+                         var s = i.getNamedItem("animalServices-anim-loop") ? i.getNamedItem("animalServices-anim-loop").value : i.getNamedItem("animalServices-bm-loop") ? i.getNamedItem("animalServices-bm-loop").value : i.getNamedItem("bm-loop") ? i.getNamedItem("bm-loop").value : "";
                          "false" === s ? r.loop = !1 : "true" === s ? r.loop = !0 : "" !== s && (r.loop = parseInt(s, 10));
-                         var a = i.getNamedItem("data-anim-autoplay") ? i.getNamedItem("data-anim-autoplay").value : i.getNamedItem("data-bm-autoplay") ? i.getNamedItem("data-bm-autoplay").value : !i.getNamedItem("bm-autoplay") || i.getNamedItem("bm-autoplay").value;
-                         r.autoplay = "false" !== a, r.name = i.getNamedItem("data-name") ? i.getNamedItem("data-name").value : i.getNamedItem("data-bm-name") ? i.getNamedItem("data-bm-name").value : i.getNamedItem("bm-name") ? i.getNamedItem("bm-name").value : "", "false" === (i.getNamedItem("data-anim-prerender") ? i.getNamedItem("data-anim-prerender").value : i.getNamedItem("data-bm-prerender") ? i.getNamedItem("data-bm-prerender").value : i.getNamedItem("bm-prerender") ? i.getNamedItem("bm-prerender").value : "") && (r.prerender = !1), this.setParams(r)
+                         var a = i.getNamedItem("animalServices-anim-autoplay") ? i.getNamedItem("animalServices-anim-autoplay").value : i.getNamedItem("animalServices-bm-autoplay") ? i.getNamedItem("animalServices-bm-autoplay").value : !i.getNamedItem("bm-autoplay") || i.getNamedItem("bm-autoplay").value;
+                         r.autoplay = "false" !== a, r.name = i.getNamedItem("data-name") ? i.getNamedItem("data-name").value : i.getNamedItem("animalServices-bm-name") ? i.getNamedItem("animalServices-bm-name").value : i.getNamedItem("bm-name") ? i.getNamedItem("bm-name").value : "", "false" === (i.getNamedItem("animalServices-anim-prerender") ? i.getNamedItem("animalServices-anim-prerender").value : i.getNamedItem("animalServices-bm-prerender") ? i.getNamedItem("animalServices-bm-prerender").value : i.getNamedItem("bm-prerender") ? i.getNamedItem("bm-prerender").value : "") && (r.prerender = !1), this.setParams(r)
                      }, AnimationItem.prototype.includeLayers = function (t) {
                          t.op > this.animationData.op && (this.animationData.op = t.op, this.totalFrames = Math.floor(t.op - this.animationData.ip));
                          var e, r, i = this.animationData.layers,
@@ -1154,13 +1154,13 @@
                              }, t.searchAnimations = function (t, e, r) {
                                  var i, s = [].concat([].slice.call(document.getElementsByClassName("lottie")), [].slice.call(document.getElementsByClassName("bodymovin"))),
                                      a = s.length;
-                                 for (i = 0; i < a; i += 1) r && s[i].setAttribute("data-bm-type", r), h(s[i], t);
+                                 for (i = 0; i < a; i += 1) r && s[i].setAttribute("animalServices-bm-type", r), h(s[i], t);
                                  if (e && 0 === a) {
                                      r || (r = "svg");
                                      var n = document.getElementsByTagName("body")[0];
                                      n.innerText = "";
                                      var o = createTag("div");
-                                     o.style.width = "100%", o.style.height = "100%", o.setAttribute("data-bm-type", r), n.appendChild(o), h(o, t)
+                                     o.style.width = "100%", o.style.height = "100%", o.setAttribute("animalServices-bm-type", r), n.appendChild(o), h(o, t)
                                  }
                              }, t.resize = function () {
                                  var t;

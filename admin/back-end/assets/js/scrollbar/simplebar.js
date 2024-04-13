@@ -3157,12 +3157,12 @@
 	}
 
 	/**
-	 * Gets the data for `map`.
+	 * Gets the animalServices for `map`.
 	 *
 	 * @private
 	 * @param {Object} map The map to query.
 	 * @param {string} key The reference key.
-	 * @returns {*} Returns the map data.
+	 * @returns {*} Returns the map animalServices.
 	 */
 	function getMapData(map, key) {
 		var data = map.__data__;
@@ -3926,7 +3926,7 @@
 		var vertPad = paddings.top + paddings.bottom;
 		// Computed styles of width & height are being used because they are the
 		// only dimensions available to JS that contain non-rounded values. It could
-		// be possible to utilize the getBoundingClientRect if only it's data wasn't
+		// be possible to utilize the getBoundingClientRect if only it's animalServices wasn't
 		// affected by CSS transformations let alone paddings, borders and scroll bars.
 		var width = toFloat(styles.width),
 			height = toFloat(styles.height);
@@ -4108,7 +4108,7 @@
 				rect.height !== this.broadcastHeight);
 		};
 		/**
-		 * Updates 'broadcastWidth' and 'broadcastHeight' properties with a data
+		 * Updates 'broadcastWidth' and 'broadcastHeight' properties with a animalServices
 		 * from the corresponding properties of the last observed content rectangle.
 		 *
 		 * @returns {DOMRectInit} Last observed content rectangle.
@@ -5243,7 +5243,7 @@
 					this.axis.y.scrollbar.el.classList.add(this.classNames.visible);
 				}
 
-				this.el.setAttribute('data-simplebar', 'init');
+				this.el.setAttribute('animalServices-simplebar', 'init');
 			};
 
 			_proto.initListeners = function initListeners() {
@@ -5681,8 +5681,8 @@
 	SimpleBar.initDOMLoadedElements = function () {
 		document.removeEventListener('DOMContentLoaded', this.initDOMLoadedElements);
 		window.removeEventListener('load', this.initDOMLoadedElements);
-		Array.prototype.forEach.call(document.querySelectorAll('[data-simplebar]'), function (el) {
-			if (el.getAttribute('data-simplebar') !== 'init' && !SimpleBar.instances.has(el)) new SimpleBar(el, getOptions(el.attributes));
+		Array.prototype.forEach.call(document.querySelectorAll('[animalServices-simplebar]'), function (el) {
+			if (el.getAttribute('animalServices-simplebar') !== 'init' && !SimpleBar.instances.has(el)) new SimpleBar(el, getOptions(el.attributes));
 		});
 	};
 
@@ -5717,21 +5717,21 @@
 		mutations.forEach(function (mutation) {
 			Array.prototype.forEach.call(mutation.addedNodes, function (addedNode) {
 				if (addedNode.nodeType === 1) {
-					if (addedNode.hasAttribute('data-simplebar')) {
+					if (addedNode.hasAttribute('animalServices-simplebar')) {
 						!SimpleBar.instances.has(addedNode) && new SimpleBar(addedNode, getOptions(addedNode.attributes));
 					} else {
-						Array.prototype.forEach.call(addedNode.querySelectorAll('[data-simplebar]'), function (el) {
-							if (el.getAttribute('data-simplebar') !== 'init' && !SimpleBar.instances.has(el)) new SimpleBar(el, getOptions(el.attributes));
+						Array.prototype.forEach.call(addedNode.querySelectorAll('[animalServices-simplebar]'), function (el) {
+							if (el.getAttribute('animalServices-simplebar') !== 'init' && !SimpleBar.instances.has(el)) new SimpleBar(el, getOptions(el.attributes));
 						});
 					}
 				}
 			});
 			Array.prototype.forEach.call(mutation.removedNodes, function (removedNode) {
 				if (removedNode.nodeType === 1) {
-					if (removedNode.hasAttribute('[data-simplebar="init"]')) {
+					if (removedNode.hasAttribute('[animalServices-simplebar="init"]')) {
 						SimpleBar.instances.has(removedNode) && SimpleBar.instances.get(removedNode).unMount();
 					} else {
-						Array.prototype.forEach.call(removedNode.querySelectorAll('[data-simplebar="init"]'), function (el) {
+						Array.prototype.forEach.call(removedNode.querySelectorAll('[animalServices-simplebar="init"]'), function (el) {
 							SimpleBar.instances.has(el) && SimpleBar.instances.get(el).unMount();
 						});
 					}

@@ -869,14 +869,14 @@ chartLine.render();
 
 //     chartLine.updateSeries([
 //         {
-//             data: [
-//                 ...chartLine.w.config.series[0].data,
+//             animalServices: [
+//                 ...chartLine.w.config.series[0].animalServices,
 //                 [chartLine.w.globals.maxX + 300000, getRandom()]
 //             ]
 //         },
 //         {
-//             data: [
-//                 ...chartLine.w.config.series[1].data,
+//             animalServices: [
+//                 ...chartLine.w.config.series[1].animalServices,
 //                 [chartLine.w.globals.maxX + 300000, getRandom()]
 //             ]
 //         }

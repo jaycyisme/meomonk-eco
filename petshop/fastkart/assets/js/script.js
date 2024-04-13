@@ -212,7 +212,7 @@ $(".close-button, .bg-overlay, .user-nav-pills .nav-item .nav-link").click(funct
 /*=====================
    09. Tooltip Js
    ==========================*/
-var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[animalServices-bs-toggle="tooltip"]'))
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
     return new bootstrap.Tooltip(tooltipTriggerEl)
 })
@@ -297,15 +297,15 @@ $(".notifi-wishlist").on("click", function () {
             exit: "animated fadeOutUp",
         },
         icon_type: "class",
-        template: '<div data-notify="container" class="col-xxl-3 col-lg-5 col-md-6 col-sm-7 col-12 alert alert-{0}" role="alert">' +
-            '<button type="button" aria-hidden="true" class="btn-close" data-notify="dismiss"></button>' +
-            '<span data-notify="icon"></span> ' +
-            '<span data-notify="title">{1}</span> ' +
-            '<span data-notify="message">{2}</span>' +
-            '<div class="progress" data-notify="progressbar">' +
+        template: '<div animalServices-notify="container" class="col-xxl-3 col-lg-5 col-md-6 col-sm-7 col-12 alert alert-{0}" role="alert">' +
+            '<button type="button" aria-hidden="true" class="btn-close" animalServices-notify="dismiss"></button>' +
+            '<span animalServices-notify="icon"></span> ' +
+            '<span animalServices-notify="title">{1}</span> ' +
+            '<span animalServices-notify="message">{2}</span>' +
+            '<div class="progress" animalServices-notify="progressbar">' +
             '<div class="progress-bar progress-bar-info progress-bar-{0}" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div>' +
             "</div>" +
-            '<a href="{3}" target="{4}" data-notify="url"></a>' +
+            '<a href="{3}" target="{4}" animalServices-notify="url"></a>' +
             "</div>",
     });
 });

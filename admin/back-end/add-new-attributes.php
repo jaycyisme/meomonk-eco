@@ -27,6 +27,7 @@
                                                 <option>Baby & Kids</option>
                                                 <option>Health, Beauty & Perfumes</option>
                                                 <option>Uncategorized</option>
+
                                             </select>
                                         </div>
                                     </div>
@@ -37,7 +38,7 @@
                                             <div class="row g-sm-4 g-3">
                                                 <div class="col-sm-9">
                                                     <select class="js-example-basic-single w-100" name="state">
-                                                        <option disabled>Category Menu</option>
+                                                        <option disabled>Attribute Menu</option>
                                                         <option>Electronics</option>
                                                         <option>TV & Appliances</option>
                                                         <option>Home & Furniture</option>

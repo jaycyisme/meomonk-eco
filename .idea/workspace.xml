@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bb99648d-25ef-4629-9806-f570abb3b631" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/admin/functions/Attribute/AttributeServices.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/functions/Attribute/Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/functions/Database/Connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/functions/Models/Animal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/functions/Services/generalServices.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/back-end/add-new-attributes.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/back-end/add-new-attributes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/back-end/add-new-attributes.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/back-end/add-new-attributes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/back-end/add-new-category.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/back-end/add-new-category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/back-end/add-new-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/back-end/add-new-product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/back-end/add-new-user.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/back-end/add-new-user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/back-end/assets/js/chart/apex-chart/apex-chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/back-end/assets/js/chart/apex-chart/apex-chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/back-end/assets/js/chart/apex-chart/apex-chart1.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/back-end/assets/js/chart/apex-chart/apex-chart1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/back-end/assets/js/chart/apex-chart/chart-custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/back-end/assets/js/chart/apex-chart/chart-custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/back-end/assets/js/chart/apex-chart/chart-custom1.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/back-end/assets/js/chart/apex-chart/chart-custom1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/back-end/assets/js/ckeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/back-end/assets/js/ckeditor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/back-end/assets/js/dropzone/dropzone.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/back-end/assets/js/dropzone/dropzone.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/back-end/assets/js/jquery.dataTables.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/back-end/assets/js/jquery.dataTables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/back-end/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/back-end/assets/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/back-end/assets/js/scrollbar/simplebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/back-end/assets/js/scrollbar/simplebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/back-end/assets/js/tooltip-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/back-end/assets/js/tooltip-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/back-end/create-coupon.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/back-end/create-coupon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/back-end/create-role.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/back-end/create-role.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/back-end/order-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/back-end/order-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petshop/fastkart/assets/css/vendors/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/petshop/fastkart/assets/css/vendors/animate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petshop/fastkart/assets/js/apexchart.js" beforeDir="false" afterPath="$PROJECT_DIR$/petshop/fastkart/assets/js/apexchart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petshop/fastkart/assets/js/lusqsztk.js" beforeDir="false" afterPath="$PROJECT_DIR$/petshop/fastkart/assets/js/lusqsztk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petshop/fastkart/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/petshop/fastkart/assets/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petshop/fastkart/assets/js/slick/slick.js" beforeDir="false" afterPath="$PROJECT_DIR$/petshop/fastkart/assets/js/slick/slick.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2f3bboTl2UGzk2kjFjARmPMP9DV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PS-241.14494.237" />
+        <option value="bundled-php-predefined-ba97393d7c68-8f0632a2a215-com.jetbrains.php.sharedIndexes-PS-241.14494.237" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb99648d-25ef-4629-9806-f570abb3b631" name="Changes" comment="" />
+      <created>1713032785474</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713032785474</updated>
+      <workItem from="1713032786480" duration="5980000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
