@@ -1,6 +1,3 @@
-<?php
-include_once("../functions/Attribute/AttributeServices.php");
-?>
 <!-- Container-fluid starts-->
 <div class="page-body">
 
@@ -23,28 +20,11 @@ include_once("../functions/Attribute/AttributeServices.php");
                                         <div class="col-sm-9">
                                             <select class="js-example-basic-single w-100" name="state">
                                                 <option disabled>Category Menu</option>
-<!--                                                <option>Electronics</option>-->
-<!--                                                <option>TV & Appliances</option>-->
-<!--                                                <option>Home & Furniture</option>-->
-<!--                                                <option>Another</option>-->
-<!--                                                <option>Baby & Kids</option>-->
-<!--                                                <option>Health, Beauty & Perfumes</option>-->
-<!--                                                <option>Uncategorized</option>-->
 
                                                 <?php
-                                                include ("../functions/Database/Connect.php");
-                                                include("../functions/Services/AttributeServices.php");
-
-                                                // Khởi tạo một đối tượng từ lớp AttributeServices
-                                                $attributeService = new AttributeServices();
-
-                                                // Lấy danh sách tên của các thuộc tính từ cơ sở dữ liệu
-                                                $attributeNames = $attributeService->getAllAttributeNames();
-
-                                                foreach ($attributeNames as $attributeName) {
-                                                    echo "<option value='" . $attributeName['id'] . "'>" . $attributeName['name'] . "</option>";
-                                                }
+                                                    include_once("../functions/Attribute/Attribute_View.php");
                                                 ?>
+
                                             </select>
                                         </div>
                                     </div>

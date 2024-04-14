@@ -1,5 +1,10 @@
 <?php
+<<<<<<< HEAD
+
+class Connect
+=======
 class access_db
+>>>>>>> 0963dcecea6cfe05943b4d83e2e2393b5ece5634
 {
     private $host="localhost";#Địa chỉ ip máy chủ
     private $username="root";
