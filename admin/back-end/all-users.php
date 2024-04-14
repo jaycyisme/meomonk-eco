@@ -14,7 +14,7 @@
                                 </a>
                             </form>
                         </div>
-
+                    
                         <div class="table-responsive table-product">
                             <table class="table all-package theme-table" id="table_id">
                                 <thead>
@@ -28,7 +28,7 @@
                                 </thead>
 
                                 <tbody>
-                                <tr>
+                                <!-- <tr>
                                     <td>
                                         <div class="table-image">
                                             <img src="assets/images/users/1.jpg" class="img-fluid"
@@ -500,8 +500,22 @@
                                         </ul>
                                     </td>
                                 </tr>
+ -->
+
+                            <?php
+                                include("../database/public/database.php");
+                                include("../database/model/user.php");
+
+                                include("../database/business/user.php");
+
+                                // Tạo một đối tượng list_mathang và gọi hàm view
+                                $list_mathang = new list_mathang();
+                                $list_mathang->view();
+                            ?>
                                 </tbody>
                             </table>
+
+
                         </div>
                     </div>
                 </div>
