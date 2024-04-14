@@ -38,11 +38,13 @@ class AttributeServices{
 
     }
 
-//    public function getAllAttributeNames() {
-////        $sql = "SELECT * FROM attribute";
-////        return $this->db->_viewTable(attribute);
-//        return
-//    }
+    public function getAllAttributeNames() {
+        $tablename="attribute";
+        $this->list=$this->db->_viewTable($tablename);
+        var_dump($this->list);
+
+        return $this->list;
+    }
 
 
 

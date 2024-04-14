@@ -36,10 +36,10 @@
                                                 $attributeService = new AttributeServices();
 
                                                 // Lấy danh sách tên của các thuộc tính từ cơ sở dữ liệu
-                                                $attributeNames = $attributeService->view();
+                                                $attributeNames = $attributeService->getAllAttributeNames();
 
                                                 foreach ($attributeNames as $attributeName) {
-                                                    echo "<option value='" . $attributeName['name'] . "'>" . $attributeName['name'] . "</option>";
+                                                    echo "<option value='" . $attributeName['id'] . "'>" . $attributeName['name'] . "</option>";
                                                 }
                                                 ?>
                                             </select>
