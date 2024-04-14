@@ -26,120 +26,17 @@
                                 </thead>
 
                                 <tbody>
-                                <tr>
-                                    <td>Color</td>
+                                <?php
 
-                                    <td>Blue, Red, White</td>
+                                include("../handle/Database/connection.php");
+                                include("../handle/Models/ProductAttribute.php");
+                                include("../handle/Controller/ProductAttributeController.php");
+                                // Tạo đối tượng của lớp AttributeController
+                                $attributeController = new AttributeController();
 
-                                    <td>
-                                        <ul>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <i class="ri-pencil-line"></i>
-                                                </a>
-                                            </li>
-
-                                            <li>
-                                                <a href="javascript:void(0)" data-bs-toggle="modal"
-                                                   data-bs-target="#exampleModalToggle">
-                                                    <i class="ri-delete-bin-line"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td>Size</td>
-
-                                    <td>S, M, L, XL</td>
-
-                                    <td>
-                                        <ul>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <i class="ri-pencil-line"></i>
-                                                </a>
-                                            </li>
-
-                                            <li>
-                                                <a href="javascript:void(0)" data-bs-toggle="modal"
-                                                   data-bs-target="#exampleModalToggle">
-                                                    <i class="ri-delete-bin-line"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td>Material</td>
-
-                                    <td>Cotton, Polyster</td>
-
-                                    <td>
-                                        <ul>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <i class="ri-pencil-line"></i>
-                                                </a>
-                                            </li>
-
-                                            <li>
-                                                <a href="javascript:void(0)" data-bs-toggle="modal"
-                                                   data-bs-target="#exampleModalToggle">
-                                                    <i class="ri-delete-bin-line"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td>Style</td>
-
-                                    <td>classic, mordern, ethnic, western</td>
-
-                                    <td>
-                                        <ul>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <i class="ri-pencil-line"></i>
-                                                </a>
-                                            </li>
-
-                                            <li>
-                                                <a href="javascript:void(0)" data-bs-toggle="modal"
-                                                   data-bs-target="#exampleModalToggle">
-                                                    <i class="ri-delete-bin-line"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td>Meat Type</td>
-
-                                    <td>Fresh, Frozen, Marinated</td>
-
-                                    <td>
-                                        <ul>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <i class="ri-pencil-line"></i>
-                                                </a>
-                                            </li>
-
-                                            <li>
-                                                <a href="javascript:void(0)" data-bs-toggle="modal"
-                                                   data-bs-target="#exampleModalToggle">
-                                                    <i class="ri-delete-bin-line"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </td>
-                                </tr>
+                                // Gọi phương thức để hiển thị danh sách thuộc tính
+                                $attributeController->viewAttributes();
+                                ?>
                                 </tbody>
                             </table>
                         </div>
