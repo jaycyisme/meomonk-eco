@@ -19,8 +19,9 @@
                             <table class="table all-package theme-table" id="table_id">
                                 <thead>
                                 <tr>
-                                    <th>Name</th>
-                                    <th>Value</th>
+                                    <th>Product Name</th>
+                                    <th>Attribute Name</th>
+                                    <th>Attribute Value</th>
                                     <th>Option</th>
                                 </tr>
                                 </thead>
@@ -31,11 +32,9 @@
                                 include("../handle/Database/connection.php");
                                 include("../handle/Models/ProductAttribute.php");
                                 include("../handle/Controller/ProductAttributeController.php");
-                                // Tạo đối tượng của lớp AttributeController
-                                $attributeController = new AttributeController();
+                                $attributeController = new AttributeController(); // Khởi tạo đối tượng AttributeController
 
-                                // Gọi phương thức để hiển thị danh sách thuộc tính
-                                $attributeController->viewAttributes();
+                                $attributeController->viewAttributes(); // Gọi phương thức để hiển thị danh sách thuộc tính
                                 ?>
                                 </tbody>
                             </table>

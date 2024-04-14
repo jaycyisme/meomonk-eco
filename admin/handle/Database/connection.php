@@ -33,7 +33,13 @@ class connection
     public function _search_query(string $sql)
     {
         $result=$this->ocon->query($sql);
-        return $result->fetch_assoc();
+        $data = array();
+        if ($result->num_rows > 0) {
+            while($row = $result->fetch_assoc()) {
+                $data[] = $row;
+            }
+        }
+        return $data;
     }
     public function excute($_query)
     {
