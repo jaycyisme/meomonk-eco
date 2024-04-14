@@ -46,6 +46,6 @@
         }
     }
     
-    $db = new access_db("test");
+    $db = new access_db("meomonk");
 
 ?>

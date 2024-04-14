@@ -8,7 +8,7 @@
         
         public function __construct(){
             $this->list=array();
-            $this->db=new access_db("test");
+            $this->db=new access_db("meomonk");
             $this->n=0;
         }
         
