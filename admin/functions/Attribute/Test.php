@@ -1,8 +1,8 @@
 <select>
-<?php
+    <?php
 
-include_once("AttributeServices.php");
-$attribute = new AttributeServices();
-$attribute -> view();
-?>
+    include_once("AttributeServices.php");
+    $attribute = new AttributeServices();
+    $attribute -> view();
+    ?>
 </select>

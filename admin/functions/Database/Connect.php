@@ -1,6 +1,6 @@
 <?php
 
-class Database
+class Connect
 {
     private string $host = "localhost";
     private string $username = "root";

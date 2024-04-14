@@ -1,6 +1,3 @@
-<?php
-include_once("../functions/Attribute/AttributeServices.php");
-?>
 <!-- Container-fluid starts-->
 <div class="page-body">
 
@@ -23,18 +20,11 @@ include_once("../functions/Attribute/AttributeServices.php");
                                         <div class="col-sm-9">
                                             <select class="js-example-basic-single w-100" name="state">
                                                 <option disabled>Category Menu</option>
-                                                <?php
-                                                // Thực hiện truy vấn để lấy danh sách thuộc tính từ cơ sở dữ liệu
-                                                $result = $attribute->getAll("attributes");
 
-                                                // Kiểm tra xem có dữ liệu trả về không
-                                                if ($result->num_rows > 0) {
-                                                    // Lặp qua mỗi dòng dữ liệu và tạo các tuỳ chọn
-                                                    while ($row = $result->fetch_assoc()) {
-                                                        echo '<option value="' . $row['id'] . '">' . $row['attribute_name'] . '</option>';
-                                                    }
-                                                }
+                                                <?php
+                                                    include_once("../functions/Attribute/Attribute_View.php");
                                                 ?>
+
                                             </select>
                                         </div>
                                     </div>

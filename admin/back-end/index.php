@@ -443,8 +443,8 @@
             <!-- index body start -->
 
             <?php
-            $pages = isset($_GET["pages"]) ? $_GET["pages"] : 1;
-            $action = isset($_GET["action"]) ? $_GET["action"] : 1;
+            $pages = $_GET["pages"] ?? 1;
+            $action = $_GET["action"] ?? 1;
 
             if ($pages == 1 && $action == 1) {
                 include ("body-index.php");

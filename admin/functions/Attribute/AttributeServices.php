@@ -1,11 +1,12 @@
 <?php
 include_once("../Services/generalServices.php");
 
+
 class AttributeServices
 {
     public function view(): void
     {
-        $generalServices = new GeneralServices();
+        $generalServices = new generalServices();
 
         $result = $generalServices -> getAllName("Attribute");
 
@@ -16,5 +17,4 @@ class AttributeServices
         }
     }
 }
-
 

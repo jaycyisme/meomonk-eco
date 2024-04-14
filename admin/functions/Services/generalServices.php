@@ -4,35 +4,35 @@ include_once("../Database/Connect.php");
 
 class generalServices
 {
-    private Database $database;
+    private Connect $connect;
 
     public function __construct()
     {
-        $this->database = new Database("MeoMonkData");
+        $this -> connect = new Connect("MeoMonkData");
     }
 
     // Services
-    public function getAll(string $tableName)
+    public function getAll(string $tableName): mysqli_result
     {
         $sql = "SELECT * FROM " . $tableName;
-        return $this->database->conn->query($sql);
+        return $this -> connect -> conn -> query($sql);
     }
 
-    public function getById(string $tableName, int $Id)
+    public function getById(string $tableName, int $Id): mysqli_result
     {
         $sql = "SELECT * FROM " . $tableName . " WHERE id = " . $Id;
-        return $this->database->conn->query($sql);
+        return $this -> connect -> conn -> query($sql);
     }
 
-    public function getAllName(string $tableName)
+    public function getAllName(string $tableName): mysqli_result
     {
         $sql = "SELECT DISTINCT Name FROM " . $tableName;
-        return $this->database->conn->query($sql);
+        return $this -> connect -> conn -> query($sql);
     }
 
-    public function closeDatabase()
+    public function closeDatabase(): void
     {
-        $this->database->conn->close();
+        $this -> connect -> conn -> close();
     }
 
 }
