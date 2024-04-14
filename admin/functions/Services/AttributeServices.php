@@ -1,6 +1,6 @@
 <?php
-include("Connect.php");
-include("ProductAttribute.php");
+include("../Database/Connect.php");
+include("../Models/ProductAttribute.php");
 
 class AttributeServices{
     private $list;
@@ -13,16 +13,15 @@ class AttributeServices{
     }
     public function view()
     {
-
         $tablename="attribute";
         $this->list=$this->db->_viewTable($tablename);
         var_dump($this->list);
 
     }
-    public function add(Mathang $h)
+    public function add(ProductAttribute $h)
     {
     }
-    public function edit(Mathang $h)
+    public function edit(ProductAttribute $h)
     {
 
     }
@@ -39,13 +38,25 @@ class AttributeServices{
 
     }
 
-    public function getAllAttributeNames() {
-        $sql = "SELECT name FROM attribute";
-        return $this->db->_viewTable($sql); // Trả về kết quả của câu truy vấn
-    }
+//    public function getAllAttributeNames() {
+////        $sql = "SELECT * FROM attribute";
+////        return $this->db->_viewTable(attribute);
+//        return
+//    }
 
 
 
 
+
+}
+
+$test = new AttributeServices();
+
+$arr = $test->getAllAttributeNames();
+foreach ($arr as $row) {
+    echo "<tr>";
+    echo "<td>".$row['id']."</td>"; // Thay 'id' bằng tên cột ID của bạn
+    echo "<td>".$row['name']."</td>"; // Thay 'column1' bằng tên cột thực của bạn
+    echo "</tr>";
 }
 ?>

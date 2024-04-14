@@ -29,13 +29,14 @@
 <!--                                                <option>Uncategorized</option>-->
 
                                                 <?php
+                                                include ("../functions/Database/Connect.php");
                                                 include("../functions/Services/AttributeServices.php");
 
                                                 // Khởi tạo một đối tượng từ lớp AttributeServices
                                                 $attributeService = new AttributeServices();
 
                                                 // Lấy danh sách tên của các thuộc tính từ cơ sở dữ liệu
-                                                $attributeNames = $attributeService->getAllAttributeNames();
+                                                $attributeNames = $attributeService->view();
 
                                                 foreach ($attributeNames as $attributeName) {
                                                     echo "<option value='" . $attributeName['name'] . "'>" . $attributeName['name'] . "</option>";

@@ -20,10 +20,15 @@ class access_db
     }
     public function _viewTable($tablename)
     {
-        $sql="SELECT * from $tablename";
-        echo $sql;
+        $sql="SELECT * FROM $tablename";
         $result=$this->ocon->query($sql);
-        return $result->fetch_assoc();
+        $data = array();
+        if ($result->num_rows > 0) {
+            while($row = $result->fetch_assoc()) {
+                $data[] = $row;
+            }
+        }
+        return $data;
     }
     public function _search_query(string $sql)
     {
@@ -42,7 +47,14 @@ class access_db
     //Kiểm tra kết nối thành công
 
 }
-// $db=new access_db("qlbanhang");
-// $arr=$db->_viewTable("Sanpham");
+ $db=new access_db("meomonk");
+ $arr=$db->_viewTable("attribute");
+
+foreach ($arr as $row) {
+    echo "<tr>";
+    echo "<td>".$row['id']."</td>"; // Thay 'id' bằng tên cột ID của bạn
+    echo "<td>".$row['name']."</td>"; // Thay 'column1' bằng tên cột thực của bạn
+    echo "</tr>";
+}
 // var_dump($arr->fetch_assoc());
 ?>
