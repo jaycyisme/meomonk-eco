@@ -1,49 +1,52 @@
 <?php
+
 class connection
 {
-    private $host="localhost";#Địa chỉ ip máy chủ
-    private $username="root";
-    private $password="123456";
-    private $dbname;
-    private $ocon;
+    private string $host = "localhost";
+    private string $username = "root";
+    private string $password = "180403";
+    private string $dbname;
+    private mysqli $ocon;
 
     public function __construct(string $dbname)
     {
-        $this->dbname=$dbname;
+        $this -> dbname = $dbname;
 
-        $this->ocon=new mysqli($this->host,$this->username,$this->password,$this->dbname);
-        if($this->ocon->connect_error)
-        {
-            die( "Lỗi kết nối".$this->ocon->connect_error);
+        $this -> ocon = new mysqli($this -> host, $this -> username, $this -> password, $this -> dbname);
+        if ($this -> ocon -> connect_error) {
+            die("Lỗi kết nối" . $this -> ocon -> connect_error);
         }
 
     }
-    public function _viewTable($tablename)
+
+    public function _viewTable($tablename): array
     {
-        $sql="SELECT * FROM $tablename";
-        $result=$this->ocon->query($sql);
+        $sql = "SELECT * FROM $tablename";
+        $result = $this -> ocon -> query($sql);
         $data = array();
-        if ($result->num_rows > 0) {
-            while($row = $result->fetch_assoc()) {
+        if ($result -> num_rows > 0) {
+            while ($row = $result -> fetch_assoc()) {
                 $data[] = $row;
             }
         }
         return $data;
     }
+
     public function _search_query(string $sql)
     {
-        $result=$this->ocon->query($sql);
+        $result = $this -> ocon -> query($sql);
         $data = array();
-        if ($result->num_rows > 0) {
-            while($row = $result->fetch_assoc()) {
+        if ($result -> num_rows > 0) {
+            while ($row = $result -> fetch_assoc()) {
                 $data[] = $row;
             }
         }
         return $data;
     }
+
     public function excute($_query)
     {
-        if($this->ocon->query($_query)===TRUE)
+        if ($this -> ocon -> query($_query) === TRUE)
             return TRUE;
         else
             return FALSE;
@@ -53,8 +56,6 @@ class connection
     //Kiểm tra kết nối thành công
 
 }
-
-
 
 
 //$db=new access_db("meomonk");

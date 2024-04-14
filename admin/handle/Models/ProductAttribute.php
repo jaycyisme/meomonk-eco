@@ -1,6 +1,7 @@
 <?php
 
-class ProductAttribute {
+class ProductAttribute
+{
     private int $id;
     private int $attributeId;
     private int $productId;
@@ -16,61 +17,61 @@ class ProductAttribute {
      */
     public function __construct(int $id, int $attributeId, int $productId, int $percent, int $quantity)
     {
-        $this->id = $id;
-        $this->attributeId = $attributeId;
-        $this->productId = $productId;
-        $this->percent = $percent;
-        $this->quantity = $quantity;
+        $this -> id = $id;
+        $this -> attributeId = $attributeId;
+        $this -> productId = $productId;
+        $this -> percent = $percent;
+        $this -> quantity = $quantity;
     }
 
     public function getId(): int
     {
-        return $this->id;
+        return $this -> id;
     }
 
     public function setId(int $id): void
     {
-        $this->id = $id;
+        $this -> id = $id;
     }
 
     public function getAttributeId(): int
     {
-        return $this->attributeId;
+        return $this -> attributeId;
     }
 
     public function setAttributeId(int $attributeId): void
     {
-        $this->attributeId = $attributeId;
+        $this -> attributeId = $attributeId;
     }
 
     public function getProductId(): int
     {
-        return $this->productId;
+        return $this -> productId;
     }
 
     public function setProductId(int $productId): void
     {
-        $this->productId = $productId;
+        $this -> productId = $productId;
     }
 
     public function getPercent(): int
     {
-        return $this->percent;
+        return $this -> percent;
     }
 
     public function setPercent(int $percent): void
     {
-        $this->percent = $percent;
+        $this -> percent = $percent;
     }
 
     public function getQuantity(): int
     {
-        return $this->quantity;
+        return $this -> quantity;
     }
 
     public function setQuantity(int $quantity): void
     {
-        $this->quantity = $quantity;
+        $this -> quantity = $quantity;
     }
 
 
