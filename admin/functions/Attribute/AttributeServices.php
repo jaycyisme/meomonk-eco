@@ -7,7 +7,7 @@ class AttributeServices
     {
         $generalServices = new GeneralServices();
 
-        $result = $generalServices -> getAllName("Attribute");
+        $result = $generalServices -> getAllName("ProductAttribute");
 
         if ($result -> num_rows > 0) {
             while ($row = $result -> fetch_assoc()) {
