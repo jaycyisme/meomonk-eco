@@ -1,7 +1,10 @@
 <?php
+namespace Controller;
+use Services\ProductAttributeServices;
+
 include("../handle/Services/ProductAttributeServices.php");
 
-class AttributeController
+class ProductAttributeController
 {
     private ProductAttributeServices $productAttributeServices;
 
@@ -15,5 +18,3 @@ class AttributeController
         $this -> productAttributeServices -> view(); // Gọi phương thức view() của lớp ProductAttributeServices
     }
 }
-
-?>

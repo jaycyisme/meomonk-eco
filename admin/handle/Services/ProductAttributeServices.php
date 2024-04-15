@@ -1,5 +1,9 @@
 <?php
 
+namespace Services;
+
+use Database\connection;
+
 class ProductAttributeServices
 {
     private array $list;

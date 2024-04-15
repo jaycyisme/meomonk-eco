@@ -1,5 +1,9 @@
 <?php
 
+namespace Database;
+
+use mysqli;
+
 class connection
 {
     private string $host = "localhost";
@@ -19,9 +23,14 @@ class connection
 
     }
 
-    public function _viewTable($tablename): array
+    public function _getConnection(): mysqli
     {
-        $sql = "SELECT * FROM $tablename";
+        return $this->ocon;
+    }
+
+    public function _viewTable($tableName): array
+    {
+        $sql = "SELECT * FROM $tableName";
         $result = $this -> ocon -> query($sql);
         $data = array();
         if ($result -> num_rows > 0) {
@@ -32,7 +41,20 @@ class connection
         return $data;
     }
 
-    public function _search_query(string $sql)
+    public function _viewDistinctTable($tableName): array
+    {
+        $sql = "SELECT DISTINCT * FROM $tableName";
+        $result = $this -> ocon -> query($sql);
+        $data = array();
+        if ($result -> num_rows > 0) {
+            while ($row = $result -> fetch_assoc()) {
+                $data[] = $row;
+            }
+        }
+        return $data;
+    }
+
+    public function _search_query(string $sql): array
     {
         $result = $this -> ocon -> query($sql);
         $data = array();
@@ -44,7 +66,7 @@ class connection
         return $data;
     }
 
-    public function excute($_query)
+    public function execute($_query): bool
     {
         if ($this -> ocon -> query($_query) === TRUE)
             return TRUE;
@@ -52,20 +74,4 @@ class connection
             return FALSE;
 
     }
-
-    //Kiểm tra kết nối thành công
-
 }
-
-
-//$db=new access_db("meomonk");
-//$arr=$db->_viewTable("attribute");
-//
-//foreach ($arr as $row) {
-//    echo "<tr>";
-//    echo "<td>".$row['id']."</td>"; // Thay 'id' bằng tên cột ID của bạn
-//    echo "<td>".$row['name']."</td>"; // Thay 'column1' bằng tên cột thực của bạn
-//    echo "</tr>";
-//}
-// var_dump($arr->fetch_assoc());
-?>

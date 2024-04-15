@@ -29,11 +29,13 @@
                                 <tbody>
                                 <?php
 
+                                use Controller\ProductAttributeController;
+
                                 include("../handle/Database/connection.php");
                                 include("../handle/Models/ProductAttribute.php");
                                 include("../handle/Controller/ProductAttributeController.php");
 
-                                $attributeController = new AttributeController(); // Khởi tạo đối tượng AttributeController
+                                $attributeController = new ProductAttributeController(); // Khởi tạo đối tượng AttributeController
                                 $attributeController -> viewAttributes(); // Gọi phương thức để hiển thị danh sách thuộc tính
                                 ?>
                                 </tbody>

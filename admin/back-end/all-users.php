@@ -14,7 +14,7 @@
                                 </a>
                             </form>
                         </div>
-                    
+
                         <div class="table-responsive table-product">
                             <table class="table all-package theme-table" id="table_id">
                                 <thead>
@@ -502,16 +502,18 @@
                                 </tr>
  -->
 
-                            <?php
-                                include("../database/public/database.php");
-                                include("../database/model/user.php");
+                                <?php
 
-                                include("../database/business/user.php");
+                                use Controller\UserControllers;
 
-                                // Tạo một đối tượng list_mathang và gọi hàm view
-                                $list_mathang = new list_mathang();
-                                $list_mathang->view();
-                            ?>
+                                include("../handle/Database/connection.php");
+                                include("../handle/Models/User.php");
+
+                                include("../handle/Controller/UserControllers.php");
+
+                                $userController = new UserControllers();
+                                $userController -> viewUser();
+                                ?>
                                 </tbody>
                             </table>
 
@@ -545,7 +547,8 @@
             <div class="modal-footer">
                 <button type="button" class="btn btn-animation btn-md fw-bold" data-bs-dismiss="modal">No</button>
                 <button type="button" class="btn btn-animation btn-md fw-bold" data-bs-target="#exampleModalToggle2"
-                        data-bs-toggle="modal" data-bs-dismiss="modal">Yes</button>
+                        data-bs-toggle="modal" data-bs-dismiss="modal">Yes
+                </button>
             </div>
         </div>
     </div>
@@ -564,8 +567,8 @@
                 <div class="remove-box text-center">
                     <div class="wrapper">
                         <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
-                            <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
-                            <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                            <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+                            <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
                         </svg>
                     </div>
                     <h4 class="text-content">It's Removed.</h4>
