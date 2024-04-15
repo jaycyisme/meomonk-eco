@@ -15,13 +15,13 @@ class RoleServices
     public function __construct()
     {
         $this -> list = array();
-        $this -> conn = new connection("test");
+        $this -> conn = new connection("meomonk");
         $this -> n = 0;
     }
 
     public function viewRole(): void
     {
-        $this -> list = $this -> conn -> _viewTable("role");
+        $this -> list = $this -> conn -> _viewTable("Role");
 
 
         if (!empty($this -> list)) {
@@ -60,4 +60,3 @@ class RoleServices
     // Các phương thức khác
 }
 
-?>
