@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb99648d-25ef-4629-9806-f570abb3b631" name="Changes" comment="Update Role selection for new user register" />
+    <list default="true" id="bb99648d-25ef-4629-9806-f570abb3b631" name="Changes" comment="Update Role selection for new user register">
+      <change beforePath="$PROJECT_DIR$/admin/back-end/attributes.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/back-end/attributes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/handle/Controller/ProductAttributeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/handle/Controller/AttributeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/handle/Services/ProductAttributeServices.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/handle/Services/ProductAttributeServices.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,26 +44,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/xampp/htdocs/PHP_coban",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/meomonk-eco&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\meomonk-eco\admin\handle\Services" />
@@ -88,6 +92,9 @@
       <workItem from="1713119224184" duration="1409000" />
       <workItem from="1713147572105" duration="7543000" />
       <workItem from="1713227134417" duration="65000" />
+      <workItem from="1713544304691" duration="302000" />
+      <workItem from="1713834647730" duration="402000" />
+      <workItem from="1713836885367" duration="1436000" />
     </task>
     <task id="LOCAL-00001" summary="ProductAttribute reformat files">
       <option name="closed" value="true" />
