@@ -29,14 +29,12 @@
                                 <tbody>
                                 <?php
 
-                                use Controller\ProductAttributeController;
-
                                 include("../handle/Database/connection.php");
-//                                include("../handle/Models/ProductAttribute.php");
+                                //                                include("../handle/Models/ProductAttribute.php");
                                 include("../handle/Controller/ProductAttributeController.php");
+                                $attributeController = new AttributeController(); // Khởi tạo đối tượng AttributeController
 
-                                $attributeController = new ProductAttributeController(); // Khởi tạo đối tượng AttributeController
-                                $attributeController -> viewAttributes(); // Gọi phương thức để hiển thị danh sách thuộc tính
+                                $attributeController->viewAttributes(); // Gọi phương thức để hiển thị danh sách thuộc tính
                                 ?>
                                 </tbody>
                             </table>
@@ -69,8 +67,7 @@
             <div class="modal-footer">
                 <button type="button" class="btn btn-animation btn-sm fw-bold" data-bs-dismiss="modal">No</button>
                 <button type="button" class="btn btn-animation btn-sm fw-bold" data-bs-target="#exampleModalToggle2"
-                        data-bs-toggle="modal" data-bs-dismiss="modal">Yes
-                </button>
+                        data-bs-toggle="modal" data-bs-dismiss="modal">Yes</button>
             </div>
         </div>
     </div>
@@ -89,8 +86,8 @@
                 <div class="remove-box text-center">
                     <div class="wrapper">
                         <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
-                            <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
-                            <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                            <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
+                            <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
                         </svg>
                     </div>
                     <h4 class="text-content">It's Removed.</h4>
