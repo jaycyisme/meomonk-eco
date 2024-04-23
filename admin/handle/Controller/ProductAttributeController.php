@@ -1,6 +1,6 @@
 <?php
 //include("../Database/connection.php"); // Import file access_db.php để sử dụng class access_db
-include("../handle/Services/ProductAttributeServices.php");
+//include("../handle/Services/ProductAttributeServices.php");
 class AttributeController {
     private $productAttributeServices;
 
