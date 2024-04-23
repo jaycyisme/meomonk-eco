@@ -1,4 +1,7 @@
 <?php
+
+use Database\connection;
+
 include("../Models/ProductAttribute.php");
     class ProductAttributeServices
     {
