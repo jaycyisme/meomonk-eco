@@ -32,7 +32,6 @@ include_once("../functions/Attribute/AttributeServices.php");
                                                 <!--                                                <option>Uncategorized</option>-->
 
                                                 <?php
-                                                use Controller\AttributeController;
                                                 include("../handle/Database/connection.php");
                                                 include("../handle/Controller/ProductAttributeController.php");
 

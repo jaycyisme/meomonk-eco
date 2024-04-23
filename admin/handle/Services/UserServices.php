@@ -2,7 +2,7 @@
 
 namespace Services;
 
-use Database\connection;
+use connection;
 use Models\User;
 
 class UserServices
@@ -62,12 +62,12 @@ class UserServices
 
     public function addUser(User $user): bool
     {
-        $username = $this -> conn -> _getConnection() -> real_escape_string($user -> getUsername());
-        $email = $this -> conn -> _getConnection() -> real_escape_string($user -> getEmail());
-        $name = $this -> conn -> _getConnection() -> real_escape_string($user -> getName());
-        $phoneNumber = $this -> conn -> _getConnection() -> real_escape_string($user -> getPhoneNumber());
-        $password = $this -> conn -> _getConnection() -> real_escape_string($user -> getPassword());
-        $roleId = $user -> getRoleId();
+        $username = $this -> conn -> $user -> getUsername();
+        $email = $this -> conn -> $user -> getEmail();
+        $name = $this -> conn -> $user -> getName();
+        $phoneNumber = $this -> conn -> $user -> getPhoneNumber();
+        $password = $this -> conn -> $user -> getPassword();
+        $roleId = $this -> conn -> $user -> getRoleId();
 
         // Build SQL Dialect here
         $sql = "INSERT INTO Users ( Username, Email, Name, PhoneNumber, Password, RoleId) 

@@ -3,7 +3,7 @@
 
 namespace Services;
 
-use Database\connection;
+use connection;
 use Models\User;
 
 class RoleServices
