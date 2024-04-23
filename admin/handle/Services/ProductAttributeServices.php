@@ -3,7 +3,6 @@ namespace Services;
 use Database\connection;
 
 include("../Models/ProductAttribute.php");
-
 class ProductAttributeServices
 {
     private $list;
@@ -17,7 +16,7 @@ class ProductAttributeServices
         $this->n = 0;
     }
 
-    public function view(): void
+    public function view()
     {
         $sql = "SELECT Product.Name AS ProductName, Attribute.Name AS AttributeName, Attribute.Value AS AttributeValue
             FROM ProductAttribute
@@ -54,7 +53,7 @@ class ProductAttributeServices
         }
     }
 
-    public function getAllAttributeValues(): void
+    public function getAllAttributeValues()
     {
         $sql = "SELECT DISTINCT Value FROM Attribute";
         $result = $this->db->_search_query($sql);
@@ -69,7 +68,7 @@ class ProductAttributeServices
         }
     }
 
-    public function getAllProductName(): void
+    public function getAllProductName()
     {
         $sql = "SELECT DISTINCT Name FROM Product";
         $result = $this->db->_search_query($sql);
@@ -83,3 +82,5 @@ class ProductAttributeServices
         }
     }
 }
+
+?>

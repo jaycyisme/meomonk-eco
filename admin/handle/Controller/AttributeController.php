@@ -9,7 +9,7 @@ class AttributeController
 
     public function __construct()
     {
-        $this -> productAttributeServices = new AttributeController(); // Khởi tạo đối tượng của lớp ProductAttributeServices
+        $this -> productAttributeServices = new ProductAttributeController(); // Khởi tạo đối tượng của lớp ProductAttributeServices
     }
 
     public function viewAttributes()
