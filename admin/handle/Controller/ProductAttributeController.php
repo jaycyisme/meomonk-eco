@@ -11,5 +11,13 @@ class AttributeController {
     public function viewAttributes() {
         $this->productAttributeServices->view(); // Gọi phương thức view() của lớp ProductAttributeServices
     }
+
+    public function getAllAttributeValue() {
+        $this->productAttributeServices->getAllAttributeValues();
+    }
+
+    public function getAllProductName() {
+        $this->productAttributeServices->getAllProductName();
+    }
 }
 ?>

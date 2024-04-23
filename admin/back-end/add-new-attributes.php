@@ -1,6 +1,4 @@
-<?php
-include_once("../functions/Attribute/AttributeServices.php");
-?>
+
 <!-- Container-fluid starts-->
 <div class="page-body">
 
@@ -23,14 +21,20 @@ include_once("../functions/Attribute/AttributeServices.php");
                                         <div class="col-sm-9">
                                             <select class="js-example-basic-single w-100" name="state">
                                                 <option disabled>Attribute Value</option>
-                                                <option>Electronics</option>
-                                                <option>TV & Appliances</option>
-                                                <option>Home & Furniture</option>
-                                                <option>Another</option>
-                                                <option>Baby & Kids</option>
-                                                <option>Health, Beauty & Perfumes</option>
-                                                <option>Uncategorized</option>
+<!--                                                <option>Electronics</option>-->
+<!--                                                <option>TV & Appliances</option>-->
+<!--                                                <option>Home & Furniture</option>-->
+<!--                                                <option>Another</option>-->
+<!--                                                <option>Baby & Kids</option>-->
+<!--                                                <option>Health, Beauty & Perfumes</option>-->
+<!--                                                <option>Uncategorized</option>-->
 
+                                                <?php
+                                                include("../handle/Database/connection.php");
+                                                include("../handle/Controller/ProductAttributeController.php");
+                                                $attributeController = new AttributeController();
+                                                $attributeController->getAllAttributeValue();
+                                                ?>
 
                                             </select>
                                         </div>
@@ -43,13 +47,18 @@ include_once("../functions/Attribute/AttributeServices.php");
                                                 <div class="col-sm-9">
                                                     <select class="js-example-basic-single w-100" name="state">
                                                         <option disabled>Product Name</option>
-                                                        <option>Electronics</option>
-                                                        <option>TV & Appliances</option>
-                                                        <option>Home & Furniture</option>
-                                                        <option>Another</option>
-                                                        <option>Baby & Kids</option>
-                                                        <option>Health, Beauty & Perfumes</option>
-                                                        <option>Uncategorized</option>
+<!--                                                        <option>Electronics</option>-->
+<!--                                                        <option>TV & Appliances</option>-->
+<!--                                                        <option>Home & Furniture</option>-->
+<!--                                                        <option>Another</option>-->
+<!--                                                        <option>Baby & Kids</option>-->
+<!--                                                        <option>Health, Beauty & Perfumes</option>-->
+<!--                                                        <option>Uncategorized</option>-->
+
+                                                        <?php
+                                                        $attributeController = new AttributeController();
+                                                        $attributeController->getAllProductName();
+                                                        ?>
                                                     </select>
                                                 </div>
 
@@ -60,9 +69,17 @@ include_once("../functions/Attribute/AttributeServices.php");
                                             </div>
                                         </div>
                                     </div>
+
+                                    <div class="mb-4 row align-items-center">
+                                        <label class="form-label-title col-sm-3 mb-0">Percent</label>
+                                        <div class="col-sm-9">
+                                            <input class="form-control" type="text"
+                                                   placeholder="Percent">
+                                        </div>
+                                    </div>
                                 </form>
 
-                                <button class="btn ms-auto theme-bg-color text-white">Add Product Attribute</button>
+<!--                                <button class="btn ms-auto theme-bg-color text-white">Add Product Attribute</button>-->
 
                             </div>
                         </div>
@@ -72,7 +89,7 @@ include_once("../functions/Attribute/AttributeServices.php");
         </div>
     </div>
     <!-- New Product Add End -->
-    <div style="display: flex;justify-content: flex-end; margin:0 215px 50px 0"><a class="btn btn-solid" href="add-new-product.html" style="width: 200px;">Add Attribute</a></div>
+    <div style="display: flex;justify-content: flex-end; margin:0 215px 50px 0"><a class="btn btn-solid" style="width: 200px;">Add Product Attribute</a></div>
 
 </div>
 <!-- Container-fluid End -->

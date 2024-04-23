@@ -1,14 +1,16 @@
 <?php
-
-    class ProductAttributeServices {
+include("../Models/ProductAttribute.php");
+    class ProductAttributeServices
+    {
         private $list;
         private $n;
         private $db;
 
-        public function __construct(){
-            $this->list=array();
-            $this->db=new connection("meomonk");
-            $this->n=0;
+        public function __construct()
+        {
+            $this->list = array();
+            $this->db = new connection("meomonk");
+            $this->n = 0;
         }
 
         public function view()
@@ -22,9 +24,9 @@
             if (!empty($result)) {
                 foreach ($result as $row) {
                     echo "<tr>";
-                    echo "<td>".$row['ProductName']."</td>";
-                    echo "<td>".$row['AttributeName']."</td>";
-                    echo "<td>".$row['AttributeValue']."</td>";
+                    echo "<td>" . $row['ProductName'] . "</td>";
+                    echo "<td>" . $row['AttributeName'] . "</td>";
+                    echo "<td>" . $row['AttributeValue'] . "</td>";
                     // Thêm các nút chỉnh sửa và xóa thuộc tính
                     echo "<td>
                     <ul>
@@ -48,4 +50,42 @@
             }
         }
 
+        public function getAllAttributeValues()
+        {
+            $sql = "SELECT DISTINCT Value FROM Attribute";
+            $result = $this->db->_search_query($sql);
+            $attributeValues = array();
+            if (!empty($result)) {
+                foreach ($result as $row) {
+                    echo "<option>" . $row['Value'] . "</option>";
+                }
+            } else {
+                // Hiển thị thông báo nếu không có dữ liệu
+                echo "<option>Không có dữ liệu nào.</option>";
+            }
+        }
+
+        public function getAllProductName()
+        {
+            $sql = "SELECT DISTINCT Name FROM Product";
+            $result = $this->db->_search_query($sql);
+            $productName = array();
+            if (!empty($result)) {
+                foreach ($result as $row) {
+                    echo "<option>" . $row['Name'] . "</option>";
+                }
+            } else {
+                // Hiển thị thông báo nếu không có dữ liệu
+                echo "<option>Không có dữ liệu nào.</option>";
+            }
+        }
     }
+
+//        public function addProductAttribute(ProductAttribute  $productAttribute) {
+//            // Tạo truy vấn để chèn dữ liệu vào cơ sở dữ liệu
+//            $sql = "INSERT INTO ProductAttribute (AttributeID, ProductID, Percent, Quantity) VALUES (?, ?, ?, ?)";
+//
+//    }
+
+
+    ?>
