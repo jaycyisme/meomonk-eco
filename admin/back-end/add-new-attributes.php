@@ -1,4 +1,6 @@
-
+<?php
+include_once("../functions/Attribute/AttributeServices.php");
+?>
 <!-- Container-fluid starts-->
 <div class="page-body">
 
@@ -30,8 +32,10 @@
 <!--                                                <option>Uncategorized</option>-->
 
                                                 <?php
+                                                use Controller\AttributeController;
                                                 include("../handle/Database/connection.php");
                                                 include("../handle/Controller/ProductAttributeController.php");
+
                                                 $attributeController = new AttributeController();
                                                 $attributeController->getAllAttributeValue();
                                                 ?>

@@ -2,12 +2,13 @@
 namespace Services;
 use Database\connection;
 
+include ("../Database/connection.php");
 include("../Models/ProductAttribute.php");
 class ProductAttributeServices
 {
     private $list;
     private $n;
-    private $db;
+    private connection $db;
 
     public function __construct()
     {

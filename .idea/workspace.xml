@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb99648d-25ef-4629-9806-f570abb3b631" name="Changes" comment="Update Role selection for new user register">
-      <change afterPath="$PROJECT_DIR$/admin/handle/Controller/ProductAttributeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/back-end/add-new-attributes.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/back-end/add-new-attributes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/back-end/attributes.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/back-end/attributes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/handle/Controller/AttributeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/handle/Controller/AttributeController.php" afterDir="false" />
@@ -49,7 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/xampp/htdocs/meomonk-eco",
     "node.js.detected.package.eslint": "true",
@@ -96,7 +95,7 @@
       <workItem from="1713227134417" duration="65000" />
       <workItem from="1713544304691" duration="302000" />
       <workItem from="1713834647730" duration="402000" />
-      <workItem from="1713836885367" duration="1795000" />
+      <workItem from="1713836885367" duration="2790000" />
     </task>
     <task id="LOCAL-00001" summary="ProductAttribute reformat files">
       <option name="closed" value="true" />
