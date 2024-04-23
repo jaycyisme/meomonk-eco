@@ -1,14 +1,10 @@
 <?php
-namespace Services;
-use Database\connection;
-
-include ("../Database/connection.php");
-include("../Models/ProductAttribute.php");
+//include("../Models/ProductAttribute.php");
 class ProductAttributeServices
 {
     private $list;
     private $n;
-    private connection $db;
+    private $db;
 
     public function __construct()
     {
@@ -78,10 +74,18 @@ class ProductAttributeServices
             foreach ($result as $row) {
                 echo "<option>" . $row['Name'] . "</option>";
             }
-        } else {// Hiển thị thông báo nếu không có dữ liệu
+        } else {
+            // Hiển thị thông báo nếu không có dữ liệu
             echo "<option>Không có dữ liệu nào.</option>";
         }
     }
 }
+
+//        public function addProductAttribute(ProductAttribute  $productAttribute) {
+//            // Tạo truy vấn để chèn dữ liệu vào cơ sở dữ liệu
+//            $sql = "INSERT INTO ProductAttribute (AttributeID, ProductID, Percent, Quantity) VALUES (?, ?, ?, ?)";
+//
+//    }
+
 
 ?>
